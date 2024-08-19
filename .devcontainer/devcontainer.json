@@ -1,6 +1,6 @@
 {
     "name": "h5analysis",
-    "dockerFile": "../h5analysis.Dockerfile",
+    "dockerFile": "../h5analysis.dockerfile",
     "context": "..",
     "extensions": [
         "ms-python.python",
