@@ -1,0 +1,15 @@
+{
+    "name": "H5Analysis",
+    "dockerFile": "../H5Analysis.Dockerfile",
+    "context": "..",
+    "extensions": [
+        "ms-python.python",
+        "ms-toolsai.jupyter",
+        "ikuyadeu.r",
+        "rtools.rtools",
+        "reditorsupport.r",
+        "janisdd.vscode-edit-csv",
+        "ms-python.black-formatter",
+        "github.copilot",
+    ]
+}
