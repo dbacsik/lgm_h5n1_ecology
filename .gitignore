@@ -1,2 +1,6 @@
 # Large set of context sequences from GISAID
-data/context_seqs/all_h5_seqs
+data/raw/gisaid/*.fasta*
+data/raw/gisaid/*.fa*
+data/raw/gisaid/*.fastq*
+data/raw/gisaid/*.fq*
+
