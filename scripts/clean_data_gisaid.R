@@ -6,7 +6,6 @@ pacman::p_load("tidyverse", "readxl", "lubridate")
 
 # Obtén una lista de todos los archivos .xls en la carpeta "data"
 file_list <- list.files(path = "data/raw/gisaid/", pattern = "\\.xls$", full.names = TRUE)
-file_list <- list.files(path = "data/raw/gisaid/", pattern = "\\.xls$", full.names = TRUE)
 
 # Lee y combina todos los archivos en un solo dataframe
 df_combined <- file_list %>%
