@@ -8,3 +8,4 @@ data/raw/gisaid/*.fq*
 *.DS_*
 .snakemake/
 .vscode/
+jovyan
