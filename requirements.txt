@@ -1,4 +1,0 @@
-fastparquet
-gisflu
-patchworklib
-plotnine
