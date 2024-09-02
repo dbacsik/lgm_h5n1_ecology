@@ -17,8 +17,8 @@ rule clean_metadata:
         metadata = ['data/raw/gisaid/gisaid_H5N1_None_to_20210101.xls',
                     'data/raw/gisaid/gisaid_H5N1_20220101_to_None.xls']
     output:
-        clean_metadata = 'data/raw/gisaid/metadata.tsv'
+        clean_metadata = 'data/clean_metadata.tsv'
     shell:
         """
-        Rscript data/raw/gisaid/clean_data_gisaid.R
+        Rscript scripts/clean_data_gisaid.R
         """

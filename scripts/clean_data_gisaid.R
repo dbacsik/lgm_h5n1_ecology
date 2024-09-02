@@ -43,6 +43,6 @@ df_combined <- df_combined %>%
   distinct(isolate_id, .keep_all = TRUE)
 
 # Exporta el dataframe a un archivo TSV
-write_tsv(df_combined, "data/raw/gisaid/metadata.tsv")
+write_tsv(df_combined, "data/clean_metadata.tsv")
 
 # Fin del script
