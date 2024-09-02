@@ -4,8 +4,11 @@ data/raw/gisaid/*.fa*
 data/raw/gisaid/*.fastq*
 data/raw/gisaid/*.fq*
 
-# Miscellaneous background files
-*.DS_*
+# Miscellaneous app folders
 .snakemake/
 .vscode/
-jovyan
+jovyan/
+
+# Miscellaneous background files
+*.DS_*
+*.RData*
