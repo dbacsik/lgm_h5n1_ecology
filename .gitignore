@@ -6,3 +6,6 @@ data/raw/gisaid/*.fq*
 
 # Miscellaneous background files
 *.DS_*
+.snakemake/
+.vscode/
+jovyan

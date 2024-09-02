@@ -1,5 +1,5 @@
 {
-    "name": "h5analysis",
+    "name": "lgm_h5n1",
     "dockerFile": "../Dockerfile",
     "context": "..",
     "extensions": [
