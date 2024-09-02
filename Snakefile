@@ -1,5 +1,6 @@
+# LGM_H5N1
 """
-This Snakefile organizes the project. It uses nextstrain for many steps 
+This Snakefile organizes the project. It uses Nextstrain for many steps 
 and it is based on the one in the 'quickstart' repository from the public avian-flu 
 build: https://github.com/nextstrain/avian-flu/blob/master/quickstart-build/Snakefile
 """
@@ -19,5 +20,5 @@ rule clean_metadata:
         clean_metadata = 'data/raw/gisaid/metadata.tsv'
     shell:
         """
-        touch {output.clean_metadata}
+        Rscript data/raw/gisaid/clean_data_gisaid.R
         """
