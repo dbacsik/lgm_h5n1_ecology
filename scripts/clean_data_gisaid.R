@@ -5,7 +5,7 @@ if (!require("pacman")) install.packages("pacman")
 pacman::p_load("tidyverse", "readxl", "lubridate")
 
 # Obtén una lista de todos los archivos .xls en la carpeta "data"
-file_list <- list.files(path = "data", pattern = "\\.xls$", full.names = TRUE)
+file_list <- list.files(path = "data/raw/gisaid/", pattern = "\\.xls$", full.names = TRUE)
 
 # Lee y combina todos los archivos en un solo dataframe
 df_combined <- file_list %>%
@@ -43,6 +43,6 @@ df_combined <- df_combined %>%
   distinct(isolate_id, .keep_all = TRUE)
 
 # Exporta el dataframe a un archivo TSV
-write_tsv(df_combined, "metadata.tsv")
+write_tsv(df_combined, "data/clean_metadata.tsv")
 
 # Fin del script
