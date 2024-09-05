@@ -38,9 +38,9 @@ df_combined <- df_combined %>%
 # Reordena las columnas
 df_combined <- df_combined[,c(1,2,11,3,4,5,6,7,8,9,10)]
 
-# Elimina filas duplicadas en base a "isolate_id"
+# Elimina filas duplicadas en base a "strain"
 df_combined <- df_combined %>%
-  distinct(isolate_id, .keep_all = TRUE)
+  distinct(strain, .keep_all = TRUE)
 
 # Exporta el dataframe a un archivo TSV
 write_tsv(df_combined, "data/clean_metadata.tsv")
