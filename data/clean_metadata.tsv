@@ -11526,7 +11526,7 @@ EPI2895295|HA A/caspian tern/Washington/23-025001-001-original/2023(H5N1)	A/casp
 EPI2895287|HA A/manx shearwater/Alaska/23-025002-003-original/2023(H5N1)	A/manx shearwater/Alaska/23-025002-003/2023	avian_flu	EPI_ISL_18737453	2023-07-19	North America	United States	Alaska	NA	Avian	Wild
 EPI2863072|A/Eurasian teal/Netherlands/3/2023_HA_HPAI_H5N1	A/Eurasian teal/Netherlands/3/2023	avian_flu	EPI_ISL_18673081	2023-12-05	Europe	Netherlands	Eendenkooi Slijkerman	NA	Avian	NA
 EPI2794014|A/black kite/Kagoshima/KU-140/2022 (H5N1)	A/black kite/Kagoshima/KU-140/2022 (H5N1)	avian_flu	EPI_ISL_18508592	2022-11-28	Asia	Japan	Kagoshima	NA	Avian	NA
-EPI2610740|	EPI2610729	A/large-billed crow/Hokkaido/B049/2023	avian_flu	EPI_ISL_17950254	2023-04-11	Asia	Japan	Hokkaido	Sapporo	Avian	Wild
+EPI2610740|EPI2610729	A/large-billed crow/Hokkaido/B049/2023	avian_flu	EPI_ISL_17950254	2023-04-11	Asia	Japan	Hokkaido	Sapporo	Avian	Wild
 EPI2610732|A/large-billed crow/Hokkaido/0103E089/2023	A/large-billed crow/Hokkaido/0103E089/2023	avian_flu	EPI_ISL_17950253	2023-03-30	Asia	Japan	Hokkaido	Mukawa	Avian	Wild
 EPI2603509|A/Sandwich Tern/Netherlands/2/2023_HA_H5N1_HPAI	A/Sandwich Tern/Netherlands/2/2023	avian_flu	EPI_ISL_17821079	2023-05-24	Europe	Netherlands	Bliek	NA	Avian	NA
 EPI2603501|A/Mediterranean Gull/Netherlands/4/2023_HA_H5N1_HPAI	A/Mediterranean Gull/Netherlands/4/2023	avian_flu	EPI_ISL_17821078	2023-05-26	Europe	Netherlands	Zeebrugge, Belgi?	NA	Avian	NA
