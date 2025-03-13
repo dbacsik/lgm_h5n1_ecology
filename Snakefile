@@ -40,7 +40,8 @@ rule subsample:
     message: "Subsampling sequences"
     input:
         sequences = rules.load_data.output.fasta,
-        metadata = rules.load_data.output.metadata
+        metadata = rules.load_data.output.metadata,
+        include = 'SAmerica_Accessions.txt'
     output:
         subsampled_fasta = 'results/subsampled.fasta',
         subsampled_metadata = 'results/subsampled_metadata.tsv'
@@ -54,6 +55,7 @@ rule subsample:
             --metadata {input.metadata} \
             --group-by {params.groups} \
             --subsample-max-sequences {params.num_sequences} \
+            --include {input.include} \
             --output-sequences {output.subsampled_fasta} \
             --output-metadata {output.subsampled_metadata} \
         """
