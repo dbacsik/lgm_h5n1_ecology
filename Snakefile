@@ -9,16 +9,53 @@ build: https://github.com/nextstrain/avian-flu/blob/master/quickstart-build/Snak
 
 # RULES
 
-"""This rule uses a custom R script to clean our input metadata and prepare
-it for input into the augur pipeline."""
-rule clean_metadata:
-    message: "Cleaning metadata"
+rule all:
     input:
-        metadata = ['data/raw/gisaid/gisaid_H5N1_None_to_20210101.xls',
-                    'data/raw/gisaid/gisaid_H5N1_20220101_to_None.xls']
+        subsampled_fasta = 'results/subsampled.fasta',
+        subsampled_metadata = 'results/subsampled_metadata.tsv'
+
+"""This rule loads data from NCBI into nextstrain format"""
+rule load_data:
+    message: "Loading metadata"
+    input:
+        fasta = "data/NCBI_H5_HA.fasta"
     output:
-        clean_metadata = 'data/clean_metadata.tsv'
+        metadata = 'results/metadata.tsv',
+        fasta = 'results/sequences.fasta'
+    params:
+        fields = 'name title country host date'
     shell:
         """
-        Rscript scripts/clean_data_gisaid.R
+        augur parse \
+            --sequences {input.fasta} \
+            --output-sequences {output.fasta} \
+            --output-metadata {output.metadata} \
+            --fields {params.fields} \
+            --separator '|' \
+            --fix-dates monthfirst
+        """
+
+"""Subsample"""
+rule subsample:
+    message: "Subsampling sequences"
+    input:
+        sequences = rules.load_data.output.fasta,
+        metadata = rules.load_data.output.metadata,
+        include = 'SAmerica_Accessions.txt'
+    output:
+        subsampled_fasta = 'results/subsampled.fasta',
+        subsampled_metadata = 'results/subsampled_metadata.tsv'
+    params:
+        groups = 'country year',
+        num_sequences = 5000
+    shell:
+        """
+        augur filter \
+            --sequences {input.sequences} \
+            --metadata {input.metadata} \
+            --group-by {params.groups} \
+            --subsample-max-sequences {params.num_sequences} \
+            --include {input.include} \
+            --output-sequences {output.subsampled_fasta} \
+            --output-metadata {output.subsampled_metadata} \
         """
