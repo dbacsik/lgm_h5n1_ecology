@@ -18,7 +18,7 @@ rule all:
 rule load_context:
     message: "Loading metadata"
     input:
-        fasta = "data/NCBI_H5_HA.fasta"
+        fasta = "input/data/NCBI_H5_HA.fasta"
     output:
         metadata = 'results/metadata.tsv',
         fasta = 'results/sequences.fasta'
@@ -41,7 +41,7 @@ rule subsample_context:
     input:
         sequences = rules.load_context.output.fasta,
         metadata = rules.load_context.output.metadata,
-        include = 'data/SAmerica_Accessions.txt'
+        include = 'input/data/SAmerica_Accessions.txt'
     output:
         subsampled_fasta = 'results/context_subsampled.fasta',
         subsampled_metadata = 'results/context_subsampled.tsv'
@@ -64,7 +64,7 @@ rule subsample_context:
 rule load_local:
     message: "Loading metadata"
     input:
-        fasta = "data/Peru_H5_HA.fasta"
+        fasta = "input/data/Peru_H5_HA.fasta"
     output:
         metadata = 'results/peru.tsv',
         fasta = 'results/peru.fasta'
@@ -119,4 +119,26 @@ rule merge_metadata:
                 REFERENCE={input.context} \
                 LOCAL={input.local} \
             --output-metadata {output.metadata}
+        """
+
+## ALIGN
+rule align_lineage:
+    message: "Aligning lineage reference sequences with local sequences"
+    input:
+        fasta = rules.cat_fastas.output.sequences,
+        reference_file = 
+    output:
+        alignment = os.path.join(
+            build_dir,
+            '{subtype}',
+            'align',
+            'alignment.fasta')
+    shell:
+        """
+        augur align \
+            --sequences {input.fasta} \
+            --reference-sequence {input.reference_file} \
+            --output {output.alignment} \
+            --nthreads 4 \
+            --remove-reference
         """
