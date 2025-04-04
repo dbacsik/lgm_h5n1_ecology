@@ -11,11 +11,11 @@ build: https://github.com/nextstrain/avian-flu/blob/master/quickstart-build/Snak
 
 rule all:
     input:
-        subsampled_fasta = 'results/subsampled.fasta',
-        subsampled_metadata = 'results/subsampled_metadata.tsv'
+        subsampled_fasta = 'results/context.fasta',
+        subsampled_metadata = 'results/context_metadata.tsv'
 
 """This rule loads data from NCBI into nextstrain format"""
-rule load_data:
+rule load_context:
     message: "Loading metadata"
     input:
         fasta = "data/NCBI_H5_HA.fasta"
@@ -36,15 +36,15 @@ rule load_data:
         """
 
 """Subsample"""
-rule subsample:
+rule subsample_context:
     message: "Subsampling sequences"
     input:
-        sequences = rules.load_data.output.fasta,
-        metadata = rules.load_data.output.metadata,
-        include = 'SAmerica_Accessions.txt'
+        sequences = rules.load_context.output.fasta,
+        metadata = rules.load_context.output.metadata,
+        include = 'data/SAmerica_Accessions.txt'
     output:
-        subsampled_fasta = 'results/subsampled.fasta',
-        subsampled_metadata = 'results/subsampled_metadata.tsv'
+        subsampled_fasta = 'results/context.fasta',
+        subsampled_metadata = 'results/context_metadata.tsv'
     params:
         groups = 'country year',
         num_sequences = 5000
