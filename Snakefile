@@ -11,8 +11,8 @@ build: https://github.com/nextstrain/avian-flu/blob/master/quickstart-build/Snak
 
 rule all:
     input:
-        subsampled_fasta = 'results/context.fasta',
-        subsampled_metadata = 'results/context_metadata.tsv'
+        merged = 'results/sequences_merged.fasta',
+        metadata = 'results/metadata_merged.tsv'
 
 """This rule loads data from NCBI into nextstrain format"""
 rule load_context:
@@ -43,8 +43,8 @@ rule subsample_context:
         metadata = rules.load_context.output.metadata,
         include = 'data/SAmerica_Accessions.txt'
     output:
-        subsampled_fasta = 'results/context.fasta',
-        subsampled_metadata = 'results/context_metadata.tsv'
+        subsampled_fasta = 'results/context_subsampled.fasta',
+        subsampled_metadata = 'results/context_subsampled.tsv'
     params:
         groups = 'country year',
         num_sequences = 5000
@@ -58,4 +58,65 @@ rule subsample_context:
             --include {input.include} \
             --output-sequences {output.subsampled_fasta} \
             --output-metadata {output.subsampled_metadata} \
+        """
+
+"""This rule loads data from local sequencing into nextstrain format"""
+rule load_local:
+    message: "Loading metadata"
+    input:
+        fasta = "data/Peru_H5_HA.fasta"
+    output:
+        metadata = 'results/peru.tsv',
+        fasta = 'results/peru.fasta'
+    params:
+        fields = 'name country'
+    shell:
+        """
+        augur parse \
+            --sequences {input.fasta} \
+            --output-sequences {output.fasta} \
+            --output-metadata {output.metadata} \
+            --fields {params.fields} \
+            --separator '|' \
+            --fix-dates monthfirst
+        """
+
+"""This rule concatenates the local sequences with the reference dataset."""
+rule cat_fastas:
+    message:
+        """
+        Concatenating the lineage reference FASTA and the local FASTA.\n
+        Reference FASTA: {input.context}\n
+        Local FASTA: {input.local}
+        """
+    input:
+        context = rules.load_context.output.fasta,
+        local = rules.load_local.output.fasta
+    output:
+        merged = 'results/sequences_merged.fasta'
+    shell: 
+        """
+        cat {input.context} {input.local} > {output.merged}
+        """
+
+"""This rule merges metadata for local and context samples."""
+rule merge_metadata:
+    message:
+        """
+        Merging the metadata for the context and the local files.\n
+        Context FASTA: {input.context}\n
+        Local FASTA: {input.local}
+        """
+    input:
+        context = rules.load_context.output.metadata,
+        local = rules.load_local.output.metadata
+    output:
+        metadata = 'results/metadata_merged.tsv'
+    shell:
+        """
+        augur merge \
+            --metadata \
+                REFERENCE={input.context} \
+                LOCAL={input.local} \
+            --output-metadata {output.metadata}
         """
