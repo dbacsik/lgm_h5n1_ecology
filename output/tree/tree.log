@@ -1,0 +1,171 @@
+IQ-TREE multicore version 2.3.5.cmaple COVID-edition for Linux x86 64-bit built May 27 2024
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    eba5c66f80f8 (SSE4.2, 71 GB RAM)
+Command: iqtree -s output/tree/aligned.fasta -m GTR+G -nt 12 -pre output/tree/tree
+Seed:    242965 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Apr  4 23:58:08 2025
+Kernel:  SSE2 - 12 threads (14 CPU cores detected)
+
+Reading alignment file output/tree/aligned.fasta ... Fasta format detected
+Reading fasta file: done in 0.00316442 secs using 94.8% CPU
+Alignment most likely contains DNA/RNA sequences
+Alignment has 56 sequences with 1776 columns, 215 distinct patterns
+12 parsimony-informative, 83 singleton sites, 1681 constant sites
+          Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.000852084 secs using 213.4% CPU
+   1  LC730539    0.00%    passed     97.75%
+   2  cov4496     1.46%    passed     99.91%
+   3  cov4495     1.46%    passed     99.89%
+   4  cov4486     1.41%    passed     99.96%
+   5  covXXXX     1.86%    passed     99.91%
+   6  cov4418     1.46%    passed     99.98%
+   7  cov4425     1.52%    passed     99.98%
+   8  cov4411     1.46%    passed     99.98%
+   9  cov4422     1.63%    passed     99.98%
+  10  cov4410     1.63%    passed     99.98%
+  11  cov4485     2.53%    passed     99.99%
+  12  cov4424     1.58%    passed     99.98%
+  13  cov4401     1.46%    passed     99.94%
+  14  cov4415     1.52%    passed     99.95%
+  15  cov4402     1.58%    passed     99.99%
+  16  cov4484     1.91%    passed     99.92%
+  17  cov4409     1.63%    passed     99.95%
+  18  cov4487     1.58%    passed     99.94%
+  19  cov4483     4.05%    passed     99.94%
+  20  cov4474     1.41%    passed     99.96%
+  21  cov4433     1.63%    passed     99.96%
+  22  cov4420     1.63%    passed     99.96%
+  23  cov4406     1.69%    passed     99.97%
+  24  cov4449     1.52%    passed    100.00%
+  25  cov4386     1.63%    passed     99.99%
+  26  cov4493     1.41%    passed     99.70%
+  27  cov4393     1.41%    passed     99.99%
+  28  cov4388     1.46%    passed     99.97%
+  29  cov4441     3.15%    passed     99.77%
+  30  cov4475     1.41%    passed     99.95%
+  31  cov4416     1.41%    passed     98.95%
+  32  cov4380     2.20%    passed     99.97%
+  33  cov4419     1.69%    passed     99.70%
+  34  cov4464     2.82%    passed     99.99%
+  35  cov4389     2.98%    passed    100.00%
+  36  cov4478     9.57%    passed     98.26%
+  37  cov4373     1.63%    passed     99.96%
+  38  cov4479     4.73%    passed     98.89%
+  39  cov4445     1.91%    passed     99.92%
+  40  cov4414     2.03%    passed     99.84%
+  41  cov4482     2.53%    passed     99.86%
+  42  cov4488     2.03%    passed     99.96%
+  43  cov4491    22.24%    passed     77.39%
+  44  cov4417     1.46%    passed     99.95%
+  45  cov4494     1.91%    passed     99.23%
+  46  cov4490     1.58%    passed     99.83%
+  47  cov4399     2.48%    passed     99.99%
+  48  cov4404     3.49%    passed     99.96%
+  49  cov4492     1.58%    passed     99.60%
+  50  cov4448     2.48%    passed     99.88%
+  51  cov4438    11.66%    passed     95.45%
+  52  cov4437     3.72%    passed     99.88%
+  53  cov4385    11.15%    passed     91.05%
+  54  cov4471    79.84%    passed     31.79%
+  55  cov3903    87.33%    passed      8.38%
+  56  cov3904    89.47%    passed     15.95%
+WARNING: 3 sequences contain more than 50% gaps/ambiguity
+****  TOTAL       7.25%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.004 seconds
+
+NOTE: 1 MB RAM (0 GB) is required!
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -3195.489
+2. Current log-likelihood: -3142.546
+3. Current log-likelihood: -3133.071
+4. Current log-likelihood: -3132.704
+5. Current log-likelihood: -3131.989
+Optimal log-likelihood: -3131.952
+Rate parameters:  A-C: 3.46772  A-G: 15.65500  A-T: 1.44388  C-G: 0.00010  C-T: 18.17167  G-T: 1.00000
+Warning! Some parameters hit the boundaries
+Base frequencies:  A: 0.345  C: 0.186  G: 0.231  T: 0.237
+Gamma shape alpha: 1.193
+Parameters optimization took 5 rounds (0.117 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.017833 secs using 149.5% CPU
+Computing ML distances took 0.018714 sec (of wall-clock time) 0.030850 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000406541 secs using 141.2% CPU
+Computing RapidNJ tree took 0.001591 sec (of wall-clock time) 0.001859 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -3144.845
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.110 second
+Computing log-likelihood of 98 initial trees ... 0.523 seconds
+Current best score: -3131.952
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -3131.931
+BETTER TREE FOUND at iteration 2: -3131.929
+BETTER TREE FOUND at iteration 6: -3131.928
+Iteration 10 / LogL: -3131.934 / Time: 0h:0m:1s
+BETTER TREE FOUND at iteration 15: -3131.928
+Iteration 20 / LogL: -3131.929 / Time: 0h:0m:2s
+Finish initializing candidate tree set (20)
+Current best tree score: -3131.928 / CPU time: 1.918
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+BETTER TREE FOUND at iteration 25: -3131.924
+BETTER TREE FOUND at iteration 27: -3131.924
+Iteration 30 / LogL: -3138.870 / Time: 0h:0m:3s (0h:0m:9s left)
+BETTER TREE FOUND at iteration 31: -3131.922
+Iteration 40 / LogL: -3131.935 / Time: 0h:0m:3s (0h:0m:8s left)
+Iteration 50 / LogL: -3131.936 / Time: 0h:0m:3s (0h:0m:6s left)
+BETTER TREE FOUND at iteration 54: -3131.919
+Iteration 60 / LogL: -3137.286 / Time: 0h:0m:4s (0h:0m:7s left)
+Iteration 70 / LogL: -3131.927 / Time: 0h:0m:4s (0h:0m:6s left)
+Iteration 80 / LogL: -3135.806 / Time: 0h:0m:5s (0h:0m:5s left)
+Iteration 90 / LogL: -3131.924 / Time: 0h:0m:5s (0h:0m:4s left)
+Iteration 100 / LogL: -3131.920 / Time: 0h:0m:6s (0h:0m:3s left)
+Iteration 110 / LogL: -3135.729 / Time: 0h:0m:6s (0h:0m:2s left)
+Iteration 120 / LogL: -3131.923 / Time: 0h:0m:7s (0h:0m:2s left)
+Iteration 130 / LogL: -3131.924 / Time: 0h:0m:7s (0h:0m:1s left)
+Iteration 140 / LogL: -3131.922 / Time: 0h:0m:8s (0h:0m:0s left)
+Iteration 150 / LogL: -3131.933 / Time: 0h:0m:8s (0h:0m:0s left)
+TREE SEARCH COMPLETED AFTER 155 ITERATIONS / Time: 0h:0m:8s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -3131.919
+2. Current log-likelihood: -3131.884
+3. Current log-likelihood: -3131.712
+4. Current log-likelihood: -3131.633
+5. Current log-likelihood: -3131.615
+Optimal log-likelihood: -3131.606
+Rate parameters:  A-C: 4.07907  A-G: 19.00593  A-T: 1.78854  C-G: 0.00010  C-T: 20.74351  G-T: 1.00000
+Warning! Some parameters hit the boundaries
+Base frequencies:  A: 0.345  C: 0.186  G: 0.231  T: 0.237
+Gamma shape alpha: 1.194
+Parameters optimization took 5 rounds (0.074 sec)
+BEST SCORE FOUND : -3131.606
+Total tree length: 0.057
+
+Total number of iterations: 155
+CPU time used for tree search: 93.701 sec (0h:1m:33s)
+Wall-clock time used for tree search: 8.609 sec (0h:0m:8s)
+Total CPU time used: 96.221 sec (0h:1m:36s)
+Total wall-clock time used: 8.932 sec (0h:0m:8s)
+
+Analysis results written to: 
+  IQ-TREE report:                output/tree/tree.iqtree
+  Maximum-likelihood tree:       output/tree/tree.treefile
+  Likelihood distances:          output/tree/tree.mldist
+  Screen log file:               output/tree/tree.log
+
+Date and Time: Fri Apr  4 23:58:17 2025

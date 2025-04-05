@@ -11,8 +11,7 @@ build: https://github.com/nextstrain/avian-flu/blob/master/quickstart-build/Snak
 
 rule all:
     input:
-        merged = 'results/sequences_merged.fasta',
-        metadata = 'results/metadata_merged.tsv'
+        tree = 'output/tree/tree.treefile'
 
 """This rule loads data from NCBI into nextstrain format"""
 rule load_context:
@@ -20,8 +19,8 @@ rule load_context:
     input:
         fasta = "input/data/NCBI_H5_HA.fasta"
     output:
-        metadata = 'results/metadata.tsv',
-        fasta = 'results/sequences.fasta'
+        metadata = 'output/data_cleaning/context.tsv',
+        fasta = 'output/data_cleaning/context.fasta'
     params:
         fields = 'name title country host date'
     shell:
@@ -36,28 +35,32 @@ rule load_context:
         """
 
 """Subsample"""
-rule subsample_context:
+rule sample_context:
     message: "Subsampling sequences"
     input:
         sequences = rules.load_context.output.fasta,
         metadata = rules.load_context.output.metadata,
-        include = 'input/data/SAmerica_Accessions.txt'
+        include = 'input/data/SAmerica_Accessions.txt',
+        exclude = 'input/data/exclude.txt'
     output:
-        subsampled_fasta = 'results/context_subsampled.fasta',
-        subsampled_metadata = 'results/context_subsampled.tsv'
+        fasta = 'output/data_cleaning/context_subsampled.fasta',
+        metadata = 'output/data_cleaning/context_subsampled.tsv'
     params:
         groups = 'country year',
-        num_sequences = 5000
+        num_sequences = 5000,
+        min_length = 1500
     shell:
         """
         augur filter \
             --sequences {input.sequences} \
             --metadata {input.metadata} \
+            --min-length {params.min_length} \
             --group-by {params.groups} \
             --subsample-max-sequences {params.num_sequences} \
             --include {input.include} \
-            --output-sequences {output.subsampled_fasta} \
-            --output-metadata {output.subsampled_metadata} \
+            --exclude {input.exclude} \
+            --output-sequences {output.fasta} \
+            --output-metadata {output.metadata} \
         """
 
 """This rule loads data from local sequencing into nextstrain format"""
@@ -66,8 +69,8 @@ rule load_local:
     input:
         fasta = "input/data/Peru_H5_HA.fasta"
     output:
-        metadata = 'results/peru.tsv',
-        fasta = 'results/peru.fasta'
+        metadata = 'output/data_cleaning/peru.tsv',
+        fasta = 'output/data_cleaning/peru.fasta'
     params:
         fields = 'name country'
     shell:
@@ -90,10 +93,10 @@ rule cat_fastas:
         Local FASTA: {input.local}
         """
     input:
-        context = rules.load_context.output.fasta,
+        context = rules.sample_context.output.fasta,
         local = rules.load_local.output.fasta
     output:
-        merged = 'results/sequences_merged.fasta'
+        merged = 'output/data_cleaning/merged.fasta'
     shell: 
         """
         cat {input.context} {input.local} > {output.merged}
@@ -108,10 +111,10 @@ rule merge_metadata:
         Local FASTA: {input.local}
         """
     input:
-        context = rules.load_context.output.metadata,
+        context = rules.sample_context.output.metadata,
         local = rules.load_local.output.metadata
     output:
-        metadata = 'results/metadata_merged.tsv'
+        metadata = 'output/data_cleaning/metadata_merged.tsv'
     shell:
         """
         augur merge \
@@ -122,23 +125,34 @@ rule merge_metadata:
         """
 
 ## ALIGN
-rule align_lineage:
+rule align:
     message: "Aligning lineage reference sequences with local sequences"
     input:
-        fasta = rules.cat_fastas.output.sequences,
-        reference_file = 
+        fasta = rules.cat_fastas.output.merged,
+        reference_file = 'input/reference/LC730539.fasta'
     output:
-        alignment = os.path.join(
-            build_dir,
-            '{subtype}',
-            'align',
-            'alignment.fasta')
+        alignment = 'output/tree/aligned.fasta'
     shell:
         """
         augur align \
             --sequences {input.fasta} \
             --reference-sequence {input.reference_file} \
             --output {output.alignment} \
-            --nthreads 4 \
-            --remove-reference
+            --nthreads 12
+        """
+
+### RAW TREE
+"""This rule builds the initial tree."""
+rule tree:
+    message: "Building tree"
+    input:
+        alignment = rules.align.output.alignment
+    output:
+        tree = 'output/tree/tree.treefile'
+    shell:
+        """
+        iqtree -s {input.alignment} \
+            -m GTR+G \
+            -nt 12 \
+            -pre output/tree/tree
         """
