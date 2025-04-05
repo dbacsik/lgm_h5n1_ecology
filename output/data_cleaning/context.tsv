@@ -1047,7 +1047,6 @@ PV112138.1	Influenza A virus (A/Larus argentatus/Muensterlingen/V0011/2025(H5N1)
 PV113341.1	Influenza A virus (A/Nevada/10/2025(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	USA	Homo sapiens	2025-02-04
 PV094493.1	Influenza A virus (A/Duck/Bangladesh/CE-115-02-01-03-Du-O/2021(H5Nx)) segment 4 hemagglutinin (HA) gene, partial cds	Bangladesh	Anas platyrhynchos	2021-12-27
 PV091373.1	Influenza A virus (A/Bovine/California/T2402448/2024(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	USA	Bos taurus	2024-11-22
-PV078273.1	Influenza A virus (A/chicken/United Kingdom/LexM/2025(H5N1)) segment 4 hemagglutinin (HA) gene, partial cds	United Kingdom	Gallus gallus	2025-01-01
 PV078494.1	Influenza A virus (A/Mallard/Alberta/36/2024(H5N5)) clone H5 segment 4 hemagglutinin (HA) gene, complete cds	Canada	Anas platyrhynchos	2024-08-14
 PV070685.1	Influenza A virus (A/cattle/CA/24-037045-004-original/2024(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	USA	Bos taurus	2024-12-09
 PV070693.1	Influenza A virus (A/Bobcat/WA/24-037410-006-original/2024(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	USA	Lynx rufus	2024-XX-XX
@@ -13879,7 +13878,6 @@ KT936714.1	Influenza A virus (A/common teal/Shanghai/PD1108-25/2013(H5N8)) segme
 KT936716.1	Influenza A virus (A/common teal/Shanghai/PD1108-13/2013(H5N8)) segment 4 hemagglutinin (HA) gene, partial cds	China	Anas crecca	2013-11-08
 KX101134.1	Influenza A virus (A/yellow-billed teal/Chile/19/2014(H5Nx)) segment 4 hemagglutinin, HA2 region, (HA) gene, partial cds	Chile	Anas flavirostris	2014-04-30
 KX101141.1	Influenza A virus (A/yellow-billed teal/Chile/15/2014(H5Nx)) segment 4 hemagglutinin, HA2 region, (HA) gene, partial cds	Chile	Anas flavirostris	2014-04-24
-KX101161.1	Influenza A virus (A/yellow-billed teal/Chile/16/2014(H6Nx)) (A/yellow-billed teal/Chile/16/2014(H5Nx)) segment 4 hemagglutinin, HA2 region, (HA) gene, partial cds	Chile	Anas flavirostris	2014-04-24
 KX101207.1	Influenza A virus (A/yellow-billed teal/Chile/22/2014(H5Nx)) segment 4 hemagglutinin, HA2 region, (HA) gene, partial cds	Chile	Anas flavirostris	2014-04-30
 KX185908.1	Influenza A virus (A/yellow-billed pintail/Chile/C1267/2015(H5N3)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Anas georgica	2015-09-24
 JX094831.1	Influenza A virus (A/turtle dove/Guangdong/300/2005(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	China	Columbidae	2005-11-01

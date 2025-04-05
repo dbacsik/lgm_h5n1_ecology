@@ -1,0 +1,639 @@
+IQ-TREE multicore version 2.3.5.cmaple COVID-edition for Linux x86 64-bit built May 27 2024
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    eba5c66f80f8 (SSE4.2, 71 GB RAM)
+Command: iqtree --threads-max 12 -s output/tree/aligned-delim.fasta -m GTR --ninit 2 -n 2 --epsilon 0.05 -T AUTO --redo
+Seed:    503598 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Sat Apr  5 02:12:00 2025
+Kernel:  SSE2 - auto-detect threads (14 CPU cores detected)
+
+Reading alignment file output/tree/aligned-delim.fasta ... Fasta format detected
+Reading fasta file: done in 0.0154737 secs using 73.09% CPU
+Alignment most likely contains DNA/RNA sequences
+Alignment has 422 sequences with 1776 columns, 941 distinct patterns
+608 parsimony-informative, 133 singleton sites, 1035 constant sites
+            Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.000635958 secs
+   1  LC730539      0.00%    passed     98.94%
+   2  PP426567.1    4.05%    passed     99.41%
+   3  PP426575.1    4.05%    passed     99.41%
+   4  PP426583.1    4.05%    passed     99.68%
+   5  OR381627.1    4.05%    passed     99.68%
+   6  OR381660.1    4.05%    passed     99.68%
+   7  OR381668.1    4.05%    passed     99.68%
+   8  OR381636.1    4.05%    passed     99.41%
+   9  OR381644.1    4.05%    passed     99.41%
+  10  OR857851.1    4.05%    passed     99.66%
+  11  PP488313.1    2.14%    passed     99.96%
+  12  PP488329.1    2.14%    passed     99.69%
+  13  PP488321.1    2.14%    passed     99.67%
+  14  PP488337.1    2.14%    passed     99.77%
+  15  PQ002114.1    1.18%    passed     99.95%
+  16  PQ002122.1    1.18%    passed     99.95%
+  17  PQ002130.1    1.18%    passed     99.95%
+  18  PQ002138.1    1.18%    passed     99.95%
+  19  PQ002146.1    1.18%    passed     99.95%
+  20  PQ002154.1    1.18%    passed     99.95%
+  21  OR987084.1    1.18%    passed    100.00%
+  22  OR987100.1    1.01%    passed    100.00%
+  23  OR987108.1    1.01%    passed    100.00%
+  24  OR987124.1    1.01%    passed    100.00%
+  25  OQ925725.1    1.01%    passed     99.82%
+  26  OR912282.1    4.05%    passed     99.07%
+  27  OR912283.1    4.05%    passed     99.07%
+  28  OR912287.1    4.05%    passed     99.07%
+  29  OR912288.1    4.05%    passed     99.07%
+  30  OR912289.1    4.05%    passed     99.07%
+  31  OR912284.1    4.05%    passed     98.81%
+  32  OR912285.1    4.05%    passed     98.81%
+  33  OR912291.1    4.05%    passed     98.81%
+  34  OR912293.1    4.05%    passed     98.81%
+  35  OR912354.1    4.05%    passed     98.81%
+  36  OR912362.1    4.05%    passed     98.81%
+  37  OR912286.1    4.05%    passed     98.75%
+  38  OR912290.1    4.05%    passed     98.75%
+  39  OR912292.1    4.05%    passed     98.75%
+  40  PP094671.1    4.05%    passed     98.75%
+  41  PP094679.1    4.05%    passed     98.75%
+  42  OR912294.1    4.05%    passed     99.01%
+  43  OR912295.1    4.05%    passed     98.51%
+  44  OR591550.1    4.05%    passed     98.96%
+  45  OQ747760.1    4.05%    passed     98.96%
+  46  OR591551.1    4.05%    passed     98.97%
+  47  OQ747761.1    4.05%    passed     98.46%
+  48  OQ747758.1    4.05%    passed     98.97%
+  49  OQ747759.1    4.05%    passed     99.29%
+  50  OQ747762.1    4.05%    passed     99.29%
+  51  OR381588.1    4.05%    passed     98.97%
+  52  OR381676.1    4.05%    passed     99.28%
+  53  OR381596.1    4.05%    passed     99.01%
+  54  OR381604.1    4.05%    passed     99.01%
+  55  OR381612.1    4.05%    passed     99.01%
+  56  OR381620.1    4.05%    passed     99.01%
+  57  PP768250.1    1.01%    passed     99.97%
+  58  PP488345.1    2.82%    passed     99.61%
+  59  PQ295907.1    2.03%    passed     99.97%
+  60  OR987092.1    1.97%    passed     99.97%
+  61  PP796346.1    0.73%    passed     99.93%
+  62  PP757903.1    0.73%    passed     99.93%
+  63  PP758145.1    0.73%    passed     99.93%
+  64  PP785567.1    0.73%    passed     99.96%
+  65  PP757826.1    0.73%    passed     99.96%
+  66  OR268598.1    0.79%    passed     99.92%
+  67  OR269268.1    0.79%    passed     99.92%
+  68  OR125255.1    0.73%    passed     99.96%
+  69  OR125292.1    0.73%    passed     99.96%
+  70  OR125322.1    0.73%    passed     99.96%
+  71  OR125407.1    0.73%    passed     99.96%
+  72  OR125482.1    0.73%    passed     99.96%
+  73  OQ455396.1    0.73%    passed     99.96%
+  74  OQ455401.1    0.79%    passed     99.92%
+  75  OQ455410.1    0.73%    passed     99.96%
+  76  OQ455416.1    0.73%    passed     99.96%
+  77  OQ455422.1    0.73%    passed     99.96%
+  78  OR265542.1    0.79%    passed     99.98%
+  79  OR265608.1    0.79%    passed     99.98%
+  80  OQ455466.1    0.96%    passed     99.91%
+  81  OR265569.1    0.84%    passed     99.89%
+  82  PP785712.1    0.73%    passed     99.94%
+  83  PP757839.1    0.73%    passed     99.94%
+  84  OR125155.1    0.73%    passed     99.94%
+  85  OR125180.1    0.73%    passed     99.95%
+  86  OR125250.1    0.73%    passed     99.93%
+  87  OR125269.1    0.73%    passed     99.94%
+  88  OR125340.1    0.73%    passed     99.93%
+  89  OQ455458.1    0.73%    passed     99.94%
+  90  OQ455437.1    0.79%    passed     99.96%
+  91  PP785586.1    0.79%    passed     99.85%
+  92  PP757806.1    0.79%    passed     99.85%
+  93  PP785700.1    0.73%    passed     99.93%
+  94  PP757858.1    0.73%    passed     99.93%
+  95  OR265639.1    0.79%    passed     99.86%
+  96  OR125238.1    0.73%    passed     99.93%
+  97  OQ455442.1    0.90%    passed     99.99%
+  98  OR125188.1    0.73%    passed     99.91%
+  99  OR125233.1    0.73%    passed     99.91%
+ 100  OR125262.1    0.73%    passed     99.88%
+ 101  OR125370.1    0.73%    passed     99.76%
+ 102  OR125279.1    0.73%    passed     99.94%
+ 103  OR125471.1    0.73%    passed     99.94%
+ 104  OR125390.1    0.73%    passed     99.88%
+ 105  OQ458189.1    0.84%    passed     99.74%
+ 106  OR125135.1    0.73%    passed     99.87%
+ 107  OR125162.1    0.73%    passed     99.93%
+ 108  OR125201.1    0.73%    passed     99.93%
+ 109  OR125399.1    0.73%    passed     99.93%
+ 110  OR125452.1    0.73%    passed     99.93%
+ 111  OR125285.1    0.73%    passed     99.92%
+ 112  OR125312.1    0.73%    passed     99.87%
+ 113  PP778673.1    0.79%    passed     99.98%
+ 114  PP757817.1    0.79%    passed     99.98%
+ 115  OR265539.1    0.79%    passed     99.92%
+ 116  OR265573.1    0.79%    passed     99.92%
+ 117  OR125296.1    0.73%    passed     99.93%
+ 118  PP799744.1    0.73%    passed     99.95%
+ 119  PP758168.1    0.73%    passed     99.95%
+ 120  PP785716.1    0.73%    passed     99.92%
+ 121  PP757830.1    0.73%    passed     99.92%
+ 122  PP777983.1    0.79%    passed     99.80%
+ 123  PP757866.1    0.79%    passed     99.80%
+ 124  PP799771.1    0.73%    passed     99.93%
+ 125  PP757909.1    0.73%    passed     99.93%
+ 126  OR269134.1    0.73%    passed     99.69%
+ 127  OR125328.1    0.73%    passed     99.69%
+ 128  OR125244.1    0.73%    passed     99.83%
+ 129  OR125319.1    0.73%    passed     99.83%
+ 130  OR125361.1    0.73%    passed     99.81%
+ 131  OR125141.1    0.73%    passed     99.84%
+ 132  OR125384.1    0.73%    passed     99.84%
+ 133  OR125415.1    0.73%    passed     99.84%
+ 134  OR125433.1    0.73%    passed     99.84%
+ 135  OR125175.1    0.73%    passed     99.92%
+ 136  OR125209.1    0.73%    passed     99.95%
+ 137  OR125440.1    0.73%    passed     99.93%
+ 138  OR125463.1    0.73%    passed     99.93%
+ 139  OR268564.1    0.79%    passed     99.98%
+ 140  OR269259.1    0.79%    passed     99.98%
+ 141  OR265587.1    0.79%    passed     99.64%
+ 142  OR125334.1    0.73%    passed     99.69%
+ 143  OR125420.1    0.73%    passed     99.69%
+ 144  OR125495.1    0.73%    passed     99.69%
+ 145  OR125301.1    0.73%    passed     99.63%
+ 146  OR125489.1    0.73%    passed     99.69%
+ 147  OR125499.1    0.73%    passed     99.69%
+ 148  OR125458.1    0.73%    passed     99.69%
+ 149  OR125351.1    0.73%    passed     99.58%
+ 150  OR125446.1    0.73%    passed     99.63%
+ 151  OR125214.1    0.73%    passed     99.60%
+ 152  OR125219.1    0.73%    passed     99.60%
+ 153  PP799761.1    0.73%    passed     99.87%
+ 154  PP757851.1    0.73%    passed     99.87%
+ 155  OR265549.1    0.79%    passed     99.95%
+ 156  OR268570.1    0.84%    passed     99.56%
+ 157  OR269264.1    0.84%    passed     99.56%
+ 158  OQ547312.1    1.41%    passed     99.81%
+ 159  OQ547375.1    1.41%    passed     99.81%
+ 160  OQ547335.1    1.41%    passed     99.94%
+ 161  OQ547439.1    1.41%    passed     99.94%
+ 162  cov4486       1.41%    passed     99.94%
+ 163  covXXXX       1.86%    passed     99.87%
+ 164  cov4418       1.46%    passed     99.91%
+ 165  cov4425       1.52%    passed     99.94%
+ 166  cov4411       1.46%    passed     99.91%
+ 167  cov4422       1.63%    passed     99.92%
+ 168  cov4410       1.63%    passed     99.92%
+ 169  cov4485       2.53%    passed     99.61%
+ 170  cov4424       1.58%    passed     99.96%
+ 171  cov4401       1.46%    passed     99.89%
+ 172  cov4415       1.52%    passed     99.93%
+ 173  cov4402       1.58%    passed     99.89%
+ 174  cov4484       1.91%    passed     99.89%
+ 175  cov4409       1.63%    passed     99.93%
+ 176  cov4487       1.58%    passed     99.96%
+ 177  cov4483       4.05%    passed     99.95%
+ 178  cov4474       1.41%    passed     99.94%
+ 179  OQ547407.1    1.41%    passed     99.95%
+ 180  OQ547415.1    1.41%    passed     99.95%
+ 181  OQ547327.1    1.41%    passed     99.94%
+ 182  OQ547351.1    1.41%    passed     99.94%
+ 183  OQ547423.1    1.41%    passed     99.94%
+ 184  OQ547447.1    1.41%    passed     99.94%
+ 185  cov4441       3.15%    passed     99.34%
+ 186  OQ547343.1    1.41%    passed     99.81%
+ 187  cov4388       1.46%    passed     99.93%
+ 188  OQ547359.1    1.41%    passed     99.99%
+ 189  OQ547367.1    1.41%    passed     99.99%
+ 190  cov4475       1.41%    passed     99.97%
+ 191  cov4495       1.46%    passed     99.96%
+ 192  cov4433       1.63%    passed     99.97%
+ 193  cov4449       1.52%    passed     99.83%
+ 194  cov4386       1.63%    passed     99.84%
+ 195  cov4420       1.63%    passed     99.80%
+ 196  cov4406       1.69%    passed     99.88%
+ 197  cov4493       1.41%    passed     99.83%
+ 198  cov4393       1.41%    passed     99.93%
+ 199  cov4416       1.41%    passed     99.29%
+ 200  cov4496       1.46%    passed     99.96%
+ 201  OQ547431.1    1.41%    passed     99.95%
+ 202  cov4419       1.69%    passed     99.72%
+ 203  cov4373       1.63%    passed     99.97%
+ 204  OQ547319.1    1.41%    passed     99.58%
+ 205  OQ547383.1    1.41%    passed     99.65%
+ 206  cov4380       2.20%    passed     99.84%
+ 207  cov4404       3.49%    passed     99.98%
+ 208  cov4464       2.82%    passed     99.64%
+ 209  cov4389       2.98%    passed     99.60%
+ 210  cov4478       9.57%    passed     95.49%
+ 211  cov4417       1.46%    passed     99.97%
+ 212  cov4479       4.73%    passed     98.18%
+ 213  cov4445       1.91%    passed     99.89%
+ 214  cov4414       2.03%    passed     99.86%
+ 215  cov4482       2.53%    passed     99.51%
+ 216  cov4488       2.03%    passed     99.93%
+ 217  cov4491      22.24%    passed     67.94%
+ 218  cov4494       1.91%    passed     99.37%
+ 219  cov4490       1.58%    passed     99.79%
+ 220  cov4399       2.48%    passed     99.68%
+ 221  OQ547391.1    1.41%    passed     99.61%
+ 222  OQ547399.1    1.41%    passed     99.61%
+ 223  cov4492       1.58%    passed     99.63%
+ 224  cov4437       3.72%    passed     99.75%
+ 225  OQ925717.1    1.97%    passed     99.94%
+ 226  OR125307.1    0.45%    passed     99.99%
+ 227  OQ352556.1    0.45%    passed     99.99%
+ 228  OQ565628.1    1.52%    passed     99.60%
+ 229  OQ683458.1    0.73%    passed     99.75%
+ 230  OQ832505.2    4.62%    passed     99.54%
+ 231  cov4448       2.48%    passed     99.90%
+ 232  cov4438      11.66%    passed     90.41%
+ 233  OR839997.1    0.68%    passed     99.99%
+ 234  OR852415.1    0.45%    passed     99.97%
+ 235  PQ338025.1    0.45%    passed     99.86%
+ 236  PQ304239.1    0.45%    passed     99.86%
+ 237  PQ305000.1    0.45%    passed     99.86%
+ 238  PQ305024.1    0.45%    passed     99.86%
+ 239  PQ305058.1    0.51%    passed     99.86%
+ 240  OR910192.1    0.45%    passed     99.86%
+ 241  OR910289.1    0.45%    passed     99.86%
+ 242  OR910295.1    0.45%    passed     99.86%
+ 243  OR910389.1    0.45%    passed     99.86%
+ 244  OR910353.1    0.45%    passed     99.74%
+ 245  OR910409.1    0.45%    passed     99.86%
+ 246  OR910460.1    0.45%    passed     99.86%
+ 247  PQ300721.1    0.45%    passed     99.96%
+ 248  OR960975.1    0.45%    passed     99.96%
+ 249  OR910331.1    0.45%    passed     99.95%
+ 250  OQ550442.1    0.45%    passed     99.95%
+ 251  OQ550450.1    0.45%    passed     99.95%
+ 252  OQ550458.1    0.45%    passed     99.95%
+ 253  OQ550466.1    0.45%    passed     99.95%
+ 254  OR960992.1    0.45%    passed     99.95%
+ 255  OR910282.1    0.45%    passed     99.95%
+ 256  OR910435.1    0.45%    passed     99.95%
+ 257  OR910346.1    0.45%    passed     99.95%
+ 258  OR910453.1    0.45%    passed     99.96%
+ 259  OR910502.1    0.45%    passed     99.88%
+ 260  OR910487.1    0.45%    passed     99.96%
+ 261  OR979599.1    0.56%    passed     99.85%
+ 262  OQ550474.1    0.45%    passed     99.90%
+ 263  OR910378.1    0.45%    passed     99.95%
+ 264  PQ304209.1    0.45%    passed     99.89%
+ 265  PQ304256.1    0.45%    passed     99.89%
+ 266  PP829699.1    0.45%    passed     99.95%
+ 267  OR910178.1    0.45%    passed     99.95%
+ 268  OR910231.1    0.45%    passed     99.95%
+ 269  OR910238.1    0.45%    passed     99.95%
+ 270  OR910254.1    0.45%    passed     99.95%
+ 271  OR910325.1    0.45%    passed     99.95%
+ 272  OR910396.1    0.45%    passed     99.95%
+ 273  OR910521.1    0.45%    passed     99.95%
+ 274  OR591549.1    0.45%    passed     99.95%
+ 275  OR125345.1    0.45%    passed     99.95%
+ 276  OR125426.1    0.45%    passed     99.95%
+ 277  OQ352548.1    0.45%    passed     99.95%
+ 278  PP785596.1    0.56%    passed     99.82%
+ 279  PP757802.1    0.56%    passed     99.82%
+ 280  PQ305002.1    0.45%    passed     99.82%
+ 281  PQ300685.1    0.45%    passed     99.89%
+ 282  PQ300706.1    0.45%    passed     99.89%
+ 283  OR979626.1    0.51%    passed     99.96%
+ 284  OR910205.1    0.45%    passed     99.89%
+ 285  PQ300698.1    0.45%    passed     99.82%
+ 286  OR910468.1    0.45%    passed     99.89%
+ 287  OR960980.1    0.45%    passed     99.95%
+ 288  OR960985.1    0.45%    passed     99.95%
+ 289  PQ305010.1    0.51%    passed     99.98%
+ 290  PQ300675.1    0.45%    passed     99.93%
+ 291  OR961011.1    0.45%    passed     99.93%
+ 292  OR910164.1    0.45%    passed     99.93%
+ 293  OR910366.1    0.45%    passed     99.93%
+ 294  PP799803.1    0.45%    passed     99.96%
+ 295  OR910243.1    0.45%    passed     99.90%
+ 296  OR910371.1    0.45%    passed     99.96%
+ 297  OR910261.1    0.45%    passed     99.93%
+ 298  OR910301.1    0.45%    passed     99.93%
+ 299  OR960998.1    0.45%    passed     99.95%
+ 300  OR910159.1    0.45%    passed     99.90%
+ 301  OR910495.1    0.45%    passed     99.88%
+ 302  OR910447.1    0.45%    passed     99.93%
+ 303  PQ300707.1    0.45%    passed     99.89%
+ 304  OR961095.1    0.45%    passed     99.89%
+ 305  OR910153.1    0.45%    passed     99.89%
+ 306  OR910268.1    0.45%    passed     99.89%
+ 307  OR910528.1    0.45%    passed     99.89%
+ 308  OR125503.1    0.45%    passed     99.89%
+ 309  OR910419.1    0.45%    passed     99.88%
+ 310  PP799753.1    0.45%    passed     99.88%
+ 311  PP785576.1    0.45%    passed     99.88%
+ 312  PP378130.1    0.45%    passed     99.88%
+ 313  OR910474.1    0.45%    passed     99.93%
+ 314  OR961005.1    0.45%    passed     99.99%
+ 315  OR910481.1    0.45%    passed     99.75%
+ 316  OR125356.1    0.45%    passed     99.82%
+ 317  OR910186.1    0.45%    passed     99.84%
+ 318  OR910318.1    0.45%    passed     99.66%
+ 319  OR910248.1    0.45%    passed     99.66%
+ 320  OR910415.1    0.45%    passed     99.34%
+ 321  PP786400.1    0.45%    passed     99.95%
+ 322  PQ300731.1    0.45%    passed     99.95%
+ 323  OR961083.1    0.45%    passed     99.95%
+ 324  OR961108.1    0.45%    passed     99.95%
+ 325  OR910145.1    0.45%    passed     99.93%
+ 326  OR910223.1    0.45%    passed     99.90%
+ 327  OR910404.1    0.45%    passed     99.98%
+ 328  OR910509.1    0.45%    passed     99.93%
+ 329  OR910515.1    0.45%    passed     99.65%
+ 330  OR910199.1    0.45%    passed     99.96%
+ 331  OR961102.1    0.45%    passed     99.70%
+ 332  PP829625.1    0.45%    passed     99.90%
+ 333  PP829708.1    0.45%    passed     99.90%
+ 334  OQ550434.1   18.75%    passed     90.58%
+ 335  OR910361.1    0.45%    passed     99.93%
+ 336  OR910442.1    0.45%    passed     99.93%
+ 337  OR910217.1    0.45%    passed     99.87%
+ 338  PQ304221.1    0.51%    passed     99.86%
+ 339  PQ304273.1    0.45%    passed     99.90%
+ 340  OR910308.1    0.45%    passed     99.89%
+ 341  OR910425.1    0.45%    passed     99.82%
+ 342  OR910384.1    0.45%    passed     99.06%
+ 343  OR979619.1    0.68%    passed     99.72%
+ 344  OQ550426.1    0.45%    passed     99.95%
+ 345  OR910275.1    0.45%    passed     99.99%
+ 346  OR910172.1    0.45%    passed     99.96%
+ 347  OR853751.1    0.45%    passed     98.91%
+ 348  PP779060.1    0.45%    passed     99.55%
+ 349  PP782205.1    0.45%    passed     99.55%
+ 350  PP779933.1    0.45%    passed     99.31%
+ 351  PP782339.1    0.45%    passed     99.65%
+ 352  OR860361.1    0.45%    passed     99.21%
+ 353  PP390166.1    0.45%    passed     99.02%
+ 354  OR420092.1    0.45%    passed     98.86%
+ 355  PP785021.1    0.56%    passed     99.01%
+ 356  PP768660.1    0.45%    passed     99.34%
+ 357  PP776752.1    0.45%    passed     98.88%
+ 358  OR910430.1    0.45%    passed     99.12%
+ 359  OR910477.1    0.45%    passed     99.94%
+ 360  PP778505.1    0.45%    passed     99.67%
+ 361  OR889491.1    0.62%    passed     99.40%
+ 362  OR269887.1    0.17%    passed     99.37%
+ 363  PP777458.1    0.62%    passed     95.32%
+ 364  PP780174.1    0.68%    passed     99.88%
+ 365  PP769614.1    0.68%    passed     99.31%
+ 366  PP769739.1    0.68%    passed     99.31%
+ 367  PQ304425.1    0.45%    passed     99.33%
+ 368  PQ304435.1    0.45%    passed     99.33%
+ 369  PQ304488.1    0.45%    passed     99.56%
+ 370  PQ304584.1    0.45%    passed     99.56%
+ 371  PQ304440.1    0.51%    passed     99.71%
+ 372  PQ304566.1    0.45%    passed     99.71%
+ 373  PP780446.1    1.35%    passed     98.50%
+ 374  OR853704.1    0.68%    passed     98.86%
+ 375  OR878088.1    0.28%    passed     99.17%
+ 376  OQ925704.1   34.52%    passed     82.78%
+ 377  OQ683482.1    0.51%    passed     98.24%
+ 378  OR381652.1    4.05%    passed     98.43%
+ 379  PP692235.1    1.13%    passed     99.75%
+ 380  PP386940.1    3.55%    passed     99.02%
+ 381  OP950297.1    1.13%    passed     98.84%
+ 382  OP950305.1    1.13%    passed     99.40%
+ 383  OQ683466.1    1.41%    passed     98.55%
+ 384  OQ683498.1    1.41%    passed     99.11%
+ 385  OQ683474.1    0.90%    passed     97.27%
+ 386  cov4385      11.15%    passed     85.48%
+ 387  OQ683490.1    1.69%    passed     95.05%
+ 388  OR844540.1    1.58%    passed     98.56%
+ 389  OR881253.1    0.51%    passed     97.75%
+ 390  OR987116.1   19.26%    passed     92.09%
+ 391  OQ925711.1   73.76%    passed     19.56%
+ 392  OQ747763.1    1.13%    passed     99.93%
+ 393  cov4471      79.84%    passed     29.28%
+ 394  cov3903      87.33%    passed      7.15%
+ 395  cov3904      89.47%    passed     14.04%
+ 396  PP502509.1    4.56%    passed     85.07%
+ 397  KX254928.1   62.84%    passed     30.35%
+ 398  KX101134.1   68.58%    passed     34.76%
+ 399  KX101141.1   65.20%    passed     44.65%
+ 400  MK163970.1    4.56%    passed     89.93%
+ 401  MK163984.1    4.56%    passed     91.14%
+ 402  MK164009.1   14.98%    passed     89.75%
+ 403  KX185908.1    4.56%    passed     99.37%
+ 404  MK071388.1    4.56%    passed     93.55%
+ 405  KX101207.1   64.53%    passed     68.45%
+ 406  PP829694.1    6.25%    passed     86.22%
+ 407  PP829711.1    0.96%    passed     81.13%
+ 408  PP829775.1    0.96%    passed     83.81%
+ 409  PP829958.1    0.96%    passed     68.84%
+ 410  PP829968.1    0.96%    passed     68.84%
+ 411  OP888702.1    0.96%    passed     90.33%
+ 412  MK167355.1    4.56%    passed     91.60%
+ 413  MH347216.1    0.96%    passed     92.74%
+ 414  CY207181.1    1.97%    passed     69.84%
+ 415  KC703342.1    4.56%    passed     84.19%
+ 416  CY207189.1    1.91%    passed     71.88%
+ 417  KC703334.1    4.56%    passed     80.39%
+ 418  KF772948.1    2.65%    passed     70.57%
+ 419  PQ500558.1   91.44%    passed     76.26%
+ 420  PQ500559.1   91.44%    passed     76.26%
+ 421  PQ500560.1   91.44%    passed     76.26%
+ 422  PQ500561.1   91.44%    passed     80.12%
+WARNING: 12 sequences contain more than 50% gaps/ambiguity
+****  TOTAL         3.87%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: PP426575.1 is identical to PP426567.1 but kept for subsequent analysis
+NOTE: OR381627.1 is identical to PP426583.1 but kept for subsequent analysis
+NOTE: OR381644.1 is identical to OR381636.1 but kept for subsequent analysis
+NOTE: PQ002122.1 is identical to PQ002114.1 but kept for subsequent analysis
+NOTE: OR987108.1 is identical to OR987100.1 but kept for subsequent analysis
+NOTE: OR912283.1 is identical to OR912282.1 but kept for subsequent analysis
+NOTE: OR912285.1 is identical to OR912284.1 but kept for subsequent analysis
+NOTE: OQ747760.1 is identical to OR591550.1 but kept for subsequent analysis
+NOTE: OQ747762.1 is identical to OQ747759.1 but kept for subsequent analysis
+NOTE: OR381604.1 is identical to OR381596.1 but kept for subsequent analysis
+NOTE: PP757903.1 is identical to PP796346.1 but kept for subsequent analysis
+NOTE: PP757826.1 is identical to PP785567.1 but kept for subsequent analysis
+NOTE: OR269268.1 is identical to OR268598.1 but kept for subsequent analysis
+NOTE: OR265608.1 is identical to OR265542.1 but kept for subsequent analysis
+NOTE: PP757839.1 is identical to PP785712.1 but kept for subsequent analysis
+NOTE: PP757806.1 is identical to PP785586.1 but kept for subsequent analysis
+NOTE: PP757858.1 is identical to PP785700.1 but kept for subsequent analysis
+NOTE: OR125233.1 is identical to OR125188.1 but kept for subsequent analysis
+NOTE: OR125471.1 is identical to OR125279.1 but kept for subsequent analysis
+NOTE: OR125201.1 is identical to OR125162.1 but kept for subsequent analysis
+NOTE: PP757817.1 is identical to PP778673.1 but kept for subsequent analysis
+NOTE: PP758168.1 is identical to PP799744.1 but kept for subsequent analysis
+NOTE: PP757830.1 is identical to PP785716.1 but kept for subsequent analysis
+NOTE: PP757866.1 is identical to PP777983.1 but kept for subsequent analysis
+NOTE: PP757909.1 is identical to PP799771.1 but kept for subsequent analysis
+NOTE: OR125328.1 is identical to OR269134.1 but kept for subsequent analysis
+NOTE: OR125319.1 is identical to OR125244.1 but kept for subsequent analysis
+NOTE: OR125384.1 is identical to OR125141.1 but kept for subsequent analysis
+NOTE: OR269259.1 is identical to OR268564.1 but kept for subsequent analysis
+NOTE: OR125420.1 is identical to OR125334.1 but kept for subsequent analysis
+NOTE: OR125499.1 is identical to OR125489.1 but kept for subsequent analysis
+NOTE: OR125219.1 is identical to OR125214.1 but kept for subsequent analysis
+NOTE: PP757851.1 is identical to PP799761.1 but kept for subsequent analysis
+NOTE: OR269264.1 is identical to OR268570.1 but kept for subsequent analysis
+NOTE: OQ547375.1 is identical to OQ547312.1 but kept for subsequent analysis
+NOTE: OQ547439.1 is identical to OQ547335.1 but kept for subsequent analysis
+NOTE: OQ547415.1 is identical to OQ547407.1 but kept for subsequent analysis
+NOTE: OQ547351.1 is identical to OQ547327.1 but kept for subsequent analysis
+NOTE: OQ547367.1 is identical to OQ547359.1 but kept for subsequent analysis
+NOTE: OQ547399.1 is identical to OQ547391.1 but kept for subsequent analysis
+NOTE: PQ304239.1 is identical to PQ338025.1 but kept for subsequent analysis
+NOTE: OR910460.1 is identical to OR910409.1 but kept for subsequent analysis
+NOTE: OR960975.1 is identical to PQ300721.1 but kept for subsequent analysis
+NOTE: OQ550442.1 is identical to OR910331.1 but kept for subsequent analysis
+NOTE: OR910435.1 is identical to OR910282.1 but kept for subsequent analysis
+NOTE: OR910178.1 is identical to PP829699.1 but kept for subsequent analysis
+NOTE: PP757802.1 is identical to PP785596.1 but kept for subsequent analysis
+NOTE: PQ300706.1 is identical to PQ300685.1 but kept for subsequent analysis
+NOTE: OR960985.1 is identical to OR960980.1 but kept for subsequent analysis
+NOTE: OR961011.1 is identical to PQ300675.1 but kept for subsequent analysis
+NOTE: OR961095.1 is identical to PQ300707.1 but kept for subsequent analysis
+NOTE: PP785576.1 is identical to PP799753.1 but kept for subsequent analysis
+NOTE: OR961083.1 is identical to PQ300731.1 but kept for subsequent analysis
+NOTE: PP829708.1 is identical to PP829625.1 but kept for subsequent analysis
+NOTE: OR910442.1 is identical to OR910361.1 but kept for subsequent analysis
+NOTE: PP782205.1 is identical to PP779060.1 but kept for subsequent analysis
+NOTE: PP769739.1 is identical to PP769614.1 but kept for subsequent analysis
+NOTE: PQ304435.1 is identical to PQ304425.1 but kept for subsequent analysis
+NOTE: PQ304584.1 is identical to PQ304488.1 but kept for subsequent analysis
+NOTE: PP829968.1 is identical to PP829958.1 but kept for subsequent analysis
+NOTE: PQ500559.1 is identical to PQ500558.1 but kept for subsequent analysis
+NOTE: 64 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: OR381660.1 (identical to PP426583.1) is ignored but added at the end
+NOTE: OR381668.1 (identical to PP426583.1) is ignored but added at the end
+NOTE: PQ002130.1 (identical to PQ002114.1) is ignored but added at the end
+NOTE: PQ002138.1 (identical to PQ002114.1) is ignored but added at the end
+NOTE: PQ002146.1 (identical to PQ002114.1) is ignored but added at the end
+NOTE: PQ002154.1 (identical to PQ002114.1) is ignored but added at the end
+NOTE: OR987124.1 (identical to OR987100.1) is ignored but added at the end
+NOTE: OR912287.1 (identical to OR912282.1) is ignored but added at the end
+NOTE: OR912288.1 (identical to OR912282.1) is ignored but added at the end
+NOTE: OR912289.1 (identical to OR912282.1) is ignored but added at the end
+NOTE: OR912291.1 (identical to OR912284.1) is ignored but added at the end
+NOTE: OR912293.1 (identical to OR912284.1) is ignored but added at the end
+NOTE: OR912354.1 (identical to OR912284.1) is ignored but added at the end
+NOTE: OR912362.1 (identical to OR912284.1) is ignored but added at the end
+NOTE: OR381612.1 (identical to OR381596.1) is ignored but added at the end
+NOTE: OR381620.1 (identical to OR381596.1) is ignored but added at the end
+NOTE: PP758145.1 (identical to PP796346.1) is ignored but added at the end
+NOTE: OR125255.1 (identical to PP785567.1) is ignored but added at the end
+NOTE: OR125292.1 (identical to PP785567.1) is ignored but added at the end
+NOTE: OR125322.1 (identical to PP785567.1) is ignored but added at the end
+NOTE: OR125407.1 (identical to PP785567.1) is ignored but added at the end
+NOTE: OR125482.1 (identical to PP785567.1) is ignored but added at the end
+NOTE: OQ455396.1 (identical to PP785567.1) is ignored but added at the end
+NOTE: OQ455410.1 (identical to PP785567.1) is ignored but added at the end
+NOTE: OQ455416.1 (identical to PP785567.1) is ignored but added at the end
+NOTE: OQ455422.1 (identical to PP785567.1) is ignored but added at the end
+NOTE: OQ455401.1 (identical to OR268598.1) is ignored but added at the end
+NOTE: OR125238.1 (identical to PP785700.1) is ignored but added at the end
+NOTE: OR125399.1 (identical to OR125162.1) is ignored but added at the end
+NOTE: OR125452.1 (identical to OR125162.1) is ignored but added at the end
+NOTE: OR125415.1 (identical to OR125141.1) is ignored but added at the end
+NOTE: OR125433.1 (identical to OR125141.1) is ignored but added at the end
+NOTE: OR125495.1 (identical to OR125334.1) is ignored but added at the end
+NOTE: cov4486 (identical to OQ547335.1) is ignored but added at the end
+NOTE: OQ547423.1 (identical to OQ547327.1) is ignored but added at the end
+NOTE: OQ547447.1 (identical to OQ547327.1) is ignored but added at the end
+NOTE: PQ305000.1 (identical to PQ338025.1) is ignored but added at the end
+NOTE: PQ305024.1 (identical to PQ338025.1) is ignored but added at the end
+NOTE: OR910192.1 (identical to PQ338025.1) is ignored but added at the end
+NOTE: OR910289.1 (identical to PQ338025.1) is ignored but added at the end
+NOTE: OR910295.1 (identical to PQ338025.1) is ignored but added at the end
+NOTE: OR910389.1 (identical to PQ338025.1) is ignored but added at the end
+NOTE: OQ550450.1 (identical to OR910331.1) is ignored but added at the end
+NOTE: OQ550458.1 (identical to OR910331.1) is ignored but added at the end
+NOTE: OQ550466.1 (identical to OR910331.1) is ignored but added at the end
+NOTE: OR910231.1 (identical to PP829699.1) is ignored but added at the end
+NOTE: OR910238.1 (identical to PP829699.1) is ignored but added at the end
+NOTE: OR910254.1 (identical to PP829699.1) is ignored but added at the end
+NOTE: OR910325.1 (identical to PP829699.1) is ignored but added at the end
+NOTE: OR910396.1 (identical to PP829699.1) is ignored but added at the end
+NOTE: OR910521.1 (identical to PP829699.1) is ignored but added at the end
+NOTE: OR591549.1 (identical to PP829699.1) is ignored but added at the end
+NOTE: OR125345.1 (identical to PP829699.1) is ignored but added at the end
+NOTE: OR125426.1 (identical to PP829699.1) is ignored but added at the end
+NOTE: OR910205.1 (identical to PQ300685.1) is ignored but added at the end
+NOTE: OR910164.1 (identical to PQ300675.1) is ignored but added at the end
+NOTE: OR910366.1 (identical to PQ300675.1) is ignored but added at the end
+NOTE: OR910153.1 (identical to PQ300707.1) is ignored but added at the end
+NOTE: OR910268.1 (identical to PQ300707.1) is ignored but added at the end
+NOTE: OR910528.1 (identical to PQ300707.1) is ignored but added at the end
+NOTE: OR125503.1 (identical to PQ300707.1) is ignored but added at the end
+NOTE: PP378130.1 (identical to PP799753.1) is ignored but added at the end
+NOTE: OR961108.1 (identical to PQ300731.1) is ignored but added at the end
+NOTE: PQ500560.1 (identical to PQ500558.1) is ignored but added at the end
+Alignment was printed to output/tree/aligned-delim.fasta.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to output/tree/aligned-delim.fasta.uniqueseq.phy
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.044 seconds
+
+NOTE: 10 MB RAM (0 GB) is required!
+Measuring multi-threading efficiency up to 12 CPU cores
+Increase to 10 rounds for branch lengths
+64 trees examined
+Threads: 1 / Time: 12.102 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -38977
+Threads: 2 / Time: 8.195 sec / Speedup: 1.477 / Efficiency: 74% / LogL: -38977
+Threads: 3 / Time: 5.241 sec / Speedup: 2.309 / Efficiency: 77% / LogL: -38977
+Threads: 4 / Time: 4.652 sec / Speedup: 2.601 / Efficiency: 65% / LogL: -38977
+Threads: 5 / Time: 4.371 sec / Speedup: 2.769 / Efficiency: 55% / LogL: -38977
+Threads: 6 / Time: 5.624 sec / Speedup: 2.152 / Efficiency: 36% / LogL: -38977
+BEST NUMBER OF THREADS: 5
+
+Estimate model parameters (epsilon = 0.500)
+1. Initial log-likelihood: -11767.838
+2. Current log-likelihood: -11067.318
+3. Current log-likelihood: -11061.071
+4. Current log-likelihood: -11060.308
+Optimal log-likelihood: -11060.190
+Rate parameters:  A-C: 1.69358  A-G: 6.22669  A-T: 0.80277  C-G: 0.30659  C-T: 9.44719  G-T: 1.00000
+Base frequencies:  A: 0.345  C: 0.187  G: 0.230  T: 0.239
+Parameters optimization took 4 rounds (0.453 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.0513738 secs using 434.3% CPU
+Computing ML distances took 0.052510 sec (of wall-clock time) 0.224666 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.00278429 secs using 131.6% CPU
+Computing RapidNJ tree took 0.016080 sec (of wall-clock time) 0.015782 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -11188.562
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+
+Do NNI search on 2 best initial trees
+Estimate model parameters (epsilon = 0.500)
+BETTER TREE FOUND at iteration 1: -11051.208
+Finish initializing candidate tree set (4)
+Current best tree score: -11051.208 / CPU time: 0.713
+Number of iterations: 2
+TREE SEARCH COMPLETED AFTER 2 ITERATIONS / Time: 0h:0m:41s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.050)
+1. Initial log-likelihood: -11051.208
+Optimal log-likelihood: -11051.208
+Rate parameters:  A-C: 1.69371  A-G: 6.22774  A-T: 0.80284  C-G: 0.30721  C-T: 9.44808  G-T: 1.00000
+Base frequencies:  A: 0.345  C: 0.187  G: 0.230  T: 0.239
+Parameters optimization took 1 rounds (0.047 sec)
+BEST SCORE FOUND : -11051.208
+Total tree length: 0.911
+
+Total number of iterations: 2
+CPU time used for tree search: 3.253 sec (0h:0m:3s)
+Wall-clock time used for tree search: 0.715 sec (0h:0m:0s)
+Total CPU time used: 121.889 sec (0h:2m:1s)
+Total wall-clock time used: 41.748 sec (0h:0m:41s)
+
+Analysis results written to: 
+  IQ-TREE report:                output/tree/aligned-delim.fasta.iqtree
+  Maximum-likelihood tree:       output/tree/aligned-delim.fasta.treefile
+  Likelihood distances:          output/tree/aligned-delim.fasta.mldist
+  Screen log file:               output/tree/aligned-delim.fasta.log
+
+Date and Time: Sat Apr  5 02:12:42 2025
