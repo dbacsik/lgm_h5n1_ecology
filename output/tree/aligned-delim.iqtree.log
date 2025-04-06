@@ -4,17 +4,17 @@ Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
 
 Host:    eba5c66f80f8 (SSE4.2, 71 GB RAM)
 Command: iqtree --threads-max 12 -s output/tree/aligned-delim.fasta -m GTR --ninit 2 -n 2 --epsilon 0.05 -T AUTO --redo
-Seed:    457250 (Using SPRNG - Scalable Parallel Random Number Generator)
-Time:    Sun Apr  6 22:14:11 2025
+Seed:    360531 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Sun Apr  6 23:30:59 2025
 Kernel:  SSE2 - auto-detect threads (14 CPU cores detected)
 
 Reading alignment file output/tree/aligned-delim.fasta ... Fasta format detected
-Reading fasta file: done in 0.00730438 secs using 83.77% CPU
+Reading fasta file: done in 0.00763963 secs using 98.03% CPU
 Alignment most likely contains DNA/RNA sequences
 Alignment has 206 sequences with 1760 columns, 1023 distinct patterns
 767 parsimony-informative, 150 singleton sites, 843 constant sites
             Gap/Ambiguity  Composition  p-value
-Analyzing sequences: done in 0.000380042 secs using 99.73% CPU
+Analyzing sequences: done in 0.000421791 secs using 94.6% CPU
    1  AF144305.1    0.00%    passed     98.30%
    2  GU052019.1    0.34%    passed     99.74%
    3  GU052027.1    0.34%    passed     99.60%
@@ -224,66 +224,64 @@ Analyzing sequences: done in 0.000380042 secs using 99.73% CPU
 WARNING: 3 sequences contain more than 50% gaps/ambiguity
 ****  TOTAL         3.04%  0 sequences failed composition chi2 test (p-value<5%; df=3)
 
-Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.029 seconds
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.037 seconds
 
 NOTE: 6 MB RAM (0 GB) is required!
 Measuring multi-threading efficiency up to 12 CPU cores
 Increase to 10 rounds for branch lengths
-79 trees examined
-Threads: 1 / Time: 12.153 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -103625
-Threads: 2 / Time: 7.105 sec / Speedup: 1.711 / Efficiency: 86% / LogL: -103625
-Threads: 3 / Time: 5.649 sec / Speedup: 2.151 / Efficiency: 72% / LogL: -103625
-Threads: 4 / Time: 5.430 sec / Speedup: 2.238 / Efficiency: 56% / LogL: -103625
-Threads: 5 / Time: 4.992 sec / Speedup: 2.434 / Efficiency: 49% / LogL: -103625
-BEST NUMBER OF THREADS: 3
+76 trees examined
+Threads: 1 / Time: 12.138 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -105173
+Threads: 2 / Time: 8.416 sec / Speedup: 1.442 / Efficiency: 72% / LogL: -105173
+Threads: 3 / Time: 6.869 sec / Speedup: 1.767 / Efficiency: 59% / LogL: -105173
+Threads: 4 / Time: 5.761 sec / Speedup: 2.107 / Efficiency: 53% / LogL: -105173
+Threads: 5 / Time: 5.328 sec / Speedup: 2.278 / Efficiency: 46% / LogL: -105173
+BEST NUMBER OF THREADS: 4
 
 Estimate model parameters (epsilon = 0.500)
-1. Initial log-likelihood: -25825.780
-2. Current log-likelihood: -23695.883
-3. Current log-likelihood: -23694.062
-Optimal log-likelihood: -23694.061
-Rate parameters:  A-C: 1.53878  A-G: 7.80949  A-T: 0.67566  C-G: 0.21486  C-T: 11.84454  G-T: 1.00000
+1. Initial log-likelihood: -25790.595
+2. Current log-likelihood: -23667.942
+3. Current log-likelihood: -23666.178
+Optimal log-likelihood: -23666.178
+Rate parameters:  A-C: 1.53534  A-G: 7.81811  A-T: 0.68092  C-G: 0.21556  C-T: 11.82910  G-T: 1.00000
 Base frequencies:  A: 0.348  C: 0.185  G: 0.228  T: 0.239
-Parameters optimization took 3 rounds (0.326 sec)
+Parameters optimization took 3 rounds (0.411 sec)
 Wrote distance file to... 
 Computing ML distances based on estimated model parameters...
-Calculating distance matrix: done in 0.0287461 secs using 268.5% CPU
-Computing ML distances took 0.029662 sec (of wall-clock time) 0.078437 sec (of CPU time)
-Setting up auxiliary I and S matrices: done in 0.00117258 secs using 162.2% CPU
-Computing RapidNJ tree took 0.003690 sec (of wall-clock time) 0.004621 sec (of CPU time)
-Log-likelihood of RapidNJ tree: -24297.717
+Calculating distance matrix: done in 0.0246431 secs using 320.7% CPU
+Computing ML distances took 0.025744 sec (of wall-clock time) 0.080400 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.00129154 secs using 89.66% CPU
+Computing RapidNJ tree took 0.004157 sec (of wall-clock time) 0.005530 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -24297.655
 --------------------------------------------------------------------
 |             INITIALIZING CANDIDATE TREE SET                      |
 --------------------------------------------------------------------
 
 Do NNI search on 2 best initial trees
 Estimate model parameters (epsilon = 0.500)
-BETTER TREE FOUND at iteration 1: -23685.466
-Estimate model parameters (epsilon = 0.500)
-BETTER TREE FOUND at iteration 2: -23662.034
+BETTER TREE FOUND at iteration 1: -23649.051
 Finish initializing candidate tree set (4)
-Current best tree score: -23662.034 / CPU time: 0.500
+Current best tree score: -23649.051 / CPU time: 0.358
 Number of iterations: 2
-TREE SEARCH COMPLETED AFTER 2 ITERATIONS / Time: 0h:0m:36s
+TREE SEARCH COMPLETED AFTER 2 ITERATIONS / Time: 0h:0m:39s
 
 --------------------------------------------------------------------
 |                    FINALIZING TREE SEARCH                        |
 --------------------------------------------------------------------
 Performs final model parameters optimization
 Estimate model parameters (epsilon = 0.050)
-1. Initial log-likelihood: -23662.034
-Optimal log-likelihood: -23662.034
-Rate parameters:  A-C: 1.54288  A-G: 7.93163  A-T: 0.67380  C-G: 0.20993  C-T: 11.95581  G-T: 1.00000
+1. Initial log-likelihood: -23649.051
+Optimal log-likelihood: -23649.050
+Rate parameters:  A-C: 1.53378  A-G: 7.81964  A-T: 0.66999  C-G: 0.21106  C-T: 11.82898  G-T: 1.00000
 Base frequencies:  A: 0.348  C: 0.185  G: 0.228  T: 0.239
-Parameters optimization took 1 rounds (0.038 sec)
-BEST SCORE FOUND : -23662.034
-Total tree length: 2.193
+Parameters optimization took 1 rounds (0.031 sec)
+BEST SCORE FOUND : -23649.050
+Total tree length: 2.180
 
 Total number of iterations: 2
-CPU time used for tree search: 1.292 sec (0h:0m:1s)
-Wall-clock time used for tree search: 0.501 sec (0h:0m:0s)
-Total CPU time used: 90.669 sec (0h:1m:30s)
-Total wall-clock time used: 36.412 sec (0h:0m:36s)
+CPU time used for tree search: 1.365 sec (0h:0m:1s)
+Wall-clock time used for tree search: 0.359 sec (0h:0m:0s)
+Total CPU time used: 100.747 sec (0h:1m:40s)
+Total wall-clock time used: 39.605 sec (0h:0m:39s)
 
 Analysis results written to: 
   IQ-TREE report:                output/tree/aligned-delim.fasta.iqtree
@@ -291,4 +289,4 @@ Analysis results written to:
   Likelihood distances:          output/tree/aligned-delim.fasta.mldist
   Screen log file:               output/tree/aligned-delim.fasta.log
 
-Date and Time: Sun Apr  6 22:14:47 2025
+Date and Time: Sun Apr  6 23:31:39 2025
