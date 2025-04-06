@@ -1,8 +1,15 @@
 {
   "annotations": {
+    "HA": {
+      "end": 1728,
+      "seqid": "input/reference/reference_h5n1_ha.gb",
+      "start": 22,
+      "strand": "+",
+      "type": "CDS"
+    },
     "nuc": {
-      "end": 1777,
-      "seqid": "input/reference/LC730539.gb",
+      "end": 1760,
+      "seqid": "input/reference/reference_h5n1_ha.gb",
       "start": 1,
       "strand": "+",
       "type": "source"
@@ -13,2533 +20,8648 @@
     "version": "27.0.0"
   },
   "nodes": {
-    "CY207181.1": {
-      "aa_muts": {}
-    },
-    "CY207189.1": {
-      "aa_muts": {}
-    },
-    "KC703334.1": {
-      "aa_muts": {}
-    },
-    "KC703342.1": {
-      "aa_muts": {}
-    },
-    "KF772948.1": {
-      "aa_muts": {}
-    },
     "KX101134.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "Q384K"
+        ]
+      }
     },
     "KX101141.1": {
-      "aa_muts": {}
-    },
-    "KX101207.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "KX185908.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "E52G",
+          "P152S",
+          "N181T",
+          "S225T",
+          "I226T",
+          "M281I",
+          "L313P"
+        ]
+      }
     },
     "KX254928.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
-    "LC730539": {
-      "aa_muts": {}
+    "LC626157.1": {
+      "aa_muts": {
+        "HA": []
+      }
     },
-    "MH347216.1": {
-      "aa_muts": {}
+    "LC656644.1": {
+      "aa_muts": {
+        "HA": [
+          "R239S"
+        ]
+      }
+    },
+    "LC699152.1": {
+      "aa_muts": {
+        "HA": [
+          "D205G"
+        ]
+      }
+    },
+    "LC699160.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "LC699168.1": {
+      "aa_muts": {
+        "HA": [
+          "D252N"
+        ]
+      }
+    },
+    "LC699184.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "LC699656.1": {
+      "aa_muts": {
+        "HA": [
+          "K69R",
+          "A99D",
+          "S336N"
+        ]
+      }
+    },
+    "LC699664.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "LC705174.1": {
+      "aa_muts": {
+        "HA": [
+          "E201K",
+          "P337S"
+        ]
+      }
+    },
+    "LC718234.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "LC718274.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "LC718282.1": {
+      "aa_muts": {
+        "HA": [
+          "K293R",
+          "E493K"
+        ]
+      }
+    },
+    "LC718290.1": {
+      "aa_muts": {
+        "HA": [
+          "N325D"
+        ]
+      }
+    },
+    "LC718322.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "LC718354.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "LC730537.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "LC730545.1": {
+      "aa_muts": {
+        "HA": [
+          "S28L",
+          "M305L"
+        ]
+      }
+    },
+    "LC762446.1": {
+      "aa_muts": {
+        "HA": [
+          "D70N",
+          "E201K"
+        ]
+      }
+    },
+    "LC762447.1": {
+      "aa_muts": {
+        "HA": [
+          "M82L"
+        ]
+      }
+    },
+    "LC762449.1": {
+      "aa_muts": {
+        "HA": [
+          "S197P",
+          "E201K"
+        ]
+      }
+    },
+    "LC765293.1": {
+      "aa_muts": {
+        "HA": [
+          "V5I"
+        ]
+      }
+    },
+    "LC765301.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "LC765309.1": {
+      "aa_muts": {
+        "HA": [
+          "S110G"
+        ]
+      }
+    },
+    "LC775579.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "LC831696.1": {
+      "aa_muts": {
+        "HA": [
+          "K341T",
+          "R342-",
+          "R343-",
+          "K344-"
+        ]
+      }
     },
     "MK071388.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "E2G",
+          "V14A",
+          "N30D",
+          "E52G",
+          "Q131H",
+          "T136A",
+          "A254V",
+          "V437I",
+          "F554L"
+        ]
+      }
     },
     "MK163970.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "N222S",
+          "N463T"
+        ]
+      }
     },
     "MK163984.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "F456L"
+        ]
+      }
     },
-    "MK164009.1": {
-      "aa_muts": {}
+    "MW947143.1": {
+      "aa_muts": {
+        "HA": [
+          "V298I"
+        ]
+      }
     },
-    "MK167355.1": {
-      "aa_muts": {}
+    "MW961428.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "MW961436.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "MW961444.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "MW961452.1": {
+      "aa_muts": {
+        "HA": [
+          "R239S",
+          "K250N"
+        ]
+      }
+    },
+    "MW961460.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "MW961468.1": {
+      "aa_muts": {
+        "HA": [
+          "A150S"
+        ]
+      }
+    },
+    "MW961476.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "MW961484.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "MW961492.1": {
+      "aa_muts": {
+        "HA": [
+          "K326R"
+        ]
+      }
+    },
+    "MZ166240.1": {
+      "aa_muts": {
+        "HA": [
+          "S110R",
+          "P139S",
+          "N325T",
+          "S336N"
+        ]
+      }
+    },
+    "MZ235318.1": {
+      "aa_muts": {
+        "HA": [
+          "S16G",
+          "L120M",
+          "R185Q",
+          "T204I",
+          "L562T"
+        ]
+      }
+    },
+    "MZ235326.1": {
+      "aa_muts": {
+        "HA": [
+          "I568L"
+        ]
+      }
+    },
+    "MZ235342.1": {
+      "aa_muts": {
+        "HA": [
+          "H311Y",
+          "L313C",
+          "K326Q",
+          "S336N",
+          "R342S",
+          "R343S",
+          "D365E",
+          "G369C",
+          "T395N",
+          "L454V",
+          "N463H",
+          "L470S",
+          "L472I",
+          "N475K",
+          "Y503C",
+          "R513G",
+          "M548I",
+          "L554Q",
+          "C557R",
+          "L562V",
+          "Q563H",
+          "C564A"
+        ]
+      }
     },
     "NODE_0000000": {
-      "aa_muts": {},
-      "aa_sequences": {}
-    },
-    "NODE_0000001": {
-      "aa_muts": {}
-    },
-    "NODE_0000002": {
-      "aa_muts": {}
-    },
-    "NODE_0000003": {
-      "aa_muts": {}
-    },
-    "NODE_0000004": {
-      "aa_muts": {}
-    },
-    "NODE_0000005": {
-      "aa_muts": {}
-    },
-    "NODE_0000006": {
-      "aa_muts": {}
-    },
-    "NODE_0000007": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "V11I",
+          "R69K",
+          "S100N",
+          "D110N",
+          "T124I",
+          "S136N",
+          "D142E",
+          "S145L",
+          "S149A",
+          "H154Q",
+          "R156K",
+          "S171N",
+          "R178K",
+          "Q185R",
+          "V190I",
+          "E228K",
+          "P233S",
+          "E243D",
+          "N256H",
+          "A279T",
+          "L285V",
+          "M298I",
+          "R326K",
+          "T336S",
+          "K345-",
+          "Q429K",
+          "K499R",
+          "N515K",
+          "M527I"
+        ]
+      },
+      "aa_sequences": {
+        "HA": "MEKIVLLLAIISLVKSDQICIGYHANNSTEQVDTIMEKNVTVTHAQDILEKTHNGKLCDLNGVKPLILKDCSVAGWLLGNPMCDEFINVPEWSYIVEKANPANDLCYPGNFNDYEELKHLLSRINHFEKIQIIPKNSWSNHEASLGVSAACPYQGKSSFFRNVVWLIKKNNAYPTIKKSYNNTNREDLLILWGIHHPNDAAEQTKLYQNPTTYISVGTSTLNQRLVPKIATRSKVNGQSGRMDFFWTILKPNDAIHFESNGNFIAPEYAYKIVKKGDSTIMKSEVEYGNCNTKCQTPIGAINSSMPFHNIHPLTIGECPKYVKSNKLVLATGLRNSPQRERRRK-RGLFGAIAGFIEGGWQGMVDGWYGYHHSNEQGSGYAADKESTQKAIDGVTNKVNSIIDKMNTQFEAVGREFNNLERRIENLNKKMEDGFLDVWTYNAELLVLMENERTLDFHDSNVKNLYDKVRLQLRDNAKELGNGCFEFYHKCDNECMESVRNGTYDYPQYSEEARLKREEISGVKLESIGTYQILSIYSTVASSLALAIMVAGLSLWMCSNGSLQCRICI*"
+      }
     },
     "NODE_0000008": {
-      "aa_muts": {}
-    },
-    "NODE_0000009": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000010": {
-      "aa_muts": {}
-    },
-    "NODE_0000011": {
-      "aa_muts": {}
-    },
-    "NODE_0000012": {
-      "aa_muts": {}
-    },
-    "NODE_0000013": {
-      "aa_muts": {}
-    },
-    "NODE_0000014": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "K3R",
+          "L6I",
+          "L7A",
+          "S16G",
+          "E30K",
+          "T52E",
+          "D59S",
+          "I87L",
+          "A99D",
+          "L121M",
+          "R123S",
+          "I124T",
+          "K135R",
+          "E142D",
+          "L145S",
+          "A149S",
+          "Q154N",
+          "K178R",
+          "S179N",
+          "R185L",
+          "T211N",
+          "I214V",
+          "L225S",
+          "V226I",
+          "S233P",
+          "D243E",
+          "H256R",
+          "T279A",
+          "V285L",
+          "I298V",
+          "I310V",
+          "S336I",
+          "R341K",
+          "R342-",
+          "R343-",
+          "K344-",
+          "V394I",
+          "R414K",
+          "Q507R",
+          "A512S",
+          "S520D",
+          "A544T",
+          "L554F"
+        ]
+      }
     },
     "NODE_0000015": {
-      "aa_muts": {}
-    },
-    "NODE_0000016": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000017": {
-      "aa_muts": {}
-    },
-    "NODE_0000018": {
-      "aa_muts": {}
-    },
-    "NODE_0000019": {
-      "aa_muts": {}
-    },
-    "NODE_0000020": {
-      "aa_muts": {}
-    },
-    "NODE_0000021": {
-      "aa_muts": {}
-    },
-    "NODE_0000022": {
-      "aa_muts": {}
-    },
-    "NODE_0000023": {
-      "aa_muts": {}
-    },
-    "NODE_0000024": {
-      "aa_muts": {}
-    },
-    "NODE_0000025": {
-      "aa_muts": {}
-    },
-    "NODE_0000026": {
-      "aa_muts": {}
-    },
-    "NODE_0000027": {
-      "aa_muts": {}
-    },
-    "NODE_0000028": {
-      "aa_muts": {}
-    },
-    "NODE_0000029": {
-      "aa_muts": {}
-    },
-    "NODE_0000030": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000031": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "K30N",
+          "V32I",
+          "N61K",
+          "K64R",
+          "A102V",
+          "D104S",
+          "N110E",
+          "N136T",
+          "S145A",
+          "K156R",
+          "A172Q",
+          "N179T",
+          "P210S",
+          "K228E",
+          "K250R",
+          "R256S",
+          "N291D",
+          "K341T",
+          "K384Q",
+          "K515N",
+          "D520Y",
+          "I527M",
+          "T544S"
+        ]
+      }
     },
     "NODE_0000032": {
-      "aa_muts": {}
-    },
-    "NODE_0000033": {
-      "aa_muts": {}
-    },
-    "NODE_0000034": {
-      "aa_muts": {}
-    },
-    "NODE_0000035": {
-      "aa_muts": {}
-    },
-    "NODE_0000036": {
-      "aa_muts": {}
-    },
-    "NODE_0000037": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "K61R",
+          "V102I",
+          "K462R",
+          "Y520S"
+        ]
+      }
     },
     "NODE_0000038": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000039": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000040": {
-      "aa_muts": {}
-    },
-    "NODE_0000041": {
-      "aa_muts": {}
-    },
-    "NODE_0000042": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "V5A",
+          "I21V",
+          "K38R",
+          "L185P",
+          "K234R",
+          "V273A",
+          "L313F",
+          "L552I"
+        ]
+      }
     },
     "NODE_0000043": {
-      "aa_muts": {}
-    },
-    "NODE_0000044": {
-      "aa_muts": {}
-    },
-    "NODE_0000045": {
-      "aa_muts": {}
-    },
-    "NODE_0000046": {
-      "aa_muts": {}
-    },
-    "NODE_0000047": {
-      "aa_muts": {}
-    },
-    "NODE_0000048": {
-      "aa_muts": {}
-    },
-    "NODE_0000049": {
-      "aa_muts": {}
-    },
-    "NODE_0000050": {
-      "aa_muts": {}
-    },
-    "NODE_0000051": {
-      "aa_muts": {}
-    },
-    "NODE_0000052": {
-      "aa_muts": {}
-    },
-    "NODE_0000053": {
-      "aa_muts": {}
-    },
-    "NODE_0000054": {
-      "aa_muts": {}
-    },
-    "NODE_0000055": {
-      "aa_muts": {}
-    },
-    "NODE_0000056": {
-      "aa_muts": {}
-    },
-    "NODE_0000057": {
-      "aa_muts": {}
-    },
-    "NODE_0000058": {
-      "aa_muts": {}
-    },
-    "NODE_0000059": {
-      "aa_muts": {}
-    },
-    "NODE_0000060": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "V437I",
+          "R513K"
+        ]
+      }
     },
     "NODE_0000061": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000062": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000063": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000064": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000065": {
-      "aa_muts": {}
-    },
-    "NODE_0000066": {
-      "aa_muts": {}
-    },
-    "NODE_0000067": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000068": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000069": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "I10T",
+          "Q18H",
+          "N140D",
+          "K156N",
+          "A200E",
+          "V216I",
+          "V235I",
+          "M242I",
+          "K293R",
+          "R473K",
+          "T529I",
+          "A544V",
+          "V549M"
+        ]
+      }
     },
     "NODE_0000070": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "E2K",
+          "K3R",
+          "L8F",
+          "S12N",
+          "H44Q",
+          "M82L",
+          "P152S",
+          "S179D",
+          "S233P",
+          "K282R",
+          "V285A",
+          "E286Q",
+          "N325S",
+          "I391V",
+          "D491N"
+        ]
+      }
     },
     "NODE_0000071": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "Q507R"
+        ]
+      }
     },
     "NODE_0000072": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000073": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "G288D"
+        ]
+      }
     },
     "NODE_0000074": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000075": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000076": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000077": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "K205R",
+          "V273I",
+          "S336N"
+        ]
+      }
     },
     "NODE_0000078": {
-      "aa_muts": {}
-    },
-    "NODE_0000079": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "N171D",
+          "D504E"
+        ]
+      }
     },
     "NODE_0000080": {
-      "aa_muts": {}
-    },
-    "NODE_0000081": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "I566V"
+        ]
+      }
     },
     "NODE_0000082": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "L13F",
+          "T52A"
+        ]
+      }
     },
     "NODE_0000083": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000084": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000085": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000086": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "T204M"
+        ]
+      }
     },
     "NODE_0000087": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "T10A",
+          "I11T",
+          "E30K",
+          "D104G",
+          "Q131R",
+          "N136D",
+          "R185Q",
+          "K462R"
+        ]
+      }
     },
     "NODE_0000088": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "L8F",
+          "R339K"
+        ]
+      }
     },
     "NODE_0000089": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "K228R",
+          "I529V"
+        ]
+      }
     },
     "NODE_0000090": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "K205Q"
+        ]
+      }
     },
     "NODE_0000091": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "T11A"
+        ]
+      }
     },
     "NODE_0000092": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "K30E",
+          "N289D"
+        ]
+      }
     },
     "NODE_0000093": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "V5M",
+          "A172S",
+          "V226I"
+        ]
+      }
     },
     "NODE_0000094": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "K30E"
+        ]
+      }
     },
     "NODE_0000095": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000096": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "L6F",
+          "S157P",
+          "K205N"
+        ]
+      }
     },
     "NODE_0000097": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "N492D",
+          "M495I"
+        ]
+      }
     },
     "NODE_0000098": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "K205R"
+        ]
+      }
     },
     "NODE_0000099": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000100": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "T292A"
+        ]
+      }
     },
     "NODE_0000101": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "S179N"
+        ]
+      }
     },
     "NODE_0000102": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "D140N",
+          "N170D",
+          "N418S"
+        ]
+      }
     },
     "NODE_0000103": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000104": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000105": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000106": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000107": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000108": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "L7F"
+        ]
+      }
     },
     "NODE_0000109": {
-      "aa_muts": {}
-    },
-    "NODE_0000110": {
-      "aa_muts": {}
-    },
-    "NODE_0000111": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000112": {
-      "aa_muts": {}
-    },
-    "NODE_0000113": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000114": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000115": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000116": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000117": {
-      "aa_muts": {}
-    },
-    "NODE_0000118": {
-      "aa_muts": {}
-    },
-    "NODE_0000119": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000120": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "S418N"
+        ]
+      }
     },
     "NODE_0000121": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000122": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000123": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000124": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "I11V",
+          "N88S",
+          "K98R",
+          "F111L",
+          "N136S",
+          "A143T",
+          "K156T",
+          "S157P",
+          "N171D",
+          "K178I",
+          "P197S",
+          "D199N",
+          "A201E",
+          "Q208K",
+          "K234Q",
+          "Q338L"
+        ]
+      }
     },
     "NODE_0000125": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "A9S",
+          "I10V",
+          "I130T",
+          "E142-",
+          "L145S",
+          "T156V",
+          "I167T",
+          "I214V",
+          "K250R",
+          "V273I",
+          "K275T",
+          "V285I",
+          "K384R",
+          "N418S",
+          "M548I"
+        ]
+      }
     },
     "NODE_0000126": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "E2D",
+          "L7I",
+          "V14A",
+          "S88R",
+          "R98K",
+          "S139P",
+          "R185S",
+          "S239G"
+        ]
+      }
     },
     "NODE_0000127": {
-      "aa_muts": {}
-    },
-    "NODE_0000128": {
-      "aa_muts": {}
-    },
-    "NODE_0000129": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000130": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "P157A",
+          "I178M",
+          "R185K",
+          "N199S",
+          "A544V"
+        ]
+      }
     },
     "NODE_0000131": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "D70N",
+          "K205D",
+          "S239R"
+        ]
+      }
     },
     "NODE_0000132": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "A99T",
+          "N100D",
+          "N110T",
+          "S136R",
+          "Q154A",
+          "M178K",
+          "T204A",
+          "R224K",
+          "P251R"
+        ]
+      }
     },
     "NODE_0000133": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "I527M"
+        ]
+      }
     },
     "NODE_0000134": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "S144T"
+        ]
+      }
     },
     "NODE_0000135": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "V11F",
+          "S12G",
+          "S16N",
+          "I67V",
+          "Q234R",
+          "A254T"
+        ]
+      }
     },
     "NODE_0000136": {
-      "aa_muts": {}
-    },
-    "NODE_0000137": {
-      "aa_muts": {}
-    },
-    "NODE_0000138": {
-      "aa_muts": {}
-    },
-    "NODE_0000139": {
-      "aa_muts": {}
-    },
-    "NODE_0000140": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "K177R"
+        ]
+      }
     },
     "NODE_0000141": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000142": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "K3N",
+          "S88R",
+          "N110S",
+          "Q131L",
+          "S139P",
+          "K205N",
+          "S239R",
+          "N289H",
+          "I298V",
+          "R341K"
+        ]
+      }
     },
     "NODE_0000143": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "T52A",
+          "I67V",
+          "K69N",
+          "A99T",
+          "N125K",
+          "S179N",
+          "A200E",
+          "D403N",
+          "D504Y"
+        ]
+      }
     },
     "NODE_0000144": {
-      "aa_muts": {}
-    },
-    "NODE_0000145": {
-      "aa_muts": {}
-    },
-    "NODE_0000146": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000147": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000148": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "E284G"
+        ]
+      }
     },
     "NODE_0000149": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "N252D",
+          "V539A",
+          "V549M"
+        ]
+      }
     },
     "NODE_0000150": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "T156A"
+        ]
+      }
     },
     "NODE_0000151": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000152": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "K15N"
+        ]
+      }
     },
     "NODE_0000153": {
-      "aa_muts": {}
-    },
-    "NODE_0000154": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000155": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000156": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "A200V"
+        ]
+      }
     },
     "NODE_0000157": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "L145Q",
+          "T529I"
+        ]
+      }
     },
     "NODE_0000158": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "S520G",
+          "A539V"
+        ]
+      }
     },
     "NODE_0000159": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000160": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "R185Q"
+        ]
+      }
     },
     "NODE_0000161": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000162": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000163": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "A99D"
+        ]
+      }
     },
     "NODE_0000164": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "D99N",
+          "M548I"
+        ]
+      }
     },
     "NODE_0000165": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000166": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000167": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "S16G",
+          "I178M",
+          "I214V",
+          "D252N"
+        ]
+      }
     },
     "NODE_0000168": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "E496A"
+        ]
+      }
     },
     "NODE_0000169": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000170": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "D392N"
+        ]
+      }
     },
     "NODE_0000171": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000172": {
-      "aa_muts": {}
-    },
-    "NODE_0000173": {
-      "aa_muts": {}
-    },
-    "NODE_0000174": {
-      "aa_muts": {}
-    },
-    "NODE_0000175": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000176": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000177": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "S144A"
+        ]
+      }
     },
     "NODE_0000178": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000179": {
-      "aa_muts": {}
-    },
-    "NODE_0000180": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000181": {
-      "aa_muts": {}
-    },
-    "NODE_0000182": {
-      "aa_muts": {}
-    },
-    "NODE_0000183": {
-      "aa_muts": {}
-    },
-    "NODE_0000184": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000185": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000186": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "S136G",
+          "P506S"
+        ]
+      }
     },
     "NODE_0000187": {
-      "aa_muts": {}
-    },
-    "NODE_0000188": {
-      "aa_muts": {}
-    },
-    "NODE_0000189": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000190": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "T204I"
+        ]
+      }
     },
     "NODE_0000191": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000192": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000193": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000194": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000195": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000196": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "S12G"
+        ]
+      }
     },
     "NODE_0000197": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000198": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "M549I"
+        ]
+      }
     },
     "NODE_0000199": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000200": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "S110R",
+          "L131Q",
+          "I133L",
+          "D171N",
+          "T211N",
+          "M242I",
+          "K341R"
+        ]
+      }
     },
     "NODE_0000201": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000202": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "V11C",
+          "S12N",
+          "D171N"
+        ]
+      }
     },
     "NODE_0000203": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000204": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "I204M"
+        ]
+      }
     },
     "NODE_0000205": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "H289N"
+        ]
+      }
     },
     "NODE_0000206": {
-      "aa_muts": {}
-    },
-    "NODE_0000207": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000208": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "A200V"
+        ]
+      }
     },
     "NODE_0000209": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000210": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "A102T",
+          "S136N",
+          "K341R"
+        ]
+      }
     },
     "NODE_0000211": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000212": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "S197P"
+        ]
+      }
     },
     "NODE_0000213": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "N205D"
+        ]
+      }
     },
     "NODE_0000214": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000215": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "R98K"
+        ]
+      }
     },
     "NODE_0000216": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000217": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "G284E"
+        ]
+      }
     },
     "NODE_0000218": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "M549L"
+        ]
+      }
     },
     "NODE_0000219": {
-      "aa_muts": {}
-    },
-    "NODE_0000220": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000221": {
-      "aa_muts": {}
-    },
-    "NODE_0000222": {
-      "aa_muts": {}
-    },
-    "NODE_0000223": {
-      "aa_muts": {}
-    },
-    "NODE_0000224": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "R185Q"
+        ]
+      }
     },
     "NODE_0000225": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000226": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000227": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000228": {
-      "aa_muts": {}
-    },
-    "NODE_0000229": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000230": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "V226I",
+          "I315V"
+        ]
+      }
     },
     "NODE_0000231": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "N170D"
+        ]
+      }
     },
     "NODE_0000232": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "V11I"
+        ]
+      }
     },
     "NODE_0000233": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "D504Y"
+        ]
+      }
     },
     "NODE_0000234": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000235": {
-      "aa_muts": {}
-    },
-    "NODE_0000236": {
-      "aa_muts": {}
-    },
-    "NODE_0000237": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "A99D"
+        ]
+      }
     },
     "NODE_0000238": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "H44Q",
+          "R98K",
+          "L145P",
+          "L338H",
+          "K341R",
+          "-345K",
+          "N463K"
+        ]
+      }
     },
     "NODE_0000239": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "D99N"
+        ]
+      }
     },
     "NODE_0000240": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "I176K"
+        ]
+      }
     },
     "NODE_0000241": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000242": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000243": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000244": {
-      "aa_muts": {}
-    },
-    "NODE_0000245": {
-      "aa_muts": {}
-    },
-    "NODE_0000246": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "I10T"
+        ]
+      }
     },
     "NODE_0000247": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000248": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "V11I"
+        ]
+      }
     },
     "NODE_0000249": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000250": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "M82K",
+          "I178M",
+          "I229M"
+        ]
+      }
     },
     "NODE_0000251": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000252": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000253": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000254": {
-      "aa_muts": {}
-    },
-    "NODE_0000255": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "L7F",
+          "A102T",
+          "S197P",
+          "N205K"
+        ]
+      }
     },
     "NODE_0000256": {
-      "aa_muts": {}
-    },
-    "NODE_0000257": {
-      "aa_muts": {}
-    },
-    "NODE_0000258": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000259": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "A102V",
+          "D170N"
+        ]
+      }
     },
     "NODE_0000260": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000261": {
-      "aa_muts": {}
-    },
-    "NODE_0000262": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000263": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000264": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000265": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000266": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000267": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "V11F",
+          "D170N"
+        ]
+      }
     },
     "NODE_0000268": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "I167V"
+        ]
+      }
     },
     "NODE_0000269": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000270": {
-      "aa_muts": {}
-    },
-    "NODE_0000271": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000272": {
-      "aa_muts": {}
-    },
-    "NODE_0000273": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "V11I"
+        ]
+      }
     },
     "NODE_0000274": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "R185Q"
+        ]
+      }
     },
     "NODE_0000275": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000276": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000277": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000278": {
-      "aa_muts": {}
-    },
-    "NODE_0000279": {
-      "aa_muts": {}
-    },
-    "NODE_0000280": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "T204A",
+          "V226A"
+        ]
+      }
     },
     "NODE_0000281": {
-      "aa_muts": {}
-    },
-    "NODE_0000282": {
-      "aa_muts": {}
-    },
-    "NODE_0000283": {
-      "aa_muts": {}
-    },
-    "NODE_0000284": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "K341R"
+        ]
+      }
     },
     "NODE_0000285": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000286": {
-      "aa_muts": {}
-    },
-    "NODE_0000287": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000288": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "T52A",
+          "N492D"
+        ]
+      }
     },
     "NODE_0000289": {
-      "aa_muts": {}
-    },
-    "NODE_0000290": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000291": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000292": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000293": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000294": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000295": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000296": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000297": {
-      "aa_muts": {}
-    },
-    "NODE_0000298": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000299": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000300": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "V285L"
+        ]
+      }
     },
     "NODE_0000301": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000302": {
-      "aa_muts": {}
-    },
-    "NODE_0000303": {
-      "aa_muts": {}
-    },
-    "NODE_0000304": {
-      "aa_muts": {}
-    },
-    "NODE_0000305": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000306": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "M549I"
+        ]
+      }
     },
     "NODE_0000307": {
-      "aa_muts": {}
-    },
-    "NODE_0000308": {
-      "aa_muts": {}
-    },
-    "NODE_0000309": {
-      "aa_muts": {}
-    },
-    "NODE_0000310": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000311": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000312": {
-      "aa_muts": {}
-    },
-    "NODE_0000313": {
-      "aa_muts": {}
-    },
-    "NODE_0000314": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000315": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000316": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "D171N"
+        ]
+      }
     },
     "NODE_0000317": {
-      "aa_muts": {}
-    },
-    "NODE_0000318": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000319": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000320": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000321": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "I10T"
+        ]
+      }
     },
     "NODE_0000322": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000323": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "K177R",
+          "T292A"
+        ]
+      }
     },
     "NODE_0000324": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000325": {
-      "aa_muts": {}
-    },
-    "NODE_0000326": {
-      "aa_muts": {}
-    },
-    "NODE_0000327": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000328": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000329": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "S520N"
+        ]
+      }
     },
     "NODE_0000330": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000331": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "A99D"
+        ]
+      }
     },
     "NODE_0000332": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "P152S"
+        ]
+      }
     },
     "NODE_0000333": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000334": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000335": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000336": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "L66M",
+          "M548I"
+        ]
+      }
     },
     "NODE_0000337": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "I549M"
+        ]
+      }
     },
     "NODE_0000338": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "V5I",
+          "R473K"
+        ]
+      }
     },
     "NODE_0000339": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000340": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000341": {
-      "aa_muts": {}
-    },
-    "NODE_0000342": {
-      "aa_muts": {}
-    },
-    "NODE_0000343": {
-      "aa_muts": {}
-    },
-    "NODE_0000344": {
-      "aa_muts": {}
-    },
-    "NODE_0000345": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000346": {
-      "aa_muts": {}
-    },
-    "NODE_0000347": {
-      "aa_muts": {}
-    },
-    "NODE_0000348": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000349": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "T211A"
+        ]
+      }
     },
     "NODE_0000350": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000351": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000352": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000353": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000354": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "A539V"
+        ]
+      }
     },
     "NODE_0000355": {
-      "aa_muts": {}
-    },
-    "NODE_0000356": {
-      "aa_muts": {}
-    },
-    "NODE_0000357": {
-      "aa_muts": {}
-    },
-    "NODE_0000358": {
-      "aa_muts": {}
-    },
-    "NODE_0000359": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000360": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000361": {
-      "aa_muts": {}
-    },
-    "NODE_0000362": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000363": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000364": {
-      "aa_muts": {}
-    },
-    "NODE_0000365": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000366": {
-      "aa_muts": {}
-    },
-    "NODE_0000367": {
-      "aa_muts": {}
-    },
-    "NODE_0000368": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000369": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "D171N"
+        ]
+      }
     },
     "NODE_0000370": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000371": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000372": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "L514S"
+        ]
+      }
     },
     "NODE_0000373": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000374": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000375": {
-      "aa_muts": {}
-    },
-    "NODE_0000376": {
-      "aa_muts": {}
-    },
-    "NODE_0000377": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000378": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000379": {
-      "aa_muts": {}
-    },
-    "NODE_0000380": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "R343S"
+        ]
+      }
     },
     "NODE_0000381": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "K389R"
+        ]
+      }
     },
     "NODE_0000382": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000383": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000384": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "I130T",
+          "N205K"
+        ]
+      }
     },
     "NODE_0000385": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000386": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "N3D",
+          "L13I"
+        ]
+      }
     },
     "NODE_0000387": {
-      "aa_muts": {}
-    },
-    "NODE_0000388": {
-      "aa_muts": {}
-    },
-    "NODE_0000389": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000390": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000391": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000392": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "N100I",
+          "E286K",
+          "Q507H"
+        ]
+      }
     },
     "NODE_0000393": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000394": {
-      "aa_muts": {}
-    },
-    "NODE_0000395": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000396": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000397": {
-      "aa_muts": {}
-    },
-    "NODE_0000398": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000399": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000400": {
-      "aa_muts": {}
-    },
-    "NODE_0000401": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000402": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000403": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000404": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000405": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "Q507H"
+        ]
+      }
     },
     "NODE_0000406": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000407": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "K341X",
+          "R342-",
+          "R343-",
+          "K344-",
+          "-345X",
+          "*569X"
+        ]
+      }
     },
     "NODE_0000408": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000409": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "R88G",
+          "D104G"
+        ]
+      }
     },
     "NODE_0000410": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000411": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000412": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000413": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000414": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000415": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000416": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000417": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "S561W"
+        ]
+      }
     },
     "NODE_0000418": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "NODE_0000419": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
-    "OP888702.1": {
-      "aa_muts": {}
+    "NODE_0000420": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000421": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000423": {
+      "aa_muts": {
+        "HA": [
+          "A172S"
+        ]
+      }
+    },
+    "NODE_0000424": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000425": {
+      "aa_muts": {
+        "HA": [
+          "V5A",
+          "L60I",
+          "R185Q"
+        ]
+      }
+    },
+    "NODE_0000426": {
+      "aa_muts": {
+        "HA": [
+          "L166P"
+        ]
+      }
+    },
+    "NODE_0000427": {
+      "aa_muts": {
+        "HA": [
+          "V147M"
+        ]
+      }
+    },
+    "NODE_0000428": {
+      "aa_muts": {
+        "HA": [
+          "S12N"
+        ]
+      }
+    },
+    "NODE_0000429": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000431": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000432": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000433": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000434": {
+      "aa_muts": {
+        "HA": [
+          "A9T"
+        ]
+      }
+    },
+    "NODE_0000435": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000436": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000437": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000438": {
+      "aa_muts": {
+        "HA": [
+          "L120M",
+          "V226A",
+          "I527V"
+        ]
+      }
+    },
+    "NODE_0000439": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000440": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000441": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000442": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000443": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000444": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000445": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000446": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000447": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000448": {
+      "aa_muts": {
+        "HA": [
+          "V11I"
+        ]
+      }
+    },
+    "NODE_0000449": {
+      "aa_muts": {
+        "HA": [
+          "K177R",
+          "N199S"
+        ]
+      }
+    },
+    "NODE_0000450": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000451": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000452": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000453": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000454": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000455": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000456": {
+      "aa_muts": {
+        "HA": [
+          "K341R"
+        ]
+      }
+    },
+    "NODE_0000457": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000458": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000459": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000461": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000462": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000463": {
+      "aa_muts": {
+        "HA": [
+          "L131Q"
+        ]
+      }
+    },
+    "NODE_0000464": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000465": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000466": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000467": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000468": {
+      "aa_muts": {
+        "HA": [
+          "V285M"
+        ]
+      }
+    },
+    "NODE_0000469": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000470": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000471": {
+      "aa_muts": {
+        "HA": [
+          "T211I"
+        ]
+      }
+    },
+    "NODE_0000472": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000473": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000474": {
+      "aa_muts": {
+        "HA": [
+          "L479M"
+        ]
+      }
+    },
+    "NODE_0000475": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000476": {
+      "aa_muts": {
+        "HA": [
+          "A99S"
+        ]
+      }
+    },
+    "NODE_0000477": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000478": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000479": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000480": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000481": {
+      "aa_muts": {
+        "HA": [
+          "R343-",
+          "K344-",
+          "R346-"
+        ]
+      }
+    },
+    "NODE_0000482": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000483": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000484": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000485": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000486": {
+      "aa_muts": {
+        "HA": [
+          "D104G",
+          "S336N"
+        ]
+      }
+    },
+    "NODE_0000487": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000488": {
+      "aa_muts": {
+        "HA": [
+          "V147M"
+        ]
+      }
+    },
+    "NODE_0000489": {
+      "aa_muts": {
+        "HA": [
+          "E2K"
+        ]
+      }
+    },
+    "NODE_0000490": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000491": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000492": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000493": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000494": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000495": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000496": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000499": {
+      "aa_muts": {
+        "HA": [
+          "R421K"
+        ]
+      }
+    },
+    "NODE_0000500": {
+      "aa_muts": {
+        "HA": [
+          "K177Q"
+        ]
+      }
+    },
+    "NODE_0000502": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000504": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000505": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000506": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000509": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000511": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000512": {
+      "aa_muts": {
+        "HA": [
+          "V468I"
+        ]
+      }
+    },
+    "NODE_0000513": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000514": {
+      "aa_muts": {
+        "HA": [
+          "Q507R"
+        ]
+      }
+    },
+    "NODE_0000515": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000516": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000517": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000518": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000519": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000520": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000525": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000526": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000527": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000528": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000533": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000534": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000536": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000537": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000538": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000539": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000540": {
+      "aa_muts": {
+        "HA": [
+          "V14A",
+          "Q234K"
+        ]
+      }
+    },
+    "NODE_0000541": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000542": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000543": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000544": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000545": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000546": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000547": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000548": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000549": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000550": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000553": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000555": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000556": {
+      "aa_muts": {
+        "HA": [
+          "P157A"
+        ]
+      }
+    },
+    "NODE_0000558": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000559": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000560": {
+      "aa_muts": {
+        "HA": [
+          "H289N"
+        ]
+      }
+    },
+    "NODE_0000562": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000567": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000568": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000569": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000570": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000571": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000572": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000573": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000574": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000576": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000578": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000579": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000580": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000581": {
+      "aa_muts": {
+        "HA": [
+          "M242I",
+          "R343K"
+        ]
+      }
+    },
+    "NODE_0000582": {
+      "aa_muts": {
+        "HA": [
+          "D504Y"
+        ]
+      }
+    },
+    "NODE_0000583": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000587": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000588": {
+      "aa_muts": {
+        "HA": [
+          "Y153H"
+        ]
+      }
+    },
+    "NODE_0000591": {
+      "aa_muts": {
+        "HA": [
+          "D104G"
+        ]
+      }
+    },
+    "NODE_0000592": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000593": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000594": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000595": {
+      "aa_muts": {
+        "HA": [
+          "S304N"
+        ]
+      }
+    },
+    "NODE_0000596": {
+      "aa_muts": {
+        "HA": [
+          "S16G"
+        ]
+      }
+    },
+    "NODE_0000598": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000599": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000603": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000608": {
+      "aa_muts": {
+        "HA": [
+          "G284E"
+        ]
+      }
+    },
+    "NODE_0000609": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000610": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000614": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000616": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000618": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000619": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000620": {
+      "aa_muts": {
+        "HA": [
+          "L7F"
+        ]
+      }
+    },
+    "NODE_0000621": {
+      "aa_muts": {
+        "HA": [
+          "V5A"
+        ]
+      }
+    },
+    "NODE_0000623": {
+      "aa_muts": {
+        "HA": [
+          "K477R"
+        ]
+      }
+    },
+    "NODE_0000624": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000625": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000627": {
+      "aa_muts": {
+        "HA": [
+          "V11L"
+        ]
+      }
+    },
+    "NODE_0000629": {
+      "aa_muts": {
+        "HA": [
+          "R224K",
+          "S336N"
+        ]
+      }
+    },
+    "NODE_0000630": {
+      "aa_muts": {
+        "HA": [
+          "T52A"
+        ]
+      }
+    },
+    "NODE_0000631": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000632": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000633": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000637": {
+      "aa_muts": {
+        "HA": [
+          "P157S"
+        ]
+      }
+    },
+    "NODE_0000638": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000639": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000640": {
+      "aa_muts": {
+        "HA": [
+          "A99S"
+        ]
+      }
+    },
+    "NODE_0000641": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000642": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000643": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000644": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000645": {
+      "aa_muts": {
+        "HA": [
+          "Y153H"
+        ]
+      }
+    },
+    "NODE_0000646": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000647": {
+      "aa_muts": {
+        "HA": [
+          "I352K"
+        ]
+      }
+    },
+    "NODE_0000648": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000649": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000650": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000651": {
+      "aa_muts": {
+        "HA": [
+          "N205K",
+          "K293R"
+        ]
+      }
+    },
+    "NODE_0000652": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000654": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000655": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000656": {
+      "aa_muts": {
+        "HA": [
+          "I310V"
+        ]
+      }
+    },
+    "NODE_0000658": {
+      "aa_muts": {
+        "HA": [
+          "H289R"
+        ]
+      }
+    },
+    "NODE_0000659": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000661": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000662": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000663": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000664": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000665": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000666": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000667": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000668": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000669": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000670": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000671": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000672": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000673": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000674": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000675": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000676": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000677": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000678": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000679": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000680": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000681": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000682": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000683": {
+      "aa_muts": {
+        "HA": [
+          "E201K"
+        ]
+      }
+    },
+    "NODE_0000684": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000685": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000686": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000687": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000688": {
+      "aa_muts": {
+        "HA": [
+          "V5I"
+        ]
+      }
+    },
+    "NODE_0000689": {
+      "aa_muts": {
+        "HA": [
+          "A9T"
+        ]
+      }
+    },
+    "NODE_0000690": {
+      "aa_muts": {
+        "HA": [
+          "N140K"
+        ]
+      }
+    },
+    "NODE_0000691": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000692": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000693": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000694": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000695": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000696": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000697": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000698": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000699": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000700": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000701": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000702": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000703": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000704": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000705": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000706": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000707": {
+      "aa_muts": {
+        "HA": [
+          "V328I"
+        ]
+      }
+    },
+    "NODE_0000708": {
+      "aa_muts": {
+        "HA": [
+          "P139Q"
+        ]
+      }
+    },
+    "NODE_0000709": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000714": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000717": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000718": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000719": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000720": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000721": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000722": {
+      "aa_muts": {
+        "HA": [
+          "H371R"
+        ]
+      }
+    },
+    "NODE_0000723": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000724": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000725": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000729": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000730": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000731": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000732": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000735": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000738": {
+      "aa_muts": {
+        "HA": [
+          "I352V"
+        ]
+      }
+    },
+    "NODE_0000739": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000740": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000741": {
+      "aa_muts": {
+        "HA": [
+          "Q18H"
+        ]
+      }
+    },
+    "NODE_0000742": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000743": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000744": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000745": {
+      "aa_muts": {
+        "HA": [
+          "N205K"
+        ]
+      }
+    },
+    "NODE_0000746": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000747": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000748": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000750": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000765": {
+      "aa_muts": {
+        "HA": [
+          "A99T"
+        ]
+      }
+    },
+    "NODE_0000767": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000771": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000777": {
+      "aa_muts": {
+        "HA": [
+          "I423L"
+        ]
+      }
+    },
+    "NODE_0000779": {
+      "aa_muts": {
+        "HA": [
+          "D171N"
+        ]
+      }
+    },
+    "NODE_0000782": {
+      "aa_muts": {
+        "HA": [
+          "S304N"
+        ]
+      }
+    },
+    "NODE_0000783": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000784": {
+      "aa_muts": {
+        "HA": [
+          "M549I"
+        ]
+      }
+    },
+    "NODE_0000791": {
+      "aa_muts": {
+        "HA": [
+          "P152S"
+        ]
+      }
+    },
+    "NODE_0000796": {
+      "aa_muts": {
+        "HA": [
+          "V298I"
+        ]
+      }
+    },
+    "NODE_0000798": {
+      "aa_muts": {
+        "HA": [
+          "N205K"
+        ]
+      }
+    },
+    "NODE_0000799": {
+      "aa_muts": {
+        "HA": [
+          "E30K"
+        ]
+      }
+    },
+    "NODE_0000803": {
+      "aa_muts": {
+        "HA": [
+          "S304N"
+        ]
+      }
+    },
+    "NODE_0000806": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000807": {
+      "aa_muts": {
+        "HA": [
+          "E201K"
+        ]
+      }
+    },
+    "NODE_0000808": {
+      "aa_muts": {
+        "HA": [
+          "T529I"
+        ]
+      }
+    },
+    "NODE_0000809": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000815": {
+      "aa_muts": {
+        "HA": [
+          "E201K"
+        ]
+      }
+    },
+    "NODE_0000818": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000819": {
+      "aa_muts": {
+        "HA": [
+          "A230T",
+          "D252N"
+        ]
+      }
+    },
+    "NODE_0000820": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000825": {
+      "aa_muts": {
+        "HA": [
+          "M549L"
+        ]
+      }
+    },
+    "NODE_0000826": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000830": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000831": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000833": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000834": {
+      "aa_muts": {
+        "HA": [
+          "K64R",
+          "G284E"
+        ]
+      }
+    },
+    "NODE_0000844": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000845": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000848": {
+      "aa_muts": {
+        "HA": [
+          "K477R"
+        ]
+      }
+    },
+    "NODE_0000849": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000854": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000856": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000857": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000859": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000861": {
+      "aa_muts": {
+        "HA": [
+          "A149S"
+        ]
+      }
+    },
+    "NODE_0000867": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000869": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000874": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000875": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000892": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "OK022463.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "OK022479.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "OK022503.1": {
+      "aa_muts": {
+        "HA": [
+          "P139Q"
+        ]
+      }
+    },
+    "OK022519.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "OK022535.1": {
+      "aa_muts": {
+        "HA": [
+          "A99D",
+          "I190L"
+        ]
+      }
+    },
+    "OK022543.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "OK022559.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "OK022599.1": {
+      "aa_muts": {
+        "HA": [
+          "I178M"
+        ]
+      }
+    },
+    "OK022607.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "OL311387.1": {
+      "aa_muts": {
+        "HA": [
+          "V5M",
+          "S12G",
+          "N110S",
+          "I130V",
+          "D136E",
+          "D140E",
+          "A143V",
+          "S157P",
+          "A172T",
+          "D199N",
+          "K205N",
+          "K250N",
+          "N418R",
+          "L479M",
+          "A512S",
+          "S526P"
+        ]
+      }
+    },
+    "OL353696.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "OL354982.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "OL366043.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "OL442766.1": {
+      "aa_muts": {
+        "HA": [
+          "D252N"
+        ]
+      }
+    },
+    "OL477469.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "OL477524.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "OL519551.1": {
+      "aa_muts": {
+        "HA": [
+          "S197P",
+          "N205K",
+          "E493K"
+        ]
+      }
+    },
+    "OL636392.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "OL638145.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "OM755583.1": {
+      "aa_muts": {
+        "HA": [
+          "N12F",
+          "L145Q",
+          "R224K"
+        ]
+      }
+    },
+    "OM755584.1": {
+      "aa_muts": {
+        "HA": [
+          "D252N",
+          "V285M",
+          "M549V"
+        ]
+      }
+    },
+    "OM755625.1": {
+      "aa_muts": {
+        "HA": [
+          "S283M",
+          "E284K"
+        ]
+      }
+    },
+    "OM755626.1": {
+      "aa_muts": {
+        "HA": [
+          "E115K"
+        ]
+      }
+    },
+    "OM755627.1": {
+      "aa_muts": {
+        "HA": [
+          "R161K"
+        ]
+      }
+    },
+    "OM755628.1": {
+      "aa_muts": {
+        "HA": [
+          "A154T"
+        ]
+      }
+    },
+    "OM755629.1": {
+      "aa_muts": {
+        "HA": [
+          "S145A"
+        ]
+      }
+    },
+    "OM868039.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "OM912782.1": {
+      "aa_muts": {
+        "HA": [
+          "I167V",
+          "N184Y",
+          "T529I"
+        ]
+      }
+    },
+    "OM943962.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "OM943963.1": {
+      "aa_muts": {
+        "HA": [
+          "E201K",
+          "N460K"
+        ]
+      }
+    },
+    "OM943964.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "OM943969.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "OM943970.1": {
+      "aa_muts": {
+        "HA": [
+          "G413E"
+        ]
+      }
+    },
+    "OM943974.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "OM943980.1": {
+      "aa_muts": {
+        "HA": [
+          "G413E"
+        ]
+      }
+    },
+    "OM943982.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "ON024719.1": {
+      "aa_muts": {
+        "HA": [
+          "P139T",
+          "I229M"
+        ]
+      }
+    },
+    "ON024720.1": {
+      "aa_muts": {
+        "HA": [
+          "D252N",
+          "V285M",
+          "V298L",
+          "S336N"
+        ]
+      }
+    },
+    "ON024721.1": {
+      "aa_muts": {
+        "HA": [
+          "Q46K",
+          "D70N",
+          "L145R"
+        ]
+      }
+    },
+    "ON024722.1": {
+      "aa_muts": {
+        "HA": [
+          "T529N"
+        ]
+      }
+    },
+    "ON024725.1": {
+      "aa_muts": {
+        "HA": [
+          "S373R"
+        ]
+      }
+    },
+    "ON430504.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "ON716427.1": {
+      "aa_muts": {
+        "HA": [
+          "I352K"
+        ]
+      }
+    },
+    "ON716428.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "ON716429.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "ON716430.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "ON716431.1": {
+      "aa_muts": {
+        "HA": [
+          "E286K",
+          "N325S"
+        ]
+      }
+    },
+    "ON739168.1": {
+      "aa_muts": {
+        "HA": [
+          "A99D",
+          "T175I",
+          "N199S",
+          "M495I"
+        ]
+      }
+    },
+    "ON847347.1": {
+      "aa_muts": {
+        "HA": [
+          "D70N",
+          "V285M",
+          "V322L"
+        ]
+      }
+    },
+    "ON862696.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "ON862704.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "ON862712.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "ON862720.1": {
+      "aa_muts": {
+        "HA": [
+          "S12N"
+        ]
+      }
+    },
+    "ON870413.1": {
+      "aa_muts": {
+        "HA": [
+          "A540V"
+        ]
+      }
+    },
+    "ON870420.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "ON870427.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "ON870434.1": {
+      "aa_muts": {
+        "HA": [
+          "D104G"
+        ]
+      }
+    },
+    "ON870441.1": {
+      "aa_muts": {
+        "HA": [
+          "L131M",
+          "S197P",
+          "V328I"
+        ]
+      }
+    },
+    "ON974725.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "ON974881.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "ON974882.1": {
+      "aa_muts": {
+        "HA": [
+          "T204A"
+        ]
+      }
+    },
+    "ON974883.1": {
+      "aa_muts": {
+        "HA": [
+          "V226A"
+        ]
+      }
+    },
+    "ON974889.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "ON974893.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "ON974895.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "OP023550.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "OP023585.1": {
+      "aa_muts": {
+        "HA": [
+          "G22C",
+          "I132V"
+        ]
+      }
+    },
+    "OP023601.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "OP023638.1": {
+      "aa_muts": {
+        "HA": [
+          "D170E"
+        ]
+      }
+    },
+    "OP023710.1": {
+      "aa_muts": {
+        "HA": [
+          "S418R"
+        ]
+      }
+    },
+    "OP023753.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "OP023848.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "OP023915.1": {
+      "aa_muts": {
+        "HA": [
+          "V544A"
+        ]
+      }
+    },
+    "OP023944.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "OP209769.1": {
+      "aa_muts": {
+        "HA": [
+          "L6F",
+          "S378N"
+        ]
+      }
+    },
+    "OP278667.1": {
+      "aa_muts": {
+        "HA": [
+          "D252N",
+          "S336N",
+          "R473K"
+        ]
+      }
+    },
+    "OP413046.1": {
+      "aa_muts": {
+        "HA": [
+          "V147M",
+          "E449G",
+          "D474N",
+          "N492I",
+          "E493G",
+          "E518Q",
+          "E525D",
+          "T538P"
+        ]
+      }
+    },
+    "OP413048.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "OP590517.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "OP597554.1": {
+      "aa_muts": {
+        "HA": [
+          "E340K"
+        ]
+      }
+    },
+    "OP597562.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "OP597570.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "OP597578.1": {
+      "aa_muts": {
+        "HA": [
+          "P152S",
+          "P210L",
+          "V298I"
+        ]
+      }
+    },
+    "OP597594.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "OP597602.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "OP597612.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "OP597620.1": {
+      "aa_muts": {
+        "HA": [
+          "I391V"
+        ]
+      }
+    },
+    "OP597628.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "OP597636.1": {
+      "aa_muts": {
+        "HA": [
+          "E201K"
+        ]
+      }
+    },
+    "OP691324.1": {
+      "aa_muts": {
+        "HA": [
+          "G284E"
+        ]
+      }
+    },
+    "OP776802.1": {
+      "aa_muts": {
+        "HA": [
+          "A102V",
+          "E201K",
+          "I352K",
+          "T529I"
+        ]
+      }
+    },
+    "OP828913.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "OP874615.1": {
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OP950297.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OP950305.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "OQ067817.1": {
+      "aa_muts": {
+        "HA": [
+          "I130T",
+          "P152S",
+          "I214V",
+          "M305L"
+        ]
+      }
+    },
+    "OQ291577.1": {
+      "aa_muts": {
+        "HA": [
+          "S12N",
+          "D59N",
+          "A99V",
+          "P152S",
+          "N289H",
+          "S418N"
+        ]
+      }
     },
     "OQ352548.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OQ352556.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "OQ380623.1": {
+      "aa_muts": {
+        "HA": [
+          "V147M"
+        ]
+      }
     },
     "OQ455396.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OQ455401.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OQ455410.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OQ455416.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OQ455422.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OQ455437.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OQ455442.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OQ455458.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OQ455466.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OQ458189.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OQ547312.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OQ547319.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OQ547327.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OQ547335.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OQ547343.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OQ547351.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OQ547359.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OQ547367.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OQ547375.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OQ547383.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OQ547391.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OQ547399.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OQ547407.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OQ547415.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OQ547423.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OQ547431.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "I310V",
+          "E340G"
+        ]
+      }
     },
     "OQ547439.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OQ547447.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OQ550426.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OQ550434.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "Q18K",
+          "I67S"
+        ]
+      }
     },
     "OQ550442.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OQ550450.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OQ550458.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OQ550466.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OQ550474.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "A512S"
+        ]
+      }
     },
     "OQ565628.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "OQ632819.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "OQ632821.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "OQ632822.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "OQ632827.1": {
+      "aa_muts": {
+        "HA": [
+          "S509T"
+        ]
+      }
+    },
+    "OQ632828.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "OQ632830.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "OQ632831.1": {
+      "aa_muts": {
+        "HA": [
+          "I10T",
+          "E510G"
+        ]
+      }
+    },
+    "OQ632833.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "OQ632834.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "OQ632835.1": {
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OQ683458.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OQ683466.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OQ683474.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "N205K"
+        ]
+      }
     },
     "OQ683482.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "D171E"
+        ]
+      }
     },
     "OQ683490.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "I10M",
+          "P152S",
+          "A230V"
+        ]
+      }
     },
     "OQ683498.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "OQ711838.1": {
+      "aa_muts": {
+        "HA": [
+          "I167V"
+        ]
+      }
     },
     "OQ747758.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OQ747759.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OQ747760.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OQ747761.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OQ747762.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OQ747763.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "N3K",
+          "C83R",
+          "E85D",
+          "F86I",
+          "I87F",
+          "T143A",
+          "L145S",
+          "A149S",
+          "Q154H",
+          "A156R",
+          "P157S",
+          "R346G",
+          "V437I"
+        ]
+      }
+    },
+    "OQ789275.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "OQ804411.1": {
+      "aa_muts": {
+        "HA": [
+          "T204I",
+          "M548I"
+        ]
+      }
     },
     "OQ832505.2": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "A9V"
+        ]
+      }
+    },
+    "OQ920204.1": {
+      "aa_muts": {
+        "HA": [
+          "N199S"
+        ]
+      }
     },
     "OQ925704.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OQ925711.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OQ925717.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "N222K"
+        ]
+      }
     },
     "OQ925725.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "OQ933410.1": {
+      "aa_muts": {
+        "HA": [
+          "A230T",
+          "N418K"
+        ]
+      }
+    },
+    "OQ957756.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "OQ958044.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "OQ959796.1": {
+      "aa_muts": {
+        "HA": [
+          "M305L"
+        ]
+      }
+    },
+    "OQ960204.1": {
+      "aa_muts": {
+        "HA": [
+          "I87T"
+        ]
+      }
+    },
+    "OQ961700.1": {
+      "aa_muts": {
+        "HA": [
+          "L338Q"
+        ]
+      }
+    },
+    "OQ963828.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "OQ965108.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "OQ966668.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "OR048361.1": {
+      "aa_muts": {
+        "HA": [
+          "N335H"
+        ]
+      }
+    },
+    "OR048713.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "OR048729.1": {
+      "aa_muts": {
+        "HA": [
+          "T156A"
+        ]
+      }
+    },
+    "OR105058.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "OR105066.1": {
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR125135.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "Q154L"
+        ]
+      }
     },
     "OR125141.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR125155.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR125162.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR125175.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR125180.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR125188.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR125201.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR125209.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR125214.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR125219.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR125233.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR125238.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR125244.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR125250.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR125255.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR125262.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR125269.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR125279.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR125285.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR125292.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR125296.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "A539V"
+        ]
+      }
     },
     "OR125301.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "K323R"
+        ]
+      }
     },
     "OR125307.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "T231N"
+        ]
+      }
     },
     "OR125312.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR125319.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR125322.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR125328.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR125334.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR125340.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR125345.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR125351.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR125356.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR125361.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR125370.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "S526P"
+        ]
+      }
     },
     "OR125384.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR125390.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR125399.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR125407.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR125415.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR125420.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR125426.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR125433.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR125440.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR125446.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR125452.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR125458.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "A99D"
+        ]
+      }
     },
     "OR125463.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR125471.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR125482.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR125489.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR125495.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR125499.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR125503.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR265539.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "D252N"
+        ]
+      }
     },
     "OR265542.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR265549.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "T331I"
+        ]
+      }
     },
     "OR265569.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR265573.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR265587.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR265608.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR265639.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR268564.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR268570.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR268598.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR269134.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR269259.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR269264.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR269268.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR269887.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "OR349633.1": {
+      "aa_muts": {
+        "HA": [
+          "N3K",
+          "I214V",
+          "A512S"
+        ]
+      }
     },
     "OR381588.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "K64R"
+        ]
+      }
     },
     "OR381596.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR381604.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR381612.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR381620.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR381627.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR381636.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR381644.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR381652.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "V11A",
+          "K69Q",
+          "R88K",
+          "I402V"
+        ]
+      }
     },
     "OR381660.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR381668.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR381676.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "OR388761.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "OR388762.1": {
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR420092.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "Q531L"
+        ]
+      }
+    },
+    "OR435469.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "OR435476.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "OR435522.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "OR435553.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "OR435560.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "OR435623.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "OR435638.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "OR467024.1": {
+      "aa_muts": {
+        "HA": [
+          "S336N",
+          "I391V"
+        ]
+      }
+    },
+    "OR467199.1": {
+      "aa_muts": {
+        "HA": [
+          "R131Q"
+        ]
+      }
+    },
+    "OR467222.1": {
+      "aa_muts": {
+        "HA": [
+          "A102V"
+        ]
+      }
+    },
+    "OR539347.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "OR539355.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "OR539363.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "OR539371.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "OR539379.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "OR539387.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "OR539395.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "OR539403.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "OR539411.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "OR539419.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "OR539427.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "OR539435.1": {
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR591549.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR591550.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR591551.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "OR632212.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "OR632220.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "OR646646.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "OR646660.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "OR664443.1": {
+      "aa_muts": {
+        "HA": [
+          "N110D",
+          "I527M"
+        ]
+      }
+    },
+    "OR664573.1": {
+      "aa_muts": {
+        "HA": [
+          "D170G",
+          "S233P",
+          "F245Y",
+          "E284G"
+        ]
+      }
+    },
+    "OR664580.1": {
+      "aa_muts": {
+        "HA": [
+          "V5M",
+          "I87T",
+          "I194V",
+          "M549T"
+        ]
+      }
+    },
+    "OR772987.1": {
+      "aa_muts": {
+        "HA": [
+          "A143S",
+          "T211I"
+        ]
+      }
+    },
+    "OR772989.1": {
+      "aa_muts": {
+        "HA": [
+          "R513K"
+        ]
+      }
+    },
+    "OR772992.1": {
+      "aa_muts": {
+        "HA": [
+          "N171H",
+          "I216V"
+        ]
+      }
+    },
+    "OR772994.1": {
+      "aa_muts": {
+        "HA": [
+          "S179G",
+          "N302D",
+          "V522I"
+        ]
+      }
+    },
+    "OR772995.1": {
+      "aa_muts": {
+        "HA": [
+          "I352K"
+        ]
+      }
+    },
+    "OR773000.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "OR777116.1": {
+      "aa_muts": {
+        "HA": [
+          "N61D",
+          "P152S",
+          "N156Q",
+          "I352K"
+        ]
+      }
+    },
+    "OR777118.1": {
+      "aa_muts": {
+        "HA": [
+          "I67V"
+        ]
+      }
+    },
+    "OR777121.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "OR777123.1": {
+      "aa_muts": {
+        "HA": [
+          "S336G"
+        ]
+      }
+    },
+    "OR777129.1": {
+      "aa_muts": {
+        "HA": [
+          "I214V"
+        ]
+      }
+    },
+    "OR777132.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "OR783329.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "OR783336.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "OR783378.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "OR783400.1": {
+      "aa_muts": {
+        "HA": [
+          "V364I"
+        ]
+      }
+    },
+    "OR783406.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "OR783436.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "OR783452.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "OR801077.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "OR801085.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "OR801093.1": {
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR839997.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "V216D",
+          "S558A"
+        ]
+      }
     },
     "OR844540.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "G528V",
+          "T529N",
+          "S541R",
+          "L543I",
+          "A544E",
+          "A550S",
+          "L554V"
+        ]
+      }
     },
     "OR852415.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "N209H",
+          "L225M"
+        ]
+      }
     },
     "OR853704.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR853751.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR857851.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "D104G"
+        ]
+      }
     },
     "OR860361.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "Q234H"
+        ]
+      }
     },
     "OR878088.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR881253.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "K69Q",
+          "L225M",
+          "G237E",
+          "I248L",
+          "S259C",
+          "D277Y",
+          "V285E",
+          "V298L",
+          "G316E",
+          "S324T",
+          "S336R",
+          "E493D"
+        ]
+      }
     },
     "OR889491.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR910145.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "N205K",
+          "G284R"
+        ]
+      }
     },
     "OR910153.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR910159.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR910164.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR910172.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "N418K"
+        ]
+      }
     },
     "OR910178.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR910186.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR910192.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR910199.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "E201K"
+        ]
+      }
     },
     "OR910205.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR910217.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR910223.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR910231.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR910238.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR910243.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR910248.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR910254.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR910261.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR910268.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR910275.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "A99D"
+        ]
+      }
     },
     "OR910282.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR910289.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR910295.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR910301.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR910308.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR910318.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR910325.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR910331.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR910346.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR910353.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR910361.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR910366.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR910371.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR910378.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "S520N"
+        ]
+      }
     },
     "OR910384.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "V522M"
+        ]
+      }
     },
     "OR910389.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR910396.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR910404.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "E493G"
+        ]
+      }
     },
     "OR910409.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR910415.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR910419.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR910425.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR910430.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "L8I",
+          "Y153H"
+        ]
+      }
     },
     "OR910435.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR910442.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR910447.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR910453.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR910460.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR910468.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR910474.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR910477.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "Q131K",
+          "L338I"
+        ]
+      }
     },
     "OR910481.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR910487.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR910495.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "S304N"
+        ]
+      }
     },
     "OR910502.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR910509.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR910515.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR910521.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR910528.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR912282.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR912283.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR912284.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR912285.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR912286.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR912287.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR912288.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR912289.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR912290.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "D113N"
+        ]
+      }
     },
     "OR912291.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR912292.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "G288D"
+        ]
+      }
     },
     "OR912293.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR912294.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "R516K"
+        ]
+      }
     },
     "OR912295.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "T395N"
+        ]
+      }
     },
     "OR912354.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR912362.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR960975.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR960980.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR960985.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR960992.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR960998.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "S304N"
+        ]
+      }
     },
     "OR961005.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "S526T"
+        ]
+      }
     },
     "OR961011.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR961083.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR961095.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR961102.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR961108.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR979599.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "A99T"
+        ]
+      }
     },
     "OR979619.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR979626.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR987084.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR987092.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR987100.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR987108.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "OR987116.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "S144I",
+          "L145I",
+          "L249V",
+          "I352K"
+        ]
+      }
     },
     "OR987124.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PP031948.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PP031949.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PP031950.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PP031951.1": {
+      "aa_muts": {
+        "HA": [
+          "D113N",
+          "V163L",
+          "N463K"
+        ]
+      }
+    },
+    "PP031952.1": {
+      "aa_muts": {
+        "HA": [
+          "V412I"
+        ]
+      }
+    },
+    "PP068549.1": {
+      "aa_muts": {
+        "HA": []
+      }
     },
     "PP094671.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "PP094679.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PP150341.1": {
+      "aa_muts": {
+        "HA": [
+          "K169E",
+          "N170L",
+          "A300L",
+          "H311Y"
+        ]
+      }
+    },
+    "PP191104.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PP191105.1": {
+      "aa_muts": {
+        "HA": [
+          "D104G",
+          "T211I",
+          "G284R"
+        ]
+      }
+    },
+    "PP191106.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PP191107.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PP191108.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PP191109.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PP191110.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PP267965.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PP340458.1": {
+      "aa_muts": {
+        "HA": [
+          "I130V",
+          "L206I",
+          "K293R",
+          "R339K"
+        ]
+      }
+    },
+    "PP346196.1": {
+      "aa_muts": {
+        "HA": [
+          "K250N",
+          "H372R",
+          "Q388P",
+          "V446G"
+        ]
+      }
+    },
+    "PP348118.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PP348169.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PP348220.1": {
+      "aa_muts": {
+        "HA": [
+          "A230V",
+          "M548I"
+        ]
+      }
+    },
+    "PP348272.1": {
+      "aa_muts": {
+        "HA": [
+          "D47N"
+        ]
+      }
+    },
+    "PP348305.1": {
+      "aa_muts": {
+        "HA": []
+      }
     },
     "PP378130.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "PP386940.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "N3T",
+          "I4V",
+          "A390T"
+        ]
+      }
     },
     "PP390166.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "Q531L"
+        ]
+      }
+    },
+    "PP410101.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PP410102.1": {
+      "aa_muts": {
+        "HA": [
+          "I264S"
+        ]
+      }
+    },
+    "PP410104.1": {
+      "aa_muts": {
+        "HA": [
+          "K250R"
+        ]
+      }
     },
     "PP426567.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "PP426575.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "PP426583.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "PP488313.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "PP488321.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "PP488329.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "PP488337.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "PP488345.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "PP502509.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "V14A",
+          "I167V",
+          "L206I",
+          "V298M",
+          "L333P"
+        ]
+      }
+    },
+    "PP504205.1": {
+      "aa_muts": {
+        "HA": [
+          "P134S",
+          "D205N"
+        ]
+      }
+    },
+    "PP576926.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PP581783.1": {
+      "aa_muts": {
+        "HA": [
+          "Y153H",
+          "T211I",
+          "S520N",
+          "A539V",
+          "I549M"
+        ]
+      }
+    },
+    "PP581784.1": {
+      "aa_muts": {
+        "HA": [
+          "P139T",
+          "A156S",
+          "R185Q",
+          "D252N",
+          "G284E",
+          "N325S"
+        ]
+      }
+    },
+    "PP680436.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PP680480.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PP680492.1": {
+      "aa_muts": {
+        "HA": [
+          "R513K"
+        ]
+      }
     },
     "PP692235.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "K201R"
+        ]
+      }
+    },
+    "PP721356.1": {
+      "aa_muts": {
+        "HA": [
+          "A99D"
+        ]
+      }
+    },
+    "PP732683.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PP732691.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PP732843.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PP732851.1": {
+      "aa_muts": {
+        "HA": [
+          "N171T",
+          "D504N"
+        ]
+      }
+    },
+    "PP732859.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PP732867.1": {
+      "aa_muts": {
+        "HA": []
+      }
     },
     "PP757802.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "PP757806.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "PP757817.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "PP757826.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "PP757830.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "PP757839.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "PP757851.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "PP757858.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "PP757866.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "PP757903.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "PP757909.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "PP758145.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "PP758168.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PP760204.1": {
+      "aa_muts": {
+        "HA": [
+          "E201K",
+          "N205D"
+        ]
+      }
+    },
+    "PP761616.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PP763488.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PP763699.1": {
+      "aa_muts": {
+        "HA": []
+      }
     },
     "PP768250.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "PP768660.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "Y504D"
+        ]
+      }
     },
     "PP769614.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "PP769739.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "PP776752.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "PP777458.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "L111I"
+        ]
+      }
     },
     "PP777983.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "PP778505.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "PP778673.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "PP779060.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "PP779933.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "T407I"
+        ]
+      }
     },
     "PP780174.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "PP780446.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "PP782205.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "PP782339.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "N463S"
+        ]
+      }
     },
     "PP785021.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "PP785567.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "PP785576.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "PP785586.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "PP785596.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "PP785700.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "PP785712.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "PP785716.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "PP786400.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "PP796346.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "PP799744.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "PP799753.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "PP799761.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "PP799771.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "PP799803.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PP801727.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PP802782.1": {
+      "aa_muts": {
+        "HA": []
+      }
     },
     "PP829625.1": {
-      "aa_muts": {}
-    },
-    "PP829694.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "PP829699.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "PP829708.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
-    "PP829711.1": {
-      "aa_muts": {}
+    "PP836447.1": {
+      "aa_muts": {
+        "HA": []
+      }
     },
-    "PP829775.1": {
-      "aa_muts": {}
+    "PP836503.1": {
+      "aa_muts": {
+        "HA": [
+          "E510G"
+        ]
+      }
     },
-    "PP829958.1": {
-      "aa_muts": {}
+    "PP853088.1": {
+      "aa_muts": {
+        "HA": [
+          "E493K"
+        ]
+      }
     },
-    "PP829968.1": {
-      "aa_muts": {}
+    "PP853096.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PP853104.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PP872509.1": {
+      "aa_muts": {
+        "HA": [
+          "Y370F"
+        ]
+      }
+    },
+    "PP989362.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PP998353.1": {
+      "aa_muts": {
+        "HA": [
+          "K344R"
+        ]
+      }
+    },
+    "PP998361.1": {
+      "aa_muts": {
+        "HA": [
+          "D99A"
+        ]
+      }
+    },
+    "PP998369.1": {
+      "aa_muts": {
+        "HA": [
+          "P145L"
+        ]
+      }
+    },
+    "PP998377.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PP998385.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PP998393.1": {
+      "aa_muts": {
+        "HA": []
+      }
     },
     "PQ002114.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "PQ002122.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "PQ002130.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "PQ002138.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "PQ002146.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "PQ002154.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PQ009488.1": {
+      "aa_muts": {
+        "HA": [
+          "T11I",
+          "K30E",
+          "T52A",
+          "N325D",
+          "Q338R"
+        ]
+      }
+    },
+    "PQ037284.1": {
+      "aa_muts": {
+        "HA": [
+          "N205K"
+        ]
+      }
+    },
+    "PQ037576.1": {
+      "aa_muts": {
+        "HA": [
+          "T204I",
+          "N205K",
+          "I352K"
+        ]
+      }
+    },
+    "PQ098597.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PQ098608.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PQ098616.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PQ098624.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PQ098664.1": {
+      "aa_muts": {
+        "HA": [
+          "G88E"
+        ]
+      }
+    },
+    "PQ098680.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PQ098691.1": {
+      "aa_muts": {
+        "HA": [
+          "A25V",
+          "D171N"
+        ]
+      }
+    },
+    "PQ098707.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PQ098724.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PQ098725.1": {
+      "aa_muts": {
+        "HA": [
+          "I167V",
+          "L225V",
+          "S233P"
+        ]
+      }
+    },
+    "PQ098748.1": {
+      "aa_muts": {
+        "HA": [
+          "A102V",
+          "A172T",
+          "K275E",
+          "V394I"
+        ]
+      }
+    },
+    "PQ098776.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PQ098784.1": {
+      "aa_muts": {
+        "HA": [
+          "S16G",
+          "Q46K",
+          "P152S"
+        ]
+      }
+    },
+    "PQ109025.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PQ109033.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PQ109041.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PQ113933.1": {
+      "aa_muts": {
+        "HA": [
+          "I352K"
+        ]
+      }
+    },
+    "PQ113941.1": {
+      "aa_muts": {
+        "HA": [
+          "Q131R"
+        ]
+      }
+    },
+    "PQ113961.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PQ113969.1": {
+      "aa_muts": {
+        "HA": [
+          "V5A",
+          "K515R"
+        ]
+      }
+    },
+    "PQ113985.1": {
+      "aa_muts": {
+        "HA": [
+          "N100D",
+          "S179N"
+        ]
+      }
+    },
+    "PQ114025.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PQ114033.1": {
+      "aa_muts": {
+        "HA": [
+          "H153Y"
+        ]
+      }
+    },
+    "PQ114049.1": {
+      "aa_muts": {
+        "HA": [
+          "I310V",
+          "M495I"
+        ]
+      }
+    },
+    "PQ114065.1": {
+      "aa_muts": {
+        "HA": [
+          "H153Y"
+        ]
+      }
+    },
+    "PQ114073.1": {
+      "aa_muts": {
+        "HA": [
+          "V5A",
+          "E510V"
+        ]
+      }
+    },
+    "PQ114089.1": {
+      "aa_muts": {
+        "HA": [
+          "S219T"
+        ]
+      }
+    },
+    "PQ118169.1": {
+      "aa_muts": {
+        "HA": [
+          "A230V",
+          "S526T"
+        ]
+      }
+    },
+    "PQ129506.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PQ129514.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PQ129522.1": {
+      "aa_muts": {
+        "HA": [
+          "L338P"
+        ]
+      }
+    },
+    "PQ135847.1": {
+      "aa_muts": {
+        "HA": [
+          "M549V"
+        ]
+      }
+    },
+    "PQ208062.1": {
+      "aa_muts": {
+        "HA": [
+          "L8F",
+          "L13I",
+          "K15A",
+          "Q18K",
+          "K56R",
+          "P90Q",
+          "A102S",
+          "N110S",
+          "N112D",
+          "D113N",
+          "F127L",
+          "K129R",
+          "I133F",
+          "S139P",
+          "A143S",
+          "P152Q",
+          "Y153V",
+          "K156E",
+          "N171D",
+          "A172V",
+          "P174R",
+          "I176L",
+          "N181T",
+          "L185V",
+          "L191I",
+          "A201T",
+          "E202V",
+          "P210L",
+          "I226T",
+          "K228I",
+          "K234Q",
+          "S239R",
+          "M242V",
+          "K250E",
+          "A254S",
+          "R256F",
+          "N260T",
+          "I272V",
+          "V273T",
+          "D277K",
+          "I280V",
+          "E286D",
+          "T292A",
+          "M305L",
+          "L313F",
+          "K320R",
+          "V322I",
+          "N325E",
+          "I336V",
+          "R339K",
+          "E340R",
+          "E385K",
+          "K389R",
+          "D403E",
+          "E410D",
+          "V412I",
+          "N418K",
+          "G433D",
+          "F456L",
+          "D466E",
+          "D474N",
+          "M495I",
+          "D504N",
+          "E510K",
+          "D520E",
+          "I527A"
+        ]
+      }
+    },
+    "PQ241674.1": {
+      "aa_muts": {
+        "HA": [
+          "S28P",
+          "I48K",
+          "G284E",
+          "V328I"
+        ]
+      }
+    },
+    "PQ278123.1": {
+      "aa_muts": {
+        "HA": []
+      }
     },
     "PQ295907.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "PQ300675.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "PQ300685.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "PQ300698.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "PQ300706.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "PQ300707.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "PQ300721.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "PQ300731.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "PQ304209.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "PQ304221.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "PQ304239.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "PQ304256.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "K38R"
+        ]
+      }
     },
     "PQ304273.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "PQ304425.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "PQ304435.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "PQ304440.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "PQ304488.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "PQ304566.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "PQ304584.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "PQ305000.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "PQ305002.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "PQ305010.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "PQ305024.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "PQ305058.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PQ334661.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PQ334666.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PQ334693.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PQ334698.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PQ334722.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PQ334754.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PQ334765.1": {
+      "aa_muts": {
+        "HA": [
+          "V5M",
+          "A10V",
+          "T11I",
+          "N110D",
+          "P152S",
+          "Y153H",
+          "T292A"
+        ]
+      }
+    },
+    "PQ334771.1": {
+      "aa_muts": {
+        "HA": [
+          "I352K"
+        ]
+      }
+    },
+    "PQ334782.1": {
+      "aa_muts": {
+        "HA": [
+          "N140D"
+        ]
+      }
+    },
+    "PQ334791.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PQ334799.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PQ334803.1": {
+      "aa_muts": {
+        "HA": []
+      }
     },
     "PQ338025.1": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
-    "PQ500558.1": {
-      "aa_muts": {}
+    "PQ356350.1": {
+      "aa_muts": {
+        "HA": []
+      }
     },
-    "PQ500559.1": {
-      "aa_muts": {}
+    "PQ356364.1": {
+      "aa_muts": {
+        "HA": []
+      }
     },
-    "PQ500560.1": {
-      "aa_muts": {}
+    "PQ358305.1": {
+      "aa_muts": {
+        "HA": [
+          "D170N",
+          "N205K"
+        ]
+      }
     },
-    "PQ500561.1": {
-      "aa_muts": {}
+    "PQ378367.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PQ395270.1": {
+      "aa_muts": {
+        "HA": [
+          "A99V",
+          "A102V",
+          "P139H",
+          "N205T"
+        ]
+      }
+    },
+    "PQ395279.1": {
+      "aa_muts": {
+        "HA": [
+          "Y153H"
+        ]
+      }
+    },
+    "PQ395283.1": {
+      "aa_muts": {
+        "HA": [
+          "N199T",
+          "R513K"
+        ]
+      }
+    },
+    "PQ643393.1": {
+      "aa_muts": {
+        "HA": [
+          "S179N",
+          "S561W"
+        ]
+      }
+    },
+    "PQ643771.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PQ643964.1": {
+      "aa_muts": {
+        "HA": [
+          "H289Y"
+        ]
+      }
+    },
+    "PQ645039.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PQ645047.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PQ685010.1": {
+      "aa_muts": {
+        "HA": [
+          "P139L",
+          "V298L",
+          "E340G"
+        ]
+      }
+    },
+    "PQ701705.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PQ702721.1": {
+      "aa_muts": {
+        "HA": [
+          "A226T"
+        ]
+      }
+    },
+    "PQ705737.1": {
+      "aa_muts": {
+        "HA": [
+          "V285M",
+          "P506S"
+        ]
+      }
+    },
+    "PQ707641.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PQ707665.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PQ709241.1": {
+      "aa_muts": {
+        "HA": [
+          "Q46K"
+        ]
+      }
+    },
+    "PQ709561.1": {
+      "aa_muts": {
+        "HA": [
+          "I10T",
+          "P152S",
+          "A226T",
+          "R473K"
+        ]
+      }
+    },
+    "PQ710001.1": {
+      "aa_muts": {
+        "HA": [
+          "V11A"
+        ]
+      }
+    },
+    "PQ710217.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PQ710625.1": {
+      "aa_muts": {
+        "HA": [
+          "K15R",
+          "V164L",
+          "A254T",
+          "N291D",
+          "A512V"
+        ]
+      }
+    },
+    "PQ713113.1": {
+      "aa_muts": {
+        "HA": [
+          "T52A",
+          "P506S"
+        ]
+      }
+    },
+    "PQ713177.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PQ713545.1": {
+      "aa_muts": {
+        "HA": [
+          "D70N"
+        ]
+      }
+    },
+    "PQ713785.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PQ713825.1": {
+      "aa_muts": {
+        "HA": [
+          "A156V"
+        ]
+      }
+    },
+    "PQ722568.1": {
+      "aa_muts": {
+        "HA": [
+          "N205K"
+        ]
+      }
+    },
+    "PQ724322.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PQ736123.1": {
+      "aa_muts": {
+        "HA": [
+          "A156S"
+        ]
+      }
+    },
+    "PQ736144.1": {
+      "aa_muts": {
+        "HA": [
+          "E375D"
+        ]
+      }
+    },
+    "PQ736216.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PQ736240.1": {
+      "aa_muts": {
+        "HA": [
+          "S152L"
+        ]
+      }
+    },
+    "PQ736248.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PQ736256.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PQ736264.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PQ736296.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PQ797129.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PQ797393.1": {
+      "aa_muts": {
+        "HA": [
+          "A230S"
+        ]
+      }
+    },
+    "PQ827677.1": {
+      "aa_muts": {
+        "HA": [
+          "M147V"
+        ]
+      }
+    },
+    "PQ828453.1": {
+      "aa_muts": {
+        "HA": [
+          "I10M"
+        ]
+      }
+    },
+    "PQ832069.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PQ832789.1": {
+      "aa_muts": {
+        "HA": [
+          "L6P"
+        ]
+      }
+    },
+    "PQ833605.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PQ881959.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PQ881967.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PQ881975.1": {
+      "aa_muts": {
+        "HA": [
+          "S239G"
+        ]
+      }
+    },
+    "PQ898024.1": {
+      "aa_muts": {
+        "HA": [
+          "X341K",
+          "-342R",
+          "-343R",
+          "-344K",
+          "X345-",
+          "X569*"
+        ]
+      }
+    },
+    "PV033329.1": {
+      "aa_muts": {
+        "HA": [
+          "S179N",
+          "A230S"
+        ]
+      }
+    },
+    "PV059993.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PV070861.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PV071589.1": {
+      "aa_muts": {
+        "HA": [
+          "S110N"
+        ]
+      }
+    },
+    "PV094493.1": {
+      "aa_muts": {
+        "HA": [
+          "E385K"
+        ]
+      }
+    },
+    "PV112112.1": {
+      "aa_muts": {
+        "HA": [
+          "N205K"
+        ]
+      }
+    },
+    "PV112113.1": {
+      "aa_muts": {
+        "HA": [
+          "N162S"
+        ]
+      }
+    },
+    "PV112122.1": {
+      "aa_muts": {
+        "HA": [
+          "K341R",
+          "I352K"
+        ]
+      }
+    },
+    "PV112130.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PV112138.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PV124886.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PV124894.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PV124974.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PV124994.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PV125347.1": {
+      "aa_muts": {
+        "HA": [
+          "L131Q",
+          "I214V",
+          "D243E",
+          "Y268N"
+        ]
+      }
+    },
+    "PV159623.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PV159855.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PV159871.1": {
+      "aa_muts": {
+        "HA": [
+          "P506L"
+        ]
+      }
+    },
+    "PV160615.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PV161919.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PV161943.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PV161959.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PV161967.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PV162191.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PV163093.1": {
+      "aa_muts": {
+        "HA": [
+          "L13V",
+          "R98K",
+          "P152S",
+          "I214V",
+          "K228R",
+          "K282R",
+          "G284E",
+          "R473K"
+        ]
+      }
+    },
+    "PV163164.1": {
+      "aa_muts": {
+        "HA": [
+          "K208Q",
+          "K341R",
+          "S561W"
+        ]
+      }
+    },
+    "PV187759.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PV187791.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PV187835.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PV187883.1": {
+      "aa_muts": {
+        "HA": [
+          "S152P"
+        ]
+      }
+    },
+    "PV187891.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PV187907.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PV187915.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PV187955.1": {
+      "aa_muts": {
+        "HA": [
+          "S336N"
+        ]
+      }
+    },
+    "PV187979.1": {
+      "aa_muts": {
+        "HA": [
+          "V14A",
+          "D466N"
+        ]
+      }
+    },
+    "PV188011.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PV209775.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PV210090.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PV212105.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PV212263.1": {
+      "aa_muts": {
+        "HA": [
+          "A10V",
+          "S561L",
+          "L562R"
+        ]
+      }
+    },
+    "PV212679.1": {
+      "aa_muts": {
+        "HA": [
+          "V527I"
+        ]
+      }
+    },
+    "PV218193.1": {
+      "aa_muts": {
+        "HA": [
+          "E286K"
+        ]
+      }
+    },
+    "PV218305.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PV218369.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PV218505.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PV218545.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PV219161.1": {
+      "aa_muts": {
+        "HA": [
+          "A52T"
+        ]
+      }
+    },
+    "PV242322.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PV242330.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PV242338.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PV242346.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PV242354.1": {
+      "aa_muts": {
+        "HA": [
+          "S336N"
+        ]
+      }
+    },
+    "PV242362.1": {
+      "aa_muts": {
+        "HA": [
+          "M495I"
+        ]
+      }
+    },
+    "PV242370.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PV242378.1": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "PV242386.1": {
+      "aa_muts": {
+        "HA": [
+          "N112D",
+          "V398I"
+        ]
+      }
     },
     "cov3903": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "cov3904": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "cov4373": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "cov4380": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "cov4385": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "D491N"
+        ]
+      }
     },
     "cov4386": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "cov4388": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "cov4389": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "S110N"
+        ]
+      }
     },
     "cov4393": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "K515E"
+        ]
+      }
     },
     "cov4399": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "cov4401": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "cov4402": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "cov4404": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "cov4406": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "V298I"
+        ]
+      }
     },
     "cov4409": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "cov4410": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "cov4411": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "cov4414": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "cov4415": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "cov4416": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "A226T"
+        ]
+      }
     },
     "cov4417": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "S16G"
+        ]
+      }
     },
     "cov4418": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "cov4419": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "cov4420": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "cov4422": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "cov4424": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "cov4425": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "cov4433": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "cov4437": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "cov4438": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "cov4441": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "cov4445": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "cov4448": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "cov4449": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "cov4464": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "cov4471": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "H371R"
+        ]
+      }
     },
     "cov4474": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "cov4475": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "cov4478": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "cov4479": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "cov4482": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "cov4483": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "K250N"
+        ]
+      }
     },
     "cov4484": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "cov4485": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "cov4486": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "cov4487": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "cov4488": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "cov4490": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "cov4491": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     },
     "cov4492": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "Q46K",
+          "E201K",
+          "R343K"
+        ]
+      }
     },
     "cov4493": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "E201K"
+        ]
+      }
     },
     "cov4494": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "T211I",
+          "R239S"
+        ]
+      }
     },
     "cov4495": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "R224K"
+        ]
+      }
     },
     "cov4496": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": [
+          "E2A"
+        ]
+      }
     },
     "covXXXX": {
-      "aa_muts": {}
+      "aa_muts": {
+        "HA": []
+      }
     }
   },
-  "reference": {}
+  "reference": {
+    "HA": "MEKIVLLLAIVSLVKSDQICIGYHANNSTEQVDTIMEKNVTVTHAQDILEKTHNGKLCDLNGVKPLILRDCSVAGWLLGNPMCDEFINVPEWSYIVEKASPANDLCYPGDFNDYEELKHLLSRTNHFEKIQIIPKSSWSNHDASSGVSSACPYHGRSSFFRNVVWLIKKNSAYPTIKRSYNNTNQEDLLVLWGIHHPNDAAEQTKLYQNPTTYISVGTSTLNQRLVPEIATRPKVNGQSGRMEFFWTILKPNDAINFESNGNFIAPEYAYKIVKKGDSAIMKSELEYGNCNTKCQTPMGAINSSMPFHNIHPLTIGECPKYVKSNRLVLATGLRNTPQRERRRKKRGLFGAIAGFIEGGWQGMVDGWYGYHHSNEQGSGYAADKESTQKAIDGVTNKVNSIIDKMNTQFEAVGREFNNLERRIENLNKQMEDGFLDVWTYNAELLVLMENERTLDFHDSNVKNLYDKVRLQLRDNAKELGNGCFEFYHKCDNECMESVKNGTYDYPQYSEEARLNREEISGVKLESMGTYQILSIYSTVASSLALAIMVAGLSLWMCSNGSLQCRICI*"
+  }
 }

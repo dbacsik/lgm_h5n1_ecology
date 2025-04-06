@@ -48,6 +48,8 @@ rule sample_context:
     params:
         groups = 'country year',
         num_sequences = 500,
+        min_length = 1500,
+        min_date = 2021
     shell:
         """
         augur filter \
@@ -55,9 +57,10 @@ rule sample_context:
             --metadata {input.metadata} \
             --group-by {params.groups} \
             --subsample-max-sequences {params.num_sequences} \
-            --exclude-all \
-            --include {input.include} \
+            --min-length {params.min_length} \
+            --min-date {params.min_date} \
             --exclude {input.exclude} \
+            --include {input.include} \
             --output-sequences {output.fasta} \
             --output-metadata {output.metadata} \
         """
@@ -71,7 +74,7 @@ rule load_local:
         metadata = 'output/data_cleaning/peru.tsv',
         fasta = 'output/data_cleaning/peru.fasta'
     params:
-        fields = 'name country'
+        fields = 'name country date'
     shell:
         """
         augur parse \
@@ -125,10 +128,10 @@ rule merge_metadata:
 
 ## ALIGN
 rule align:
-    message: "Aligning lineage reference sequences with local sequences"
+    message: "Aligning reference sequences with local sequences"
     input:
         fasta = rules.cat_fastas.output.merged,
-        reference_file = 'input/reference/LC730539.fasta'
+        reference_file = 'input/reference/reference_h5n1_ha.fasta'
     output:
         alignment = 'output/tree/aligned.fasta'
     shell:
@@ -185,7 +188,8 @@ rule refine:
             --metadata {input.metadata} \
             --output-tree {output.tree} \
             --output-node-data {output.node_data} \
-            --divergence-units 'mutations-per-site'
+            --timetree \
+            --clock-filter-iqd 4
         """
 
 ### NODES AND TRAITS
@@ -196,9 +200,9 @@ rule ancestral:
     input:
         tree = rules.refine.output.tree,
         alignment = rules.align.output.alignment,
-        reference = 'input/reference/LC730539.fasta'
+        reference = 'input/reference/reference_h5n1_ha.fasta'
     output:
-        nt_muts = 'ouput/tree/nt_muts.json',
+        nt_muts = 'output/tree/nt_muts.json',
         sequences = 'output/tree/ancestral_sequences.fasta'
     shell:
         """
@@ -217,7 +221,7 @@ rule translate:
     input:
         tree = rules.refine.output.tree,
         ancestral_json = rules.ancestral.output.nt_muts,
-        reference = 'input/reference/LC730539.gb'
+        reference = 'input/reference/reference_h5n1_ha.gb'
     output:
         aa_muts = 'output/tree/aa_muts.json',
     shell:
