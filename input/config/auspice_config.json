@@ -1,0 +1,44 @@
+{
+    "title": "RSV Lineage Tree",
+    "maintainers": [
+      {
+        "name": "David Bacsik, Diego Cuicapuza, and Pablo Tsukayama",
+        "url": "https://investigacion.cayetano.edu.pe/catalogo/saludintegral-genomicamicrobiana/"
+      }
+    ],
+    "build_url": "https://github.com/dbacsik/lgm_h5n1_ecology",
+    "data_provenance": [
+      {
+        "name": "NCBI Virus",
+        "url": "https://www.ncbi.nlm.nih.gov/labs/virus/vssi/#/virus?SeqType_s=Nucleotide&VirusLineage_ss=Alphainfluenzavirus,%20taxid:197911&Serotype_s=H5N*"
+      }
+    ],
+    "colorings": [
+      {
+        "key": "source_Novel",
+        "title": "Novel Sequence",
+        "type": "categorical"
+      },
+      {
+        "key": "country",
+        "title": "Country",
+        "type": "categorical"
+      },
+      {
+        "key": "label",
+        "title": "Clade",
+        "type": "categorical"
+      }
+    ],
+    "filters": [
+      "source_Novel",
+      "country",
+      "label"
+    ],
+    "display_defaults": {
+      "panels": ["tree", "map"],
+      "layout": "rect",
+      "distance_measure": "div",
+      "color_by": "label"
+    }
+  }

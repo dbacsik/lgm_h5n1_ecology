@@ -1,0 +1,294 @@
+IQ-TREE multicore version 2.3.5.cmaple COVID-edition for Linux x86 64-bit built May 27 2024
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    eba5c66f80f8 (SSE4.2, 71 GB RAM)
+Command: iqtree --threads-max 12 -s output/tree/aligned-delim.fasta -m GTR --ninit 2 -n 2 --epsilon 0.05 -T AUTO --redo
+Seed:    457250 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Sun Apr  6 22:14:11 2025
+Kernel:  SSE2 - auto-detect threads (14 CPU cores detected)
+
+Reading alignment file output/tree/aligned-delim.fasta ... Fasta format detected
+Reading fasta file: done in 0.00730438 secs using 83.77% CPU
+Alignment most likely contains DNA/RNA sequences
+Alignment has 206 sequences with 1760 columns, 1023 distinct patterns
+767 parsimony-informative, 150 singleton sites, 843 constant sites
+            Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.000380042 secs using 99.73% CPU
+   1  AF144305.1    0.00%    passed     98.30%
+   2  GU052019.1    0.34%    passed     99.74%
+   3  GU052027.1    0.34%    passed     99.60%
+   4  GU052057.1    0.34%    passed     99.85%
+   5  GU052089.1    0.34%    passed     99.40%
+   6  CY028931.1    3.01%    passed     98.41%
+   7  GU052035.1    0.34%    passed     97.14%
+   8  GU052142.1    0.34%    passed     97.30%
+   9  JQ794454.1    1.25%    passed     96.13%
+  10  EU118132.1    3.01%    passed     98.44%
+  11  GU186648.1    0.34%    passed     95.30%
+  12  HM114449.1    3.24%    passed     99.23%
+  13  HM006759.1    0.00%    passed     94.22%
+  14  CY028977.1    3.12%    passed     99.29%
+  15  FJ265577.1    0.91%    passed     98.53%
+  16  CY094847.1    1.65%    passed     81.94%
+  17  EU124168.1    1.36%    passed     85.61%
+  18  EF541405.1    1.08%    passed     99.69%
+  19  CY090108.1    0.34%    passed     95.55%
+  20  CY046102.1    3.01%    passed     95.37%
+  21  CY046112.1    3.18%    passed     97.59%
+  22  CY107842.1    3.18%    passed     99.03%
+  23  FJ390028.1    0.06%    passed     98.37%
+  24  CY028959.1    2.50%    passed     95.92%
+  25  GU002675.1    3.01%    passed     96.82%
+  26  MG192004.1    2.84%    passed     91.33%
+  27  KP864427.1    3.30%    passed     94.50%
+  28  KY558852.1    1.02%    passed     90.97%
+  29  KJ522713.1    3.18%    passed     86.31%
+  30  JQ858487.1    0.85%    passed     88.72%
+  31  JN807780.1    2.50%    passed     96.18%
+  32  KP735809.1    3.18%    passed     97.27%
+  33  CY099970.1    0.17%    passed     97.25%
+  34  CY099973.1    0.17%    passed     92.41%
+  35  JX420150.1    3.18%    passed     89.56%
+  36  CY041038.1    3.18%    passed     98.69%
+  37  FJ784853.1    3.18%    passed     98.19%
+  38  GU186716.1    0.45%    passed     94.97%
+  39  KR987707.1    1.19%    passed     92.79%
+  40  CY091865.1    0.80%    passed     85.17%
+  41  CY091781.1    0.80%    passed     85.17%
+  42  CY017662.1    0.00%    passed     93.47%
+  43  CY091783.1    0.80%    passed     96.98%
+  44  OR772957.1    0.17%    passed     96.00%
+  45  OR773020.1    0.17%    passed     93.69%
+  46  MN994217.1    3.18%    passed     82.23%
+  47  MT090325.1    0.51%    passed     73.42%
+  48  MN209678.1    0.51%    passed     95.90%
+  49  KP861974.1    1.99%    passed     97.83%
+  50  KJ682292.1    3.18%    passed     94.47%
+  51  KF888546.1    3.18%    passed     97.32%
+  52  OQ546777.1    3.18%    passed     98.69%
+  53  MW676321.1    3.18%    passed     98.03%
+  54  KP742887.1    3.18%    passed     95.66%
+  55  KU042743.1    3.18%    passed     93.25%
+  56  AB747114.1    1.02%    passed     94.37%
+  57  JN613380.1    3.30%    passed     99.84%
+  58  JN543376.1    0.91%    passed     96.95%
+  59  JN986882.1    3.18%    passed     99.03%
+  60  CY041048.1    3.18%    passed     93.10%
+  61  MN453559.1    0.97%    passed     92.85%
+  62  KX960156.1    3.18%    passed     96.85%
+  63  CY126176.1    2.33%    passed     81.46%
+  64  JN807785.1    2.33%    passed     87.89%
+  65  KY171568.1    3.01%    passed     85.83%
+  66  KF001466.1    0.62%    passed     68.82%
+  67  KF001468.1    0.91%    passed     67.22%
+  68  JQ673604.1    0.68%    passed     84.84%
+  69  MW493131.1    0.68%    passed     87.96%
+  70  KF501076.1    2.50%    passed     87.59%
+  71  FJ789840.1    0.68%    passed     91.59%
+  72  GU052473.1    0.68%    passed     89.97%
+  73  CY015115.1    0.34%    passed     91.05%
+  74  CY020229.1    1.19%    passed     88.07%
+  75  CY022621.1    1.48%    passed     80.58%
+  76  PV212655.1    3.18%    passed     95.05%
+  77  PQ709289.1    3.18%    passed     96.20%
+  78  PQ711281.1    3.18%    passed     94.96%
+  79  PQ714089.1    3.18%    passed     95.24%
+  80  PQ718833.1    3.18%    passed     94.12%
+  81  PQ701505.1    3.18%    passed     91.95%
+  82  PQ718545.1    3.18%    passed     96.02%
+  83  PV215095.1    3.18%    passed     98.63%
+  84  PQ830725.1    3.18%    passed     98.63%
+  85  PQ797425.1    3.18%    passed     97.71%
+  86  PQ667358.1    3.18%    passed     98.03%
+  87  PQ833093.1    3.18%    passed     95.52%
+  88  OR910419.1    0.17%    passed     98.83%
+  89  cov4496       0.57%    passed     98.19%
+  90  cov4495       0.57%    passed     99.59%
+  91  cov4486       0.51%    passed     99.19%
+  92  covXXXX       0.97%    passed     98.52%
+  93  cov4418       0.57%    passed     99.39%
+  94  cov4425       0.62%    passed     99.22%
+  95  cov4411       0.57%    passed     99.39%
+  96  cov4422       0.74%    passed     99.18%
+  97  cov4410       0.74%    passed     99.18%
+  98  cov4485       1.65%    passed     99.05%
+  99  cov4424       0.68%    passed     99.00%
+ 100  cov4401       0.57%    passed     99.56%
+ 101  cov4415       0.62%    passed     99.40%
+ 102  cov4402       0.68%    passed     99.12%
+ 103  cov4484       1.02%    passed     97.94%
+ 104  cov4409       0.74%    passed     98.35%
+ 105  cov4487       0.68%    passed     99.40%
+ 106  cov4483       3.18%    passed     98.39%
+ 107  cov4474       0.51%    passed     99.19%
+ 108  cov4433       0.74%    passed     98.74%
+ 109  cov4420       0.74%    passed     99.46%
+ 110  cov4406       0.80%    passed     99.50%
+ 111  cov4449       0.62%    passed     98.85%
+ 112  cov4386       0.74%    passed     99.30%
+ 113  cov4493       0.51%    passed     99.86%
+ 114  cov4393       0.51%    passed     98.74%
+ 115  cov4388       0.57%    passed     98.46%
+ 116  cov4441       2.27%    passed     97.08%
+ 117  cov4475       0.51%    passed     98.53%
+ 118  cov4416       0.51%    passed     99.78%
+ 119  cov4380       1.31%    passed     99.31%
+ 120  cov4419       0.80%    passed     99.06%
+ 121  cov4464       1.93%    passed     97.93%
+ 122  cov4389       2.10%    passed     98.40%
+ 123  cov4478       8.75%    passed     91.73%
+ 124  cov4373       0.74%    passed     98.74%
+ 125  cov4479       3.86%    passed     96.87%
+ 126  cov4445       1.02%    passed     97.94%
+ 127  cov4414       1.14%    passed     98.67%
+ 128  cov4482       1.65%    passed     99.66%
+ 129  cov4488       1.14%    passed     98.26%
+ 130  cov4491      21.53%    passed     67.12%
+ 131  cov4417       0.57%    passed     99.26%
+ 132  cov4494       1.02%    passed     99.42%
+ 133  cov4490       0.68%    passed     99.69%
+ 134  cov4399       1.59%    passed     98.86%
+ 135  cov4404       2.61%    passed     98.93%
+ 136  cov4492       0.68%    passed     99.80%
+ 137  cov4448       1.59%    passed     98.19%
+ 138  cov4438      10.85%    passed     86.29%
+ 139  cov4437       2.84%    passed     97.53%
+ 140  cov4385      10.34%    passed     84.70%
+ 141  PV214199.1    3.18%    passed     89.22%
+ 142  PV219137.1    3.18%    passed     87.56%
+ 143  PV219065.1    3.18%    passed     85.61%
+ 144  PV218569.1    3.18%    passed     91.03%
+ 145  PV219161.1    3.18%    passed     90.64%
+ 146  PQ098648.1    3.18%    passed     99.35%
+ 147  OP597612.1    1.42%    passed     98.18%
+ 148  OQ632823.1    3.18%    passed     98.56%
+ 149  OP590533.1    0.17%    passed     93.42%
+ 150  MW137889.1    0.17%    passed     95.42%
+ 151  cov4471      79.66%    passed     25.88%
+ 152  PP872452.1    0.51%    passed     97.40%
+ 153  OR048433.1    3.18%    passed     99.93%
+ 154  OR048689.1    3.18%    passed     99.21%
+ 155  LC619136.1    3.18%    passed     99.35%
+ 156  MT027086.1    3.18%    passed     99.99%
+ 157  LC656668.1    0.23%    passed     99.55%
+ 158  MN759491.1    3.18%    passed     95.48%
+ 159  MG650618.1    3.30%    passed     97.31%
+ 160  MN038194.1    3.18%    passed     96.43%
+ 161  MT256070.1    3.18%    passed     98.96%
+ 162  MW936304.1    0.34%    passed     98.34%
+ 163  MZ801736.1    3.35%    passed     97.67%
+ 164  MW466223.1    0.68%    passed     95.45%
+ 165  LC318888.1    0.34%    passed     99.56%
+ 166  KP090447.1    0.17%    passed     98.02%
+ 167  AB979503.1    1.14%    passed     97.80%
+ 168  MW333414.1    0.17%    passed     97.14%
+ 169  MW333494.1    0.17%    passed     96.02%
+ 170  MW334182.1    0.28%    passed     99.21%
+ 171  MG964448.1    0.91%    passed     99.91%
+ 172  MG964952.1    0.91%    passed     99.85%
+ 173  KU201688.1    0.91%    passed     99.69%
+ 174  LC041308.1    1.48%    passed     96.38%
+ 175  cov3903      87.22%    passed      7.24%
+ 176  cov3904      89.38%    passed     14.41%
+ 177  KY171509.1    3.18%    passed     65.39%
+ 178  MW873718.1    3.41%    passed     98.50%
+ 179  MH546507.1    1.48%    passed     94.33%
+ 180  JX570819.1    0.74%    passed     86.37%
+ 181  CY095260.1    2.33%    passed     97.98%
+ 182  FJ357069.1    1.02%    passed     96.56%
+ 183  EU980494.1    1.53%    passed     96.77%
+ 184  AY296078.2    2.22%    passed     96.30%
+ 185  GU186446.1    1.31%    passed     94.05%
+ 186  GQ923325.1    1.02%    passed     91.64%
+ 187  GU051872.1    1.02%    passed     96.09%
+ 188  CY036365.1    2.67%    passed     99.41%
+ 189  AY296064.2    1.88%    passed     85.20%
+ 190  GU053489.1    3.01%    passed     85.31%
+ 191  CY016611.1    1.53%    passed     83.01%
+ 192  OK205539.1    0.68%    passed     86.17%
+ 193  OK205587.1    0.68%    passed     91.32%
+ 194  OK205595.1    0.68%    passed     92.57%
+ 195  OK205611.1    0.68%    passed     96.23%
+ 196  OK205563.1    0.68%    passed     92.03%
+ 197  OK205851.1    0.68%    passed     98.71%
+ 198  OK205795.1    0.68%    passed     95.33%
+ 199  GU052675.1    1.02%    passed     95.61%
+ 200  OK205859.1    0.68%    passed     97.01%
+ 201  GU052690.1    1.02%    passed     99.38%
+ 202  OK205827.1    0.34%    passed     92.01%
+ 203  AB558474.1    3.35%    passed     93.04%
+ 204  OK205843.1    0.00%    passed     86.10%
+ 205  GU052588.1    1.02%    passed     89.40%
+ 206  OK205643.1    0.68%    passed     87.77%
+WARNING: 3 sequences contain more than 50% gaps/ambiguity
+****  TOTAL         3.04%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.029 seconds
+
+NOTE: 6 MB RAM (0 GB) is required!
+Measuring multi-threading efficiency up to 12 CPU cores
+Increase to 10 rounds for branch lengths
+79 trees examined
+Threads: 1 / Time: 12.153 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -103625
+Threads: 2 / Time: 7.105 sec / Speedup: 1.711 / Efficiency: 86% / LogL: -103625
+Threads: 3 / Time: 5.649 sec / Speedup: 2.151 / Efficiency: 72% / LogL: -103625
+Threads: 4 / Time: 5.430 sec / Speedup: 2.238 / Efficiency: 56% / LogL: -103625
+Threads: 5 / Time: 4.992 sec / Speedup: 2.434 / Efficiency: 49% / LogL: -103625
+BEST NUMBER OF THREADS: 3
+
+Estimate model parameters (epsilon = 0.500)
+1. Initial log-likelihood: -25825.780
+2. Current log-likelihood: -23695.883
+3. Current log-likelihood: -23694.062
+Optimal log-likelihood: -23694.061
+Rate parameters:  A-C: 1.53878  A-G: 7.80949  A-T: 0.67566  C-G: 0.21486  C-T: 11.84454  G-T: 1.00000
+Base frequencies:  A: 0.348  C: 0.185  G: 0.228  T: 0.239
+Parameters optimization took 3 rounds (0.326 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.0287461 secs using 268.5% CPU
+Computing ML distances took 0.029662 sec (of wall-clock time) 0.078437 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.00117258 secs using 162.2% CPU
+Computing RapidNJ tree took 0.003690 sec (of wall-clock time) 0.004621 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -24297.717
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+
+Do NNI search on 2 best initial trees
+Estimate model parameters (epsilon = 0.500)
+BETTER TREE FOUND at iteration 1: -23685.466
+Estimate model parameters (epsilon = 0.500)
+BETTER TREE FOUND at iteration 2: -23662.034
+Finish initializing candidate tree set (4)
+Current best tree score: -23662.034 / CPU time: 0.500
+Number of iterations: 2
+TREE SEARCH COMPLETED AFTER 2 ITERATIONS / Time: 0h:0m:36s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.050)
+1. Initial log-likelihood: -23662.034
+Optimal log-likelihood: -23662.034
+Rate parameters:  A-C: 1.54288  A-G: 7.93163  A-T: 0.67380  C-G: 0.20993  C-T: 11.95581  G-T: 1.00000
+Base frequencies:  A: 0.348  C: 0.185  G: 0.228  T: 0.239
+Parameters optimization took 1 rounds (0.038 sec)
+BEST SCORE FOUND : -23662.034
+Total tree length: 2.193
+
+Total number of iterations: 2
+CPU time used for tree search: 1.292 sec (0h:0m:1s)
+Wall-clock time used for tree search: 0.501 sec (0h:0m:0s)
+Total CPU time used: 90.669 sec (0h:1m:30s)
+Total wall-clock time used: 36.412 sec (0h:0m:36s)
+
+Analysis results written to: 
+  IQ-TREE report:                output/tree/aligned-delim.fasta.iqtree
+  Maximum-likelihood tree:       output/tree/aligned-delim.fasta.treefile
+  Likelihood distances:          output/tree/aligned-delim.fasta.mldist
+  Screen log file:               output/tree/aligned-delim.fasta.log
+
+Date and Time: Sun Apr  6 22:14:47 2025
