@@ -15,24 +15,30 @@
     ],
     "colorings": [
       {
-        "key": "local",
-        "title": "Local",
+        "key": "source_Novel",
+        "title": "Novel Sequence",
         "type": "categorical"
       },
       {
         "key": "country",
         "title": "Country",
         "type": "categorical"
+      },
+      {
+        "key": "label",
+        "title": "Clade",
+        "type": "categorical"
       }
     ],
     "filters": [
-      "local",
-      "country"
+      "source_Novel",
+      "country",
+      "label"
     ],
     "display_defaults": {
       "panels": ["tree", "map"],
       "layout": "rect",
       "distance_measure": "div",
-      "color_by": "country"
+      "color_by": "label"
     }
   }

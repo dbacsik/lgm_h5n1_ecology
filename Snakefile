@@ -46,21 +46,21 @@ rule sample_context:
         fasta = 'output/data_cleaning/context_subsampled.fasta',
         metadata = 'output/data_cleaning/context_subsampled.tsv'
     params:
-        groups = 'country year',
-        num_sequences = 500,
-        min_length = 1500,
-        min_date = 2021
+        groups = 'year',
+        num_sequences = 200,
+        min_length = 1700,
+        min_date = 1995
     shell:
         """
         augur filter \
             --sequences {input.sequences} \
             --metadata {input.metadata} \
-            --group-by {params.groups} \
-            --subsample-max-sequences {params.num_sequences} \
             --min-length {params.min_length} \
             --min-date {params.min_date} \
             --exclude {input.exclude} \
-            --include {input.include} \
+            --subsample-seed 111 \
+            --subsample-max-sequences {params.num_sequences} \
+            --group-by {params.groups} \
             --output-sequences {output.fasta} \
             --output-metadata {output.metadata} \
         """
@@ -121,9 +121,33 @@ rule merge_metadata:
         """
         augur merge \
             --metadata \
-                REFERENCE={input.context} \
-                LOCAL={input.local} \
-            --output-metadata {output.metadata}
+                Reference={input.context} \
+                Novel={input.local} \
+            --output-metadata {output.metadata} \
+            --source-columns "source_{{NAME}}"
+        """
+
+### Manually parse selected sequences using Nextclade to get 2.3.4.4 clade assignments.
+"""This rule adds clades assignments for 2.3.4.4 lineage seqs"""
+rule merge_clades:
+    message:
+        """
+        Merging the metadata for the context and the local files.\n
+        Metadata: {input.meta}\n
+        Clades: {input.clades}
+        """
+    input:
+        meta = rules.merge_metadata.output.metadata,
+        clades = 'input/data/clades.tsv'
+    output:
+        metadata = 'output/data_cleaning/metadata_labeled.tsv'
+    shell:
+        """
+        augur merge \
+            --metadata \
+                Local={input.meta} \
+                Clades={input.clades} \
+            --output-metadata {output.metadata} \
         """
 
 ## ALIGN
@@ -176,7 +200,7 @@ rule refine:
     input:
         tree = rules.tree.output.tree,
         alignment = rules.align.output.alignment,
-        metadata = rules.merge_metadata.output.metadata
+        metadata = rules.merge_clades.output.metadata
     output:
         tree = 'output/tree/tree_refined.nwk',
         node_data = 'output/tree/node_data.json'
@@ -189,7 +213,8 @@ rule refine:
             --output-tree {output.tree} \
             --output-node-data {output.node_data} \
             --timetree \
-            --clock-filter-iqd 4
+            --clock-filter-iqd 2 \
+            --clock-rate .00455
         """
 
 ### NODES AND TRAITS
@@ -236,11 +261,11 @@ rule translate:
 ## VISUALIZATION
 """This rule exports the results of the pipeline into JSON
 for visualization in auspice."""
-rule export_lineage:
-    message: "Exporting lineage JSON files for for auspice"
+rule export:
+    message: "Exporting JSON files for for auspice"
     input:
         tree = rules.refine.output.tree,
-        metadata = rules.merge_metadata.output.metadata,
+        metadata = rules.merge_clades.output.metadata,
         node_data = [rules.refine.output.node_data,
                      rules.ancestral.output.nt_muts,
                      rules.translate.output.aa_muts],
