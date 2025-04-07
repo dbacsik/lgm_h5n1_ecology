@@ -11,7 +11,8 @@ build: https://github.com/nextstrain/avian-flu/blob/master/quickstart-build/Snak
 
 rule all:
     input:
-        auspice_json = 'auspice/H5_Peru.json'
+        auspice_json = 'auspice/global.json',
+        focal_json = 'auspice/focal.json',
 
 """This rule loads data from NCBI into nextstrain format"""
 rule load_context:
@@ -40,7 +41,6 @@ rule sample_context:
     input:
         sequences = rules.load_context.output.fasta,
         metadata = rules.load_context.output.metadata,
-        include = 'input/data/SAmerica_Accessions.txt',
         exclude = 'input/data/exclude.txt'
     output:
         fasta = 'output/data_cleaning/context_subsampled.fasta',
@@ -213,8 +213,8 @@ rule refine:
             --output-tree {output.tree} \
             --output-node-data {output.node_data} \
             --timetree \
-            --clock-filter-iqd 2 \
-            --clock-rate .00455
+            --clock-filter-iqd 3 \
+            --clock-rate 0.00513
         """
 
 ### NODES AND TRAITS
@@ -272,7 +272,240 @@ rule export:
         auspice_config = 'input/config/auspice_config.json',
         colors = 'input/config/colors.tsv'
     output:
-        auspice_json = 'auspice/H5_Peru.json'
+        auspice_json = 'auspice/global.json'
+    shell:
+        """
+        augur export v2 \
+            --tree {input.tree} \
+            --metadata {input.metadata} \
+            --node-data {input.node_data} \
+            --auspice-config {input.auspice_config} \
+            --colors {input.colors} \
+            --output {output.auspice_json} \
+            --include-root-sequence-inline
+        """
+
+##################
+# Focal tree
+
+"""Subsample"""
+rule sample_focal:
+    message: "Subsampling focal sequences"
+    input:
+        sequences = rules.load_context.output.fasta,
+        metadata = rules.load_context.output.metadata,
+        include = 'input/data/SAmerica_Accessions.txt',
+        exclude = 'input/data/exclude.txt'
+    output:
+        fasta = 'output/data_cleaning/context_subsampled.fasta',
+        metadata = 'output/data_cleaning/context_subsampled.tsv'
+    params:
+        groups = 'year',
+        num_sequences = 200,
+        min_length = 1500,
+        min_date = 2010
+    shell:
+        """
+        augur filter \
+            --sequences {input.sequences} \
+            --metadata {input.metadata} \
+            --min-length {params.min_length} \
+            --min-date {params.min_date} \
+            --exclude {input.exclude} \
+            --include {input.include} \
+            --subsample-seed 123 \
+            --subsample-max-sequences {params.num_sequences} \
+            --group-by {params.groups} \
+            --output-sequences {output.fasta} \
+            --output-metadata {output.metadata} \
+        """
+
+"""This rule concatenates the local sequences with the reference dataset."""
+rule cat_focal:
+    message:
+        """
+        Concatenating the lineage reference FASTA and the local FASTA.\n
+        Focal FASTA: {input.focal}\n
+        Local FASTA: {input.local}
+        """
+    input:
+        focal = rules.sample_focal.output.fasta,
+        local = rules.load_local.output.fasta
+    output:
+        focal_merged = 'output/data_cleaning/focal_merged.fasta'
+    shell: 
+        """
+        cat {input.focal} {input.local} > {output.focal_merged}
+        """
+
+
+"""This rule merges metadata for local and context samples."""
+rule merge_focal:
+    message:
+        """
+        Merging the metadata for the context and the local files.\n
+        Focal Metadata: {input.focal}\n
+        Local Metadata: {input.local}
+        """
+    input:
+        focal = rules.sample_focal.output.metadata,
+        local = rules.load_local.output.metadata
+    output:
+        metadata = 'output/data_cleaning/focal_merged.tsv'
+    shell:
+        """
+        augur merge \
+            --metadata \
+                Focal={input.focal} \
+                Novel={input.local} \
+            --output-metadata {output.metadata}
+        """
+
+### Here I take the output of merge_focal and manually annotate novel genomes.
+"""This rule merges metadata for local and context samples."""
+rule merge_countries:
+    message:
+        """
+        Merging the metadata for the context and the local files.\n
+        Focal Metadata: {input.focal}\n
+        Labeled Metadata: {input.labeled}
+        """
+    input:
+        focal = rules.merge_focal.output.metadata,
+        labeled = 'input/data/focal_labels.tsv'
+    output:
+        metadata = 'output/data_cleaning/focal_labeled.tsv'
+    shell:
+        """
+        augur merge \
+            --metadata \
+                Focal={input.focal} \
+                Labeled={input.labeled} \
+            --output-metadata {output.metadata}
+        """
+
+## ALIGN
+rule align_focal:
+    message: "Aligning focal sequences with local sequences"
+    input:
+        fasta = rules.cat_focal.output.focal_merged,
+        reference_file = 'input/reference/reference_h5n1_ha.fasta'
+    output:
+        alignment = 'output/tree/focal_aligned.fasta'
+    shell:
+        """
+        augur align \
+            --sequences {input.fasta} \
+            --reference-sequence {input.reference_file} \
+            --output {output.alignment} \
+            --nthreads 12
+        """
+
+## BUILD TREE
+
+### RAW TREE
+"""This rule builds the initial tree."""
+rule tree_focal:
+    message: "Building focal tree"
+    input:
+        alignment = rules.align_focal.output.alignment
+    output:
+        tree = 'output/tree/focal_tree.nwk'
+    params:
+        method = "iqtree"
+    shell:
+        """
+        augur tree \
+            --alignment {input.alignment} \
+            --output {output.tree} \
+            --method {params.method} \
+            --nthreads 12
+        """
+
+### Refine
+"""This rule refines the tree. In this case, we basically
+just use it to assign internal node names, since we aren't
+going to assign time to the tree."""
+rule refine_focal:
+    message:
+        """
+        Refining focal tree and assigning internal node names.
+        """
+    input:
+        tree = rules.tree_focal.output.tree,
+        alignment = rules.align_focal.output.alignment,
+        metadata = rules.merge_countries.output.metadata
+    output:
+        tree = 'output/tree/focal_tree_refined.nwk',
+        node_data = 'output/tree/focal_node_data.json'
+    shell:
+        """
+        augur refine \
+            --tree {input.tree} \
+            --alignment {input.alignment} \
+            --metadata {input.metadata} \
+            --output-tree {output.tree} \
+            --output-node-data {output.node_data} \
+            --timetree \
+            --clock-rate .00513
+        """
+
+### NODES AND TRAITS
+"""This rule reconstructs the ancestral node sequences.
+It then annotates nucleotide mutations at each branch."""
+rule ancestral_focal:
+    message: "Reconstructing ancestral sequences and mutations"
+    input:
+        tree = rules.refine_focal.output.tree,
+        alignment = rules.align_focal.output.alignment,
+        reference = 'input/reference/reference_h5n1_ha.fasta'
+    output:
+        nt_muts = 'output/tree/focal_nt_muts.json',
+        sequences = 'output/tree/focal_ancestral_sequences.fasta'
+    shell:
+        """
+        augur ancestral \
+            --tree {input.tree} \
+            --alignment {input.alignment} \
+            --output-node-data {output.nt_muts} \
+            --output-sequences {output.sequences} \
+            --root-sequence {input.reference}
+        """
+
+"""This rule simply translates the sequence of each gene at each node,
+including inferred ancestral nodes."""
+rule translate_focal:
+    message: "Translating amino acid sequences and identifying mutations"
+    input:
+        tree = rules.refine_focal.output.tree,
+        ancestral_json = rules.ancestral_focal.output.nt_muts,
+        reference = 'input/reference/reference_h5n1_ha.gb'
+    output:
+        aa_muts = 'output/tree/focal_aa_muts.json',
+    shell:
+        """
+        augur translate \
+            --tree {input.tree} \
+            --ancestral-sequences {input.ancestral_json} \
+            --reference-sequence {input.reference} \
+            --output-node-data {output.aa_muts}
+        """
+
+## VISUALIZATION
+"""This rule exports the results of the pipeline into JSON
+for visualization in auspice."""
+rule export_focal:
+    message: "Exporting JSON files for for auspice"
+    input:
+        tree = rules.refine_focal.output.tree,
+        metadata = rules.merge_countries.output.metadata,
+        node_data = [rules.refine_focal.output.node_data,
+                     rules.ancestral_focal.output.nt_muts,
+                     rules.translate_focal.output.aa_muts],
+        auspice_config = 'input/config/auspice_config.json',
+        colors = 'input/config/colors.tsv'
+    output:
+        auspice_json = 'auspice/focal.json'
     shell:
         """
         augur export v2 \

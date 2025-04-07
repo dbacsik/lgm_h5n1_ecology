@@ -20,7 +20,7 @@
         "type": "categorical"
       },
       {
-        "key": "country",
+        "key": "country_labeled",
         "title": "Country",
         "type": "categorical"
       },
@@ -32,13 +32,13 @@
     ],
     "filters": [
       "source_Novel",
-      "country",
+      "country_labeled",
       "label"
     ],
     "display_defaults": {
       "panels": ["tree", "map"],
       "layout": "rect",
       "distance_measure": "div",
-      "color_by": "label"
+      "color_by": "country_labeled"
     }
   }
