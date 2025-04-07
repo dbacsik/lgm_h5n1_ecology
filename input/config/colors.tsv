@@ -1,3 +1,14 @@
 label	2.3.4.4b	#7570b3
 label	Novel	#1b9e77
 label	Other	#A0A0A0
+country_labeled	Peru (novel)	#1b9e77
+country_labeled	Peru (other)		#b2df8a
+country_labeled	Chile	#cab2d6
+country_labeled	Argentina	#1f78b4
+country_labeled	Uruguay	#fdbf6f
+country_labeled	Brazil	#ff7f00
+country_labeled	Antarctica	#c0c0c0
+country_labeled	South Georgia and the South Sandwich Islands	#cab2d6
+country_labeled	Colombia	#ffff99
+country_labeled	USA	#b15928
+country_labeled	Venezuela	#fb9a99

@@ -41,7 +41,6 @@ rule sample_context:
     input:
         sequences = rules.load_context.output.fasta,
         metadata = rules.load_context.output.metadata,
-        include = 'input/data/SAmerica_Accessions.txt',
         exclude = 'input/data/exclude.txt'
     output:
         fasta = 'output/data_cleaning/context_subsampled.fasta',
@@ -362,6 +361,28 @@ rule merge_focal:
             --output-metadata {output.metadata}
         """
 
+### Here I take the output of merge_focal and manually annotate novel genomes.
+"""This rule merges metadata for local and context samples."""
+rule merge_countries:
+    message:
+        """
+        Merging the metadata for the context and the local files.\n
+        Focal Metadata: {input.focal}\n
+        Labeled Metadata: {input.labeled}
+        """
+    input:
+        focal = rules.merge_focal.output.metadata,
+        labeled = 'input/data/focal_labels.tsv'
+    output:
+        metadata = 'output/data_cleaning/focal_labeled.tsv'
+    shell:
+        """
+        augur merge \
+            --metadata \
+                Focal={input.focal} \
+                Labeled={input.labeled} \
+            --output-metadata {output.metadata}
+        """
 
 ## ALIGN
 rule align_focal:
@@ -413,7 +434,7 @@ rule refine_focal:
     input:
         tree = rules.tree_focal.output.tree,
         alignment = rules.align_focal.output.alignment,
-        metadata = rules.merge_focal.output.metadata
+        metadata = rules.merge_countries.output.metadata
     output:
         tree = 'output/tree/focal_tree_refined.nwk',
         node_data = 'output/tree/focal_node_data.json'
@@ -477,7 +498,7 @@ rule export_focal:
     message: "Exporting JSON files for for auspice"
     input:
         tree = rules.refine_focal.output.tree,
-        metadata = rules.merge_focal.output.metadata,
+        metadata = rules.merge_countries.output.metadata,
         node_data = [rules.refine_focal.output.node_data,
                      rules.ancestral_focal.output.nt_muts,
                      rules.translate_focal.output.aa_muts],
