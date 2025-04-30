@@ -28,6 +28,11 @@
         "key": "label",
         "title": "Clade",
         "type": "categorical"
+      },
+      {
+        "key": "species",
+        "title": "Species",
+        "type": "categorical"
       }
     ],
     "filters": [

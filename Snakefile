@@ -74,7 +74,7 @@ rule load_local:
         metadata = 'output/data_cleaning/peru.tsv',
         fasta = 'output/data_cleaning/peru.fasta'
     params:
-        fields = 'name country date'
+        fields = 'name country date species'
     shell:
         """
         augur parse \
