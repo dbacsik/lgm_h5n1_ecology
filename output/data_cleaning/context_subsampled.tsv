@@ -1,568 +1,151 @@
 name	title	country	host	date
-PV218257.1	Influenza A virus (A/Canada Goose/IL/25-000616-008-original/2025(H5N2)) segment 4 hemagglutinin (HA) gene, complete cds	USA	Branta canadensis	2025-XX-XX
-PV218305.1	Influenza A virus (A/Flamingo/IL/25-001100-001-original/2025(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	USA	Phoenicopterus roseus	2025-XX-XX
-PV218329.1	Influenza A virus (A/Guineafowl/TN/25-001531-002-original/2025(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	USA	Numididae sp.	2025-XX-XX
-PV218337.1	Influenza A virus (A/Serval/MI/25-000950-001-original/2025(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	USA	Leptailurus serval	2025-XX-XX
-PV218465.1	Influenza A virus (A/Turkey/OH/25-001329-003-original/2025(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	USA	Meleagris gallopavo	2025-XX-XX
-PV219009.1	Influenza A virus (A/chicken/FL/25-001073-003-original/2025(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	USA	Gallus gallus	2025-XX-XX
-PV219041.1	Influenza A virus (A/chicken/IN/25-001513-002-original/2025(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	USA	Gallus gallus	2025-XX-XX
-PV219105.1	Influenza A virus (A/chicken/MO/25-001087-002-original/2025(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	USA	Gallus gallus	2025-XX-XX
-PV210072.1	Influenza A virus (A/chicken/Bangladesh/CE-111-06-DB-17-BR-O/2023(H5N2)) segment 4 hemagglutinin (HA) gene, partial cds	Bangladesh	Gallus gallus	2023-01-31
-PP426567.1	Influenza A virus (A/Nasua nasua/Uruguay/145M1/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Uruguay	Nasua nasua	2023-05-04
-PP426575.1	Influenza A virus (A/Nasua nasua/Uruguay/145M2/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Uruguay	Nasua nasua	2023-05-04
-PP426583.1	Influenza A virus (A/Nasua nasua/Uruguay/146M1/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Uruguay	Nasua nasua	2023-05-05
-PV187979.1	Influenza A virus (A/turkey/Germany-BW/2025AI00222/2025(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Germany	Meleagris gallopavo	2025-01-12
-PV163164.1	Influenza A virus (A/Brown skua/Torgersen Island/o81-b82/2024(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Antarctica	Stercorarius lonnbergi	2024-12-XX
-PV162175.1	Influenza A virus (A/chicken/MS/24-038969-001-original/2024(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	USA	Gallus gallus	2024-12-27
-PV162255.1	Influenza A virus (A/chicken/OR/25-000540-001-original/2025(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	USA	Gallus gallus	2025-01-05
-PV072333.1	Influenza A virus (A/chicken/MO/24-037561-001-original/2024(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	USA	Gallus gallus	2024-12-14
-PP502509.1	Influenza A virus (A/rosy-billed pochard/Argentina/CIP112-3449/2017(H5N3)) segment 4 hemagglutinin (HA) gene, complete cds	Argentina	Netta peposaca	2017-06-14
-PV033329.1	Influenza A virus (A/England/0480160/2025(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	United Kingdom	Homo sapiens	2025-01-XX
-PQ827781.1	Influenza A virus (A/Mallard/MN/24-006961-018-original/2024(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	USA	Anas platyrhynchos	2024-02-28
-PQ831733.1	Influenza A virus (A/cattle/CA/24-037216-002-original/2024(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	USA	Bos taurus	2024-11-28
-PQ832573.1	Influenza A virus (A/cattle/TX/24-021589-001-original/2024(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	USA	Bos taurus	2024-07-23
-PQ797873.1	Influenza A virus (A/chicken/CA/24-031862-010-original/2024(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	USA	Gallus gallus	2024-10-27
-PQ701353.1	Influenza A virus (A/American crow/CO/23-001476-001-original/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	USA	Corvus brachyrhynchos	2023-01-05
-PQ701641.1	Influenza A virus (A/American green-winged teal/AK/22-031399-019-original-repeat/2022(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	USA	Anas carolinensis	2022-09-02
-PQ705249.1	Influenza A virus (A/Black Vulture/MS/23-001343-009-original/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	USA	Aegypius monachus	2023-01-09
-PQ706129.1	Influenza A virus (A/Blue-winged teal/MN/23-005533-026-original/2022(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	USA	Spatula discors	2022-09-16
-PQ706545.1	Influenza A virus (A/Blue-winged teal/TX/22-033479-012-original/2022(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	USA	Spatula discors	2022-09-22
-PQ707033.1	Influenza A virus (A/California condor/AZ/23-012522-002-original/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	USA	Gymnogyps californianus	2023-04-18
-PQ711617.1	Influenza A virus (A/Great horned owl/MT/22-018474-002-original/2022(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	USA	Bubo virginianus	2022-06-09
-PQ713585.1	Influenza A virus (A/Mallard/MT/23-030445-015-original/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	USA	Anas platyrhynchos	2023-09-30
-PQ715961.1	Influenza A virus (A/Red-tailed hawk/CO/23-004224-001-original/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	USA	Buteo jamaicensis	2023-01-31
-PQ716017.1	Influenza A virus (A/Red-tailed hawk/KS/22-039690-012-original/2022(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	USA	Buteo jamaicensis	2022-11-29
-PQ717465.1	Influenza A virus (A/Snow goose/CA/22-042007-001-original/2022(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	USA	Anser caerulescens	2022-12-14
-PQ718089.1	Influenza A virus (A/Snow goose/MS/22-038821-025-original/2022(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	USA	Anser caerulescens	2022-11-23
-PQ718721.1	Influenza A virus (A/Trumpeter Swan/IA/23-002039-001-original/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	USA		2023-01-12
-PQ719169.1	Influenza A virus (A/Turkey Vulture/NV/23-002599-004-original/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	USA	Cathartes aura	2023-01-10
-PQ643771.1	Influenza A virus (A/Chroicocephalus ridibundus/Neerach/V0559/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Switzerland	Chroicocephalus ridibundus	2023-05-09
-PQ500558.1	Influenza A virus (A/South American Sea Lion, Otaria flavescens/Punta Loma Natural Reserve/NEC 85/2023(H5N1)) segment 4 hemagglutinin, HA2 region, (HA) gene, partial cds	Argentina	Otaria byronia	2023-09-21
-PQ500559.1	Influenza A virus (A/South American Sea Lion, Otaria flavescens/Cerro Avanzado beach./NEC 86/2023(H5N1)) segment 4 hemagglutinin, HA2 region, (HA) gene, partial cds	Argentina	Otaria byronia	2023-09-29
-PQ500560.1	Influenza A virus (A/Southern Elephant Seal, Mirounga leonina/Peninsula Valdes./NEC 94/2023(H5N1)) segment 4 hemagglutinin, HA2 region, (HA) gene, partial cds	Argentina	Mirounga leonina	2023-10-12
-PQ500561.1	Influenza A virus (A/South American Sea Lion, Otaria flavescens/Kaiser beach/NEC 93/2023(H5N1)) segment 4 hemagglutinin, HA2 region, (HA) gene, partial cds	Argentina	Otaria byronia	2023-08-29
-PP488313.1	Influenza A virus (A/southern elephant seal/Argentina/CH-PD035/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Argentina	Mirounga leonina	2023-10-10
-PP488321.1	Influenza A virus (A/southern elephant seal/Argentina/CH-PM053/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Argentina	Mirounga leonina	2023-11-01
-PP488329.1	Influenza A virus (A/South American tern/Argentina/CH-PD030/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Argentina	Sterna hirundinacea	2023-10-10
-PP488337.1	Influenza A virus (A/royal tern/Argentina/CH-PD036/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Argentina	Thalasseus maximus	2023-10-10
-PP488345.1	Influenza A virus (A/South American tern/Argentina/CH-PD037/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Argentina	Sterna hirundinacea	2023-10-10
-PQ002114.1	Influenza A virus (A/Southern elephant seal/Peninsula Valdes/HA_CH-PD027/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Argentina	Mirounga leonina	2023-10-10
-PQ002122.1	Influenza A virus (A/Southern elephant seal/Peninsula Valdes/HA_CH-PD032_oral/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Argentina	Mirounga leonina	2023-10-10
-PQ002130.1	Influenza A virus (A/Southern elephant seal/Peninsula Valdes/HA_CH-PD032_tracheal/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Argentina	Mirounga leonina	2023-10-10
-PQ002138.1	Influenza A virus (A/Southern elephant seal/Peninsula Valdes/HA_CH-PD032_lung/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Argentina	Mirounga leonina	2023-10-10
-PQ002146.1	Influenza A virus (A/Southern elephant seal/Peninsula Valdes/HA_CH-PD032_brain/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Argentina	Mirounga leonina	2023-10-10
-PQ002154.1	Influenza A virus (A/Southern elephant seal/Peninsula Valdes/HA_CH-PD032_rectal/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Argentina	Mirounga leonina	2023-10-10
-PQ379407.1	Influenza A virus (A/cattle/MN/24-017652-005-original/2024(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	USA	Bos taurus	2024-06-14
-PQ338025.1	Influenza A virus (A/slender-billed parakeet/Araucania /242881-1/2023(H5Nx)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Enicognathus leptorhynchus	2023-03-17
-PQ304209.1	Influenza A virus (A/Sanderling/CHL/230758-2/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Calidris alba	2023-03-17
-PQ304221.1	Influenza A virus (A/turkey/Valparaiso/248976-12/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Meleagris gallopavo	2023-04-13
-PQ304239.1	Influenza A virus (A/South American sea lion/Los Lagos/247932/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Otaria byronia	2023-04-09
-PQ304256.1	Influenza A virus (A/kelp gull/Valparaiso/236011-1/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Larus dominicanus	2023-02-09
-PQ304273.1	Influenza A virus (A/turkey/Valparaiso/248976-13/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Meleagris gallopavo	2023-04-13
-PQ304425.1	Influenza A virus (A/South polar skua/Antarctica/INACH-UC-UCHILE-SKU3/2024(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Stercorarius maccormicki	2024-03-03
-PQ304435.1	Influenza A virus (A/South polar skua/Antarctica/INACH-UC-UCHILE-SKU2/2024(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Stercorarius maccormicki	2024-03-03
-PQ304440.1	Influenza A virus (A/South polar skua/Antarctica/INACH-UC-UCHILE-SKU1/2024(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Stercorarius maccormicki	2024-03-03
-PQ304488.1	Influenza A virus (A/South polar skua/Antarctica/INACH-UC-UCHILE-SKU5/2024(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Stercorarius maccormicki	2024-03-03
-PQ304566.1	Influenza A virus (A/South polar skua/Antarctica/INACH-UC-UCHILE-SKU5L/2024(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Stercorarius maccormicki	2024-03-03
-PQ304584.1	Influenza A virus (A/South polar skua/Antarctica/INACH-UC-UCHILE-SKU4/2024(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Stercorarius maccormicki	2024-03-03
-PQ305000.1	Influenza A virus (A/turkey/Valparaiso/245886-1/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Meleagris gallopavo	2023-03-30
-PQ305002.1	Influenza A virus (A/South American sea lion/Tarapaca/245719-10/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Otaria byronia	2023-03-30
-PQ305010.1	Influenza A virus (A/Peruvian booby/Coquimbo/242304/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Sula variegata	2023-03-15
-PQ305024.1	Influenza A virus (A/turkey/Valparaiso/245886-5/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Meleagris gallopavo	2023-03-30
-PQ305058.1	Influenza A virus (A/turkey/Valparaiso/245886-3/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Meleagris gallopavo	2023-03-30
-PQ295907.1	Influenza A virus (A/Antofagasta/25945/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Homo sapiens	2023-03-24
-PQ300675.1	Influenza A virus (A/Guanay cormorant/CHL/239584/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Leucocarbo bougainvillii	2023-03-01
-PQ300685.1	Influenza A virus (A/Sanderling/Arica y Parinacota/240265/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Calidris alba	2023-03-03
-PQ300698.1	Influenza A virus (A/South American sea lion/Arica y Parinacota/240270-1/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Otaria byronia	2023-03-01
-PQ300706.1	Influenza A virus (A/South American sea lion/Atacama/242444-1/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Otaria byronia	2023-03-13
-PQ300707.1	Influenza A virus (A/Pelican/CHL/229424-4/2022(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Pelecanus	2022-12-22
-PQ300721.1	Influenza A virus (A/Chungungo/CHL/241436/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Lontra felina	2023-03-10
-PQ300731.1	Influenza A virus (A/Burmeister's porpoise/CHL/246506-2/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Phocoena spinipinnis	2023-03-31
-PQ288091.1	Influenza A virus (A/cattle/MI/24-012314-002-original/2024(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	USA	Bos taurus	2024-04-24
-PP763699.1	Influenza A virus (A/Avian/Nigeria/GF14-16C HA/2022(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Nigeria	Aves	2022-08-02
-PQ135749.1	Influenza A virus (A/cattle/MN/24-016523-029-original/2024(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	USA	Bos taurus	2024-06-04
-PQ129506.1	Influenza A virus (A/Brown Skua/South Georgia and the South Sandwich Islands/8/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	South Georgia and the South Sandwich Islands	Stercorarius lonnbergi	2023-10-08
-PQ129514.1	Influenza A virus (A/Brown Skua/South Georgia and the South Sandwich Islands/16/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	South Georgia and the South Sandwich Islands	Stercorarius lonnbergi	2023-10-08
-PQ129522.1	Influenza A virus (A/Brown Skua/South Georgia and the South Sandwich Islands/24/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	South Georgia and the South Sandwich Islands	Stercorarius lonnbergi	2023-10-08
-PQ113933.1	Influenza A virus (A/Southern Fulmar/South Georgia and the South Sandwich Islands/4/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	South Georgia and the South Sandwich Islands		2023-10-30
-PQ113941.1	Influenza A virus (A/Southern Fulmar/South Georgia and the South Sandwich Islands/12/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	South Georgia and the South Sandwich Islands		2023-11-14
-PQ113953.1	Influenza A virus (A/Southern Elephant Seal/South Georgia and the South Sandwich Islands/24/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	South Georgia and the South Sandwich Islands	Mirounga leonina	2023-12-09
-PQ113961.1	Influenza A virus (A/Kelp Gull/South Georgia and the South Sandwich Islands/32/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	South Georgia and the South Sandwich Islands	Larus dominicanus	2023-11-03
-PQ113969.1	Influenza A virus (A/Antarctic Tern/South Georgia and the South Sandwich Islands/40/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	South Georgia and the South Sandwich Islands	Sterna vittata	2023-12-06
-PQ113977.1	Influenza A virus (A/Brown Skua/South Georgia and the South Sandwich Islands/48/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	South Georgia and the South Sandwich Islands	Stercorarius lonnbergi	2023-10-31
-PQ113985.1	Influenza A virus (A/Kelp Gull/South Georgia and the South Sandwich Islands/56/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	South Georgia and the South Sandwich Islands	Larus dominicanus	2023-10-31
-PQ113993.1	Influenza A virus (A/Brown Skua/South Georgia and the South Sandwich Islands/64/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	South Georgia and the South Sandwich Islands	Stercorarius lonnbergi	2023-10-31
-PQ114001.1	Influenza A virus (A/Kelp Gull/South Georgia and the South Sandwich Islands/72/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	South Georgia and the South Sandwich Islands	Larus dominicanus	2023-11-08
-PQ114009.1	Influenza A virus (A/Brown Skua/South Georgia and the South Sandwich Islands/80/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	South Georgia and the South Sandwich Islands	Stercorarius lonnbergi	2023-11-08
-PQ114017.1	Influenza A virus (A/South Georgia Shag/South Georgia and the South Sandwich Islands/88/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	South Georgia and the South Sandwich Islands	Leucocarbo georgianus	2023-11-27
-PQ114025.1	Influenza A virus (A/Brown Skua/South Georgia and the South Sandwich Islands/96/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	South Georgia and the South Sandwich Islands	Stercorarius lonnbergi	2023-10-30
-PQ114033.1	Influenza A virus (A/Brown Skua/South Georgia and the South Sandwich Islands/104/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	South Georgia and the South Sandwich Islands	Stercorarius lonnbergi	2023-11-15
-PQ114041.1	Influenza A virus (A/Brown Skua/South Georgia and the South Sandwich Islands/112/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	South Georgia and the South Sandwich Islands	Stercorarius lonnbergi	2023-10-30
-PQ114049.1	Influenza A virus (A/Southern Elephant Seal/South Georgia and the South Sandwich Islands/120/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	South Georgia and the South Sandwich Islands	Mirounga leonina	2023-12-09
-PQ114057.1	Influenza A virus (A/Antarctic Fur Seal/South Georgia and the South Sandwich Islands/128/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	South Georgia and the South Sandwich Islands	Arctocephalus gazella	2023-12-09
-PQ114065.1	Influenza A virus (A/Kelp Gull/South Georgia and the South Sandwich Islands/136/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	South Georgia and the South Sandwich Islands	Larus dominicanus	2023-11-08
-PQ114073.1	Influenza A virus (A/Brown Skua/South Georgia and the South Sandwich Islands/144/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	South Georgia and the South Sandwich Islands	Stercorarius lonnbergi	2023-11-11
-PQ114081.1	Influenza A virus (A/Kelp Gull/South Georgia and the South Sandwich Islands/152/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	South Georgia and the South Sandwich Islands	Larus dominicanus	2023-10-30
-PQ114089.1	Influenza A virus (A/Kelp Gull/South Georgia and the South Sandwich Islands/160/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	South Georgia and the South Sandwich Islands	Larus dominicanus	2023-10-30
-PQ051474.1	Influenza A virus (A/cat/NM/24-012046-004-original/2024(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	USA	Felis catus	2024-04-17
-PQ011283.1	Influenza A virus (A/Cattle/Colorado/24-014901-005-original/2024(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	USA	Bos taurus	2024-05-20
-PP786400.1	Influenza A virus (A/Procellaria aequinoctialis/UbatubaBR/2271-N/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Brazil	Procellaria aequinoctialis	2023-11-10
-OR839997.1	Influenza A virus (A/Gallus gallus/Bonito/2108-SN52/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Brazil	Gallus gallus	2023-09-22
-OR844540.1	Influenza A virus (A/Otaria flavescens/Rio Grande/2148-N/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Brazil	Otaria byronia	2023-10-03
-OR852415.1	Influenza A virus (A/Otaria flavescens/Torres/2165-SO/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Brazil	Otaria byronia	2023-10-11
-OR853704.1	Influenza A virus (A/Megascops choliba/Serra/1409-N/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Brazil	Megascops choliba	2023-05-26
-OR853751.1	Influenza A virus (A/Thalasseus maximus/Ubatuba/1546-N/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Brazil	Thalasseus maximus	2023-06-05
-OR857851.1	Influenza A virus (A/Sula leucogaster/Sao Francisco do Sul/2122-N/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Brazil	Sula leucogaster	2023-09-27
-OR860361.1	Influenza A virus (A/Thalasseus maximus/Itapoa/1941-N/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Brazil	Thalasseus maximus	2023-09-25
-OR878088.1	Influenza A virus (A/Thalasseus maximus/Antonina/1775-N/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Brazil	Thalasseus maximus	2023-06-23
-OR881253.1	Influenza A virus (A/Numida meleagris/Maracaja/1843-N3/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Brazil	Numida meleagris	2023-07-15
-OR889491.1	Influenza A virus (A/Buteogallus urubitinga/Itapemirim/1630-SC/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Brazil	Buteogallus urubitinga	2023-06-07
-PP386940.1	Influenza A virus (A/Sterna hirundo/EspiritoSanto/1455-N/2023(H5N1)) segment 4 hemagglutinin (HA) gene, partial cds	Brazil	Sterna hirundo	2023-05-27
-PP390166.1	Influenza A virus (A/Thalasseus maximus/RioGrandeSul/2177-N/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Brazil	Thalasseus maximus	2023-10-13
-PP768250.1	Influenza A virus (A/Procellaria aequinoctialis/SaoSebastiaoBR/2259-N/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Brazil	Procellaria aequinoctialis	2023-11-09
-PP768660.1	Influenza A virus (A/Pluvialis dominica/BertiogaBR/2252-N/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Brazil	Pluvialis dominica	2023-11-08
-PP769614.1	Influenza A virus (A/Sterna hirundo/PenhaBR/2261-N/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Brazil	Sterna hirundo	2023-11-09
-PP769739.1	Influenza A virus (A/Procellaria aequinoctialis/UbatubaBR/2271-N/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Brazil	Procellaria aequinoctialis	2023-11-10
-PP776752.1	Influenza A virus (A/Thalasseus acuflavidus/MatinhosBR/2277-N/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Brazil	Thalasseus acuflavidus	2023-11-14
-PP777458.1	Influenza A virus (A/Thalasseus acuflavidus/IlhaCompridaBR/2280-N/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Brazil	Thalasseus acuflavidus	2023-11-06
-PP778505.1	Influenza A virus (A/Thalasseus maximus/PraiaGrandeBR/2339-N/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Brazil	Thalasseus maximus	2023-12-13
-PP779060.1	Influenza A virus (A/Sterna hirundo/ItapemirimBR/0155-N/2024(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Brazil	Sterna hirundo	2024-02-02
-PP779933.1	Influenza A virus (A/Sterna hirundo/MacaeBR/0177-N/2024(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Brazil	Sterna hirundo	2024-02-09
-PP780174.1	Influenza A virus (A/Thalasseus acuflavidus/BertiogaBR/0291-N/2024(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Brazil	Thalasseus acuflavidus	2024-02-22
-PP780446.1	Influenza A virus (A/Sterna hirundo/PiumaBR/0448-N/2024(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Brazil	Sterna hirundo	2024-03-02
-PP782205.1	Influenza A virus (A/Sterna hirundo/SaoFranciscodeItabapoanaBR/0481-R/2024(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Brazil	Sterna hirundo	2024-03-02
-PP782339.1	Influenza A virus (A/Sterna hirundo/Cabo FrioBR/0613-N/2024(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Brazil	Sterna hirundo	2024-03-09
-PP785021.1	Influenza A virus (A/Sterna hirundo/RiodasOstrasBR/0721-N/2024(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Brazil	Sterna hirundo	2024-03-15
-PP829625.1	Influenza A virus (A/environment/Chile/C62068/2022(H5N1)) clone new segment 4 hemagglutinin (HA) gene, complete cds	Chile		2022-12-27
-PP829694.1	Influenza A virus (A/environment/Chile/C63709/2023(H5N7)) clone new segment 4 hemagglutinin (HA) gene, partial cds	Chile		2023-04-26
-PP829699.1	Influenza A virus (A/environment/Chile/C62044/2022(H5N1)) clone new segment 4 hemagglutinin (HA) gene, complete cds	Chile		2022-12-13
-PP829708.1	Influenza A virus (A/environment/Chile/C62069/2022(H5N1)) clone new segment 4 hemagglutinin (HA) gene, complete cds	Chile		2022-12-27
-PP829711.1	Influenza A virus (A/environment/Chile/C63181/2023(H5N7)) clone new segment 4 hemagglutinin (HA) gene, complete cds	Chile		2023-03-15
-PP829775.1	Influenza A virus (A/environment/Chile/C63456/2023(H5N7)) clone new segment 4 hemagglutinin (HA) gene, complete cds	Chile		2023-03-21
-PP829958.1	Influenza A virus (A/environment/Chile/C64558/2023(H5N1)) clone new segment 4 hemagglutinin (HA) gene, complete cds	Chile		2023-07-19
-PP829968.1	Influenza A virus (A/environment/Chile/C64567/2023(H5N8)) clone new segment 4 hemagglutinin (HA) gene, complete cds	Chile		2023-07-19
-PP692235.1	Influenza A virus (A/Calidris alba/Lima/HA_4/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Peru	Calidris alba	2023-04-20
-PP796346.1	Influenza A virus (A/Band-tailed gull/Arica y Parinacota/232200-1/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Larus belcheri	2023-01-11
-PP799744.1	Influenza A virus (A/band-tailed gull/Antofagasta/228525-2/2022(H5N1)) clone new segment 4 hemagglutinin (HA) gene, complete cds	Chile	Larus belcheri	2022-12-19
-PP799753.1	Influenza A virus (A/Franklin's gull/OHiggins/236195-1/2023(H5N1)) clone new segment 4 hemagglutinin (HA) gene, complete cds	Chile	Leucophaeus pipixcan	2023-02-12
-PP799761.1	Influenza A virus (A/Inca tern/Arica y Parinacota/227519-1/2022(H5N1)) clone new segment 4 hemagglutinin (HA) gene, complete cds	Chile	Larosterna inca	2022-12-12
-PP799771.1	Influenza A virus (A/band-tailed gull/Tarapaca/238807-1/2023(H5N1)) clone new segment 4 hemagglutinin (HA) gene, complete cds	Chile	Larus belcheri	2023-02-25
-PP799803.1	Influenza A virus (A/guanay cormorant/Atacama/235520-1/2023(H5N1)) clone new segment 4 hemagglutinin (HA) gene, complete cds	Chile	Leucocarbo bougainvillii	2023-02-05
-PP785567.1	Influenza A virus (A/Great grabe/Atacama/231482-1/2023(H5N1)) clone new segment 4 hemagglutinin (HA) gene, complete cds	Chile	Podiceps major	2023-01-09
-PP785576.1	Influenza A virus (A/Franklin gull/OHiggins/236195-1/2023(H5N1)) clone new segment 4 hemagglutinin (HA) gene, complete cds	Chile	Leucophaeus pipixcan	2023-02-12
-PP785586.1	Influenza A virus (A/Inca tern/Antofagasta/238083/2023(H5N1)) clone new segment 4 hemagglutinin (HA) gene, complete cds	Chile	Larosterna inca	2023-02-22
-PP785596.1	Influenza A virus (A/Peruvean booby/OHiggins/234887-1/2023(H5N1)) clone new segment 4 hemagglutinin (HA) gene, complete cds	Chile	Sula variegata	2023-01-31
-PP785700.1	Influenza A virus (A/Peruvean booby/Valparaiso/238535/2023(H5N1)) clone new segment 4 hemagglutinin (HA) gene, complete cds	Chile	Sula variegata	2023-02-24
-PP785712.1	Influenza A virus (A/Great grabe/Atacama/231482-2/2023(H5N1)) clone new segment 4 hemagglutinin (HA) gene, complete cds	Chile	Podiceps major	2023-01-09
-PP785716.1	Influenza A virus (A/Band-tailed gull/Antofagasta/228525-1/2022(H5N1)) clone new segment 4 hemagglutinin (HA) gene, complete cds	Chile	Larus belcheri	2022-12-19
-PP777983.1	Influenza A virus (A/Inca tern/Coquimbo/239619/2023(H5N1)) clone new segment 4 hemagglutinin (HA) gene, complete cds	Chile	Larosterna inca	2023-03-01
-PP778673.1	Influenza A virus (A/Peruvean booby/Atacama/230579-1/2023(H5N1)) clone new segment 4 hemagglutinin (HA) gene, complete cds	Chile	Sula variegata	2023-01-03
-PP757802.1	Influenza A virus (A/Peruvian booby/OHiggins/234887-1/2023(H5N1)) clone new segment 4 hemagglutinin (HA) gene, complete cds	Chile	Sula variegata	2023-01-31
-PP757806.1	Influenza A virus (A/Inca tern/Antofagasta/238083/2023(H5N1)) clone new segment 4 hemagglutinin (HA) gene, complete cds	Chile	Larosterna inca	2023-02-22
-PP757817.1	Influenza A virus (A/Peruvian booby/Atacama/230579-1/2023(H5N1)) clone new segment 4 hemagglutinin (HA) gene, complete cds	Chile	Sula variegata	2023-01-03
-PP757826.1	Influenza A virus (A/great grebe/Atacama/231482-1/2023(H5N1)) clone new segment 4 hemagglutinin (HA) gene, complete cds	Chile	Podiceps major	2023-01-09
-PP757830.1	Influenza A virus (A/band-tailed gull/Antofagasta/228525-1/2022(H5N1)) clone new segment 4 hemagglutinin (HA) gene, complete cds	Chile	Larus belcheri	2022-12-19
-PP757839.1	Influenza A virus (A/great grebe/Atacama/231482-2/2023(H5N1)) clone new segment 4 hemagglutinin (HA) gene, complete cds	Chile	Podiceps major	2023-01-09
-PP757851.1	Influenza A virus (A/Inca tern/Arica y Parinacota/227519-1/2022(H5N1)) clone new segment 4 hemagglutinin (HA) gene, complete cds	Chile	Larosterna inca	2022-12-12
-PP757858.1	Influenza A virus (A/Peruvean booby/Valparaiso/238535/2023(H5N1)) clone new segment 4 hemagglutinin (HA) gene, complete cds	Chile	Sula variegata	2023-02-24
-PP757866.1	Influenza A virus (A/Inca tern/Coquimbo/239619/2023(H5N1)) clone new segment 4 hemagglutinin (HA) gene, complete cds	Chile	Larosterna inca	2023-03-01
-PP757903.1	Influenza A virus (A/band-tailed gull/Arica y Parinacota/232200-1/2023(H5N1)) clone new segment 4 hemagglutinin (HA) gene, complete cds	Chile	Larus belcheri	2023-01-11
-PP757909.1	Influenza A virus (A/band-tailed gull/Tarapaca/238807-1/2023(H5N1)) clone new segment 4 hemagglutinin (HA) gene, complete cds	Chile	Larus belcheri	2023-02-25
-PP758145.1	Influenza A virus (A/band-tailed gull/Arica y Parinacota/232200-1/2023(H5N1)) clone new segment 4 hemagglutinin (HA) gene, complete cds	Chile	Larus belcheri	2023-01-11
-PP758168.1	Influenza A virus (A/band-tailed gull/Antofagasta/228525-2/2022(H5N1)) clone new segment 4 hemagglutinin (HA) gene, complete cds	Chile	Larus belcheri	2022-12-19
-OR912282.1	Influenza A virus (A/pinniped/Uruguay/P5_6923/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Uruguay	Pinnipedia	2023-09-06
-OR912283.1	Influenza A virus (A/pinniped/Uruguay/P6_6923/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Uruguay	Pinnipedia	2023-09-06
-OR912284.1	Influenza A virus (A/pinniped/Uruguay/P7_6923/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Uruguay	Pinnipedia	2023-09-06
-OR912285.1	Influenza A virus (A/pinniped/Uruguay/P8_8923/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Uruguay	Pinnipedia	2023-09-08
-OR912286.1	Influenza A virus (A/pinniped/Uruguay/P10_8923/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Uruguay	Pinnipedia	2023-09-08
-OR912287.1	Influenza A virus (A/pinniped/Uruguay/P13_11923/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Uruguay	Pinnipedia	2023-09-11
-OR912288.1	Influenza A virus (A/pinniped/Uruguay/P14_11923/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Uruguay	Pinnipedia	2023-09-11
-OR912289.1	Influenza A virus (A/pinniped/Uruguay/P15_14923/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Uruguay	Pinnipedia	2023-09-14
-OR912290.1	Influenza A virus (A/seabird/Uruguay/P16_14926/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Uruguay	Aves	2023-09-14
-OR912291.1	Influenza A virus (A/pinniped/Uruguay/P17_14923/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Uruguay	Pinnipedia	2023-09-14
-OR912292.1	Influenza A virus (A/pinniped/Uruguay/P18_14923/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Uruguay	Pinnipedia	2023-09-14
-OR912293.1	Influenza A virus (A/seabird/Uruguay/P24_41023/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Uruguay	Aves	2023-10-04
-OR912294.1	Influenza A virus (A/seabird/Uruguay/P25_41023/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Uruguay	Aves	2023-10-04
-OR912295.1	Influenza A virus (A/pinniped/Uruguay/P26_21023/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Uruguay	Pinnipedia	2023-10-02
-OR912354.1	Influenza A virus (A/pinniped/Uruguay/P4_6923/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Uruguay	Pinnipedia	2023-09-06
-OR912362.1	Influenza A virus (A/seabird/Uruguay/P23_41023/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Uruguay	Aves	2023-10-04
-PP691949.1	Influenza A virus (A/wood duck/Georgia/W24-017/2023(H5N1)) clone new segment 4 hemagglutinin (HA) gene, complete cds	USA	Chenonetta jubata	2023-12-23
-PP576859.1	Influenza A virus (A/snow goose/Kansas/W23-930A/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	USA	Anser caerulescens	2023-12-04
-OR987084.1	Influenza A virus (A/South American sea lion/Argentina/RN-PB004/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Argentina	Otaria byronia	2023-08-26
-OR987092.1	Influenza A virus (A/South American sea lion/Argentina/RN-PB007/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Argentina	Otaria byronia	2023-08-26
-OR987100.1	Influenza A virus (A/South American sea lion/Argentina/RN-PB011/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Argentina	Otaria byronia	2023-08-26
-OR987108.1	Influenza A virus (A/South American sea lion/Argentina/RN-PB013/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Argentina	Otaria byronia	2023-08-26
-OR987116.1	Influenza A virus (A/South American fur seal/Argentina/RN-PB019/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Argentina	Arctocephalus australis	2023-08-26
-OR987124.1	Influenza A virus (A/South American tern/Argentina/RN-PB015/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Argentina	Sterna hirundinacea	2023-08-26
-PP378130.1	Influenza A virus (A/Franklin's gull/OHiggins/236195-1/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Leucophaeus pipixcan	2023-02-12
-PP094671.1	Influenza A virus (A/South American sea lion/Brazil/OF-358_4/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Brazil	Otaria byronia	2023-10-12
-PP094679.1	Influenza A virus (A/South American sea lion/Brazil/OF-359_4/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Brazil	Otaria byronia	2023-10-12
-OK022351.1	Influenza A virus (A/common shelduck/France/20P017777_HA/2020(H5N8)) segment 4 hemagglutinin (HA) gene, partial cds	France	Tadorna tadorna	2020-12-02
-OK022519.1	Influenza A virus (A/swan/France/21P004161_HA/2021(H5N8)) segment 4 hemagglutinin (HA) gene, partial cds	France	Anatidae	2021-01-27
-OK022527.1	Influenza A virus (A/red knot/France/21P005932_HA/2021(H5N3)) segment 4 hemagglutinin (HA) gene, complete cds	France	Calidris canutus	2021-01-29
-OK022551.1	Influenza A virus (A/white stork/France/21P007383_HA/2021(H5N8)) segment 4 hemagglutinin (HA) gene, partial cds	France	Ciconia ciconia	2021-03-12
-OK022583.1	Influenza A virus (A/brant goose/France/21P007579_HA/2021(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	France		2021-03-17
-OR979599.1	Influenza A virus (A/chicken/OHiggins/242581-2/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Gallus gallus	2023-03-16
-OR979619.1	Influenza A virus (A/Peruvian booby/Antofagasta/236109-1/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Sula variegata	2023-02-10
-OR979626.1	Influenza A virus (A/South American sea lion/Bio Bio/246296-1/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Otaria byronia	2023-03-26
-OR960975.1	Influenza A virus (A/marine otter/Tarapaca/241436/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Lontra felina	2023-03-10
-OR960980.1	Influenza A virus (A/Chilean dolphin/Nuble/248244-1/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Cephalorhynchus eutropia	2023-04-01
-OR960985.1	Influenza A virus (A/Chilean dolphin/Maule/246026/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Cephalorhynchus eutropia	2023-03-31
-OR960992.1	Influenza A virus (A/guanay cormorant/Tarapaca/236301/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Leucocarbo bougainvillii	2023-02-09
-OR960998.1	Influenza A virus (A/guanay cormorant/Atacama/235246-1/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Leucocarbo bougainvillii	2023-02-03
-OR961005.1	Influenza A virus (A/guanay cormorant/Arica y Parinacota/235902-2/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Leucocarbo bougainvillii	2023-02-06
-OR961011.1	Influenza A virus (A/guanay cormorant/Coquimbo/239080/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Leucocarbo bougainvillii	2023-02-27
-OR961083.1	Influenza A virus (A/Burmeister's porpoise/Antofagasta/246506-2/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Phocoena spinipinnis	2023-03-31
-OR961095.1	Influenza A virus (A/Franklin's gull/Maule/234329-1/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Leucophaeus pipixcan	2023-01-26
-OR961102.1	Influenza A virus (A/Burmeister's porpoise/Atacama/245355/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Phocoena spinipinnis	2023-03-27
-OR961108.1	Influenza A virus (A/Burmeister's porpoise/Antofagasta/246506-1/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Phocoena spinipinnis	2023-03-31
-OR910145.1	Influenza A virus (A/gray gull/Atacama/235521-1/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Leucophaeus modestus	2023-02-05
-OR910153.1	Influenza A virus (A/pelican/Bio Bio/236574/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Pelecanus	2023-02-13
-OR910159.1	Influenza A virus (A/cormorant/Antofagasta/236025-1/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Phalacrocorax	2023-02-06
-OR910164.1	Influenza A virus (A/Humboldt penguin/Antofagasta/236063-2/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Spheniscus humboldti	2023-02-05
-OR910172.1	Influenza A virus (A/chicken/Nuble/241585/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Gallus gallus	2023-03-13
-OR910178.1	Influenza A virus (A/Peruvian pelican/Nuble/236068-1/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Pelecanus thagus	2023-02-10
-OR910186.1	Influenza A virus (A/Band-tailed gull/Tarapaca/236339/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Larus belcheri	2023-02-10
-OR910192.1	Influenza A virus (A/turkey/Valparaiso/245562-2/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Meleagris gallopavo	2023-03-29
-OR910199.1	Influenza A virus (A/Peruvian booby/Antofagasta/236613/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Sula variegata	2023-02-13
-OR910205.1	Influenza A virus (A/South American sea lion/Atacama/242444-1/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Otaria byronia	2023-03-13
-OR910217.1	Influenza A virus (A/brown-hooded gull/Los Rios/247094-1/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Chroicocephalus maculipennis	2023-04-04
-OR910223.1	Influenza A virus (A/pelican/Arica y Parinacota/235876-4/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Pelecanus	2023-02-02
-OR910231.1	Influenza A virus (A/chicken/Atacama/235254-6/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Gallus gallus	2023-02-04
-OR910238.1	Influenza A virus (A/chicken/Atacama/235254-1/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Gallus gallus	2023-02-04
-OR910243.1	Influenza A virus (A/Chimango caracara/Coquimbo/242326-1/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Milvago chimango	2023-03-15
-OR910248.1	Influenza A virus (A/Peruvian booby/Arica y Parinacota/235900-1/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Sula variegata	2023-02-05
-OR910254.1	Influenza A virus (A/pelican/Bio Bio/235399-1/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Pelecanus	2023-02-06
-OR910261.1	Influenza A virus (A/Turkey vulture/Antofagasta/236643/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Cathartes aura	2023-02-13
-OR910268.1	Influenza A virus (A/kelp gull/OHiggins/235977-1/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Larus dominicanus	2023-02-09
-OR910275.1	Influenza A virus (A/chicken/Nuble/242159/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Gallus gallus	2023-03-15
-OR910282.1	Influenza A virus (A/chicken/Maule/242947-1/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Gallus gallus	2023-03-17
-OR910289.1	Influenza A virus (A/turkey/Valparaiso/245562-1/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Meleagris gallopavo	2023-03-29
-OR910295.1	Influenza A virus (A/turkey/Valparaiso/245558-4/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Meleagris gallopavo	2023-03-29
-OR910301.1	Influenza A virus (A/Peruvian booby/Coquimbo/238918/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Sula variegata	2023-02-25
-OR910308.1	Influenza A virus (A/chicken/Araucania/245202/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Gallus gallus	2023-03-28
-OR910318.1	Influenza A virus (A/band-tailed gull/Arica y Parinacota/235901-2/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Larus belcheri	2023-02-06
-OR910325.1	Influenza A virus (A/chicken/Atacama/235254-2/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Gallus gallus	2023-02-04
-OR910331.1	Influenza A virus (A/Peruvian booby/Arica y Parinacota/235897-2/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Sula variegata	2023-02-03
-OR910346.1	Influenza A virus (A/goose/Araucania/244373-1 /2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Anser anser	2023-03-21
-OR910353.1	Influenza A virus (A/chicken/Metropolitana/243148-1/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Gallus gallus	2023-03-20
-OR910361.1	Influenza A virus (A/chicken/Aysen/247792-2/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Gallus gallus	2023-04-09
-OR910366.1	Influenza A virus (A/Peruvian booby/Coquimbo/239024/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Sula variegata	2023-02-25
-OR910371.1	Influenza A virus (A/gray gull/Antofagasta/236047-1/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Leucophaeus modestus	2023-02-09
-OR910378.1	Influenza A virus (A/chicken/Araucania/244469/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Gallus gallus	2023-03-25
-OR910384.1	Influenza A virus (A/chicken/Bio Bio/241781/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Gallus gallus	2023-03-14
-OR910389.1	Influenza A virus (A/turkey/Valparaiso/245558-3/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Meleagris gallopavo	2023-03-29
-OR910396.1	Influenza A virus (A/chicken/Atacama/235254-5/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Gallus gallus	2023-02-04
-OR910404.1	Influenza A virus (A/Peruvian booby/Tarapaca/236308/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Sula variegata	2023-02-09
-OR910409.1	Influenza A virus (A/domestic duck/OHiggins/245741-2/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Anas platyrhynchos	2023-03-30
-OR910415.1	Influenza A virus (A/turkey vulture/Atacama/241294/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Coragyps atratus	2023-03-07
+PV212655.1	Influenza A virus (A/Duck/PA/23-005893-004-original/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	USA	Anatidae	2023-02-20
+PV214199.1	Influenza A virus (A/Turkey/IN/25-000295-003-original/2025(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	USA	Meleagris gallopavo	2025-01-03
+PV215095.1	Influenza A virus (A/cattle/CA/24-034415-001-original/2024(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	USA	Bos taurus	2024-11-13
+PV218569.1	Influenza A virus (A/cat/KS/25-001092-001-original/2025(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	USA	Felis catus	2025-XX-XX
+PV219065.1	Influenza A virus (A/chicken/MD/25-001055-002-original/2025(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	USA	Gallus gallus	2025-XX-XX
+PV219137.1	Influenza A virus (A/chicken/OH/25-001529-002-original/2025(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	USA	Gallus gallus	2025-XX-XX
+PV219161.1	Influenza A virus (A/goose/IL/25-001560-004-original/2025(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	USA	Anatidae	2025-XX-XX
+PQ830725.1	Influenza A virus (A/cattle/CA/24-036570-001-original/2024(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	USA	Bos taurus	2024-12-03
+PQ833093.1	Influenza A virus (A/cattle/TX/24-037225-044-original/2024(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	USA	Bos taurus	2024-12-06
+PQ797425.1	Influenza A virus (A/chicken/CA/24-031285-006-original/2024(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	USA	Gallus gallus	2024-10-16
+PQ701505.1	Influenza A virus (A/American crow/MN/22-042176-001-original/2022(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	USA	Corvus brachyrhynchos	2022-12-27
+PQ709289.1	Influenza A virus (A/Caspian tern/WI/22-017717-001-original/2022(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	USA	Hydroprogne caspia	2022-06-02
+PQ711281.1	Influenza A virus (A/Great horned owl/MN/22-013395-004-original/2022(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	USA	Bubo virginianus	2022-04-29
+PQ714089.1	Influenza A virus (A/Mallard/WA/22-016941-001-original/2022(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	USA	Anas platyrhynchos	2022-05-22
+PQ718545.1	Influenza A virus (A/Swainson's Hawk/CO/23-004704-001-original/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	USA	Buteo swainsoni	2023-01-30
+PQ718833.1	Influenza A virus (A/Turkey Vulture/CA/22-024181-002-original/2022(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	USA	Cathartes aura	2022-08-03
+PQ667358.1	Influenza A virus (A/cattle/MI/24-012377-009-original/2024(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	USA	Bos taurus	2024-04-23
+PQ098648.1	Influenza A virus (A/Buteo buteo/Stein am Rhein/V0231_HA/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Switzerland	Buteo buteo	2023-03-02
+PP872452.1	Influenza A virus (A/mallard duck/Bangladesh/59387/2023(H5N1)) clone new segment 4 hemagglutinin (HA) gene, complete cds	Bangladesh	Anas platyrhynchos	2023-11-17
+OR772957.1	Influenza A virus (A/Crow/Dhaka/BDADC-169/2017(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Bangladesh	Corvus	2017-02-13
+OR773020.1	Influenza A virus (A/Crow/Rajshahi/RI-2/2016(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Bangladesh	Corvus	2016-02-18
 OR910419.1	Influenza A virus (A/Peruvian booby/Valparaiso/236604/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Sula variegata	2023-02-13
-OR910425.1	Influenza A virus (A/domestic duck/Araucania/243954-1/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Anas platyrhynchos	2023-03-21
-OR910430.1	Influenza A virus (A/chicken/Aysen/247792-1/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Gallus gallus	2023-04-09
-OR910435.1	Influenza A virus (A/chicken/Bio Bio/245039-2/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Gallus gallus	2023-03-27
-OR910442.1	Influenza A virus (A/black-necked swan/Los Rios/247292-1/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Cygnus melancoryphus	2023-04-05
-OR910447.1	Influenza A virus (A/gray gull/Tarapaca/236305/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Leucophaeus modestus	2023-02-11
-OR910453.1	Influenza A virus (A/brown-hooded gull/Los Rios/247093-1/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Chroicocephalus maculipennis	2023-04-04
-OR910460.1	Influenza A virus (A/domestic duck/Metropolitana/243148-2/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Anas platyrhynchos	2023-03-20
-OR910468.1	Influenza A virus (A/South American sea lion/Valparaiso/243136-1/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Otaria byronia	2023-03-19
-OR910474.1	Influenza A virus (A/chicken/Maule/242133-1/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Gallus gallus	2023-03-15
-OR910477.1	Influenza A virus (A/chicken/Metropolitana/245704-1/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Gallus gallus	2023-03-30
-OR910481.1	Influenza A virus (A/South American sea lion/Valparaiso/244738-1/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Otaria byronia	2023-03-26
-OR910487.1	Influenza A virus (A/great grabe/Nuble/244226-1/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Podiceps major	2023-03-22
-OR910495.1	Influenza A virus (A/Peruvian booby/OHiggins/242755-1/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Sula variegata	2023-03-17
-OR910502.1	Influenza A virus (A/goose/Araucania/244409-2/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Anser anser	2023-03-24
-OR910509.1	Influenza A virus (A/Peruvian booby/Arica y Parinacota/234906-1/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Sula variegata	2023-01-31
-OR910515.1	Influenza A virus (A/penguin/Antofagasta/234905-1/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Pygoscelis	2023-01-27
-OR910521.1	Influenza A virus (A/kelp gull/Nuble/234619-1/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Larus dominicanus	2023-01-30
-OR910528.1	Influenza A virus (A/pelican/OHiggins/233893-1/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Pelecanus	2023-01-25
-OR269887.1	Influenza A virus (A/Thalasseus acuflavidus/EspiritoSanto/1339_N2/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Brazil	Thalasseus acuflavidus	2023-05-15
-OR420092.1	Influenza A virus (A/Fregata magnificens/RJ/1532-N/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Brazil	Fregata magnificens	2023-06-03
-OR591549.1	Influenza A virus (A/Guanay cormorant/Peru/A275/2022(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Peru		2022-12-XX
-OR591550.1	Influenza A virus (A/Peruvian booby/Peru/A296/2022(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Peru	Sula variegata	2022-12-XX
-OR591551.1	Influenza A virus (A/Belcher gull/Peru/A267/2022(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Peru		2022-12-XX
-OR381588.1	Influenza A virus (A/Black-necked swan/Uruguay/014-M3/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Uruguay	Cygnus melancoryphus	2023-02-18
-OR381596.1	Influenza A virus (A/Backyard chicken/Uruguay/040-M5/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Uruguay	Gallus gallus	2023-03-03
-OR381604.1	Influenza A virus (A/Backyard chicken/Uruguay/040-M7/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Uruguay	Gallus gallus	2023-03-03
-OR381612.1	Influenza A virus (A/Backyard chicken/Uruguay/047-M1/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Uruguay	Gallus gallus	2023-03-06
-OR381620.1	Influenza A virus (A/Backyard chicken/Uruguay/047-M3/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Uruguay	Gallus gallus	2023-03-06
-OR381627.1	Influenza A virus (A/Backyard chicken/Uruguay/124-M1/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Uruguay	Gallus gallus	2023-04-16
-OR381636.1	Influenza A virus (A/Backyard chicken/Uruguay/127-M1/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Uruguay	Gallus gallus	2023-04-17
-OR381644.1	Influenza A virus (A/Backyard chicken/Uruguay/127-M4/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Uruguay	Gallus gallus	2023-04-17
-OR381652.1	Influenza A virus (A/Backyard chicken/Uruguay/144-M3/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Uruguay	Gallus gallus	2023-05-03
-OR381660.1	Influenza A virus (A/Backyard duck/Uruguay/124-M3/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Uruguay	Anas platyrhynchos	2023-04-16
-OR381668.1	Influenza A virus (A/Backyard turkey/Uruguay/124-M6/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Uruguay	Meleagris gallopavo	2023-04-16
-OR381676.1	Influenza A virus (A/Black-necked swan/Uruguay/078-M2/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Uruguay	Cygnus melancoryphus	2023-03-15
-OQ962052.1	Influenza A virus (A/Lesser Scaup/Maryland/22-003098-003/2022(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	USA	Aythya affinis	2022-01-23
-OQ965540.1	Influenza A virus (A/Turkey/Minnesota/22-009820-001/2022(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	USA	Meleagris gallopavo	2022-03-30
-OQ966268.1	Influenza A virus (A/Turkey/North Carolina/22-010146-001/2022(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	USA	Meleagris gallopavo	2022-04-04
-OR435591.1	Influenza A virus (A/duck/Vietnam/QN6659/2020(H5N6)) segment 4 hemagglutinin (HA) gene, complete cds	Viet Nam	Anas sp.	2020-10-23
-OR435638.1	Influenza A virus (A/duck/Vietnam/HN6896/2021(H5N6)) segment 4 hemagglutinin (HA) gene, complete cds	Viet Nam	Anas sp.	2021-01-29
-OQ550426.1	Influenza A virus (A/Guanay cormorant/Peru/PIU-SER024/2022(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Peru		2022-11-24
-OQ550434.1	Influenza A virus (A/pelican/Peru/PIU-SER016/2022(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Peru	Pelecanidae	2022-11-24
-OQ550442.1	Influenza A virus (A/dolphin/Peru/PIU-SER002/2022(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Peru	Delphinus delphis	2022-11-22
-OQ550450.1	Influenza A virus (A/pelican/Peru/PIU-SER019/2022(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Peru	Pelecanidae	2022-11-24
-OQ550458.1	Influenza A virus (A/pelican/Peru/PIU-SER028/2022(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Peru	Pelecanidae	2022-11-24
-OQ550466.1	Influenza A virus (A/Sanderling/Peru/PIU-SER005/2022(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Peru	Calidris alba	2022-11-22
-OQ550474.1	Influenza A virus (A/South American Sea Lion/Peru/LIM-SER036/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Peru	Otaria byronia	2023-01-23
-OQ925704.1	Influenza A virus (A/pelican/Peru/PIU-SER013/2022(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Peru	Pelecanidae	2022-11-23
-OQ925711.1	Influenza A virus (A/south american sea lion/Peru/AQP-SER00R/2023(H5N1)) segment 4 hemagglutinin, HA2 region, (HA) gene, partial cds	Peru	Otaria byronia	2023-03-06
-OQ925717.1	Influenza A virus (A/south american sea lion/Peru/AQP-SER00B/2023(H5N1)) segment 4 hemagglutinin (HA) gene, partial cds	Peru	Otaria byronia	2023-01-25
-OQ925725.1	Influenza A virus (A/south american sea lion/Peru/AQP-SER00K/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Peru	Otaria byronia	2023-02-07
-OR268564.1	Influenza A virus (A/Whimbrel/Valparaiso/239946/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Numenius phaeopus	2023-03-05
-OR268570.1	Influenza A virus (A/Humboldt penguin/Tarapaca/238744-2/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Spheniscus humboldti	2023-02-23
-OR268598.1	Influenza A virus (A/Blackish oystercatcher/OHiggins/240628/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Haematopus ater	2023-03-06
-OR269134.1	Influenza A virus (A/chicken/OHiggins/241252-1/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Gallus gallus	2023-03-12
-OR269259.1	Influenza A virus (A/Whimbrel/Valparaiso/239946/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Numenius phaeopus	2023-03-05
-OR269264.1	Influenza A virus (A/Humboldt penguin/Tarapaca/238744-2/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Spheniscus humboldti	2023-02-23
-OR269268.1	Influenza A virus (A/Blackish oystercatcher/OHiggins/240628/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Haematopus ater	2023-03-06
-OR265539.1	Influenza A virus (A/Turkey vulture/Antofagasta/228252-1/2022(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Cathartes aura	2022-12-17
-OR265542.1	Influenza A virus (A/Pelican/Tarapaca/227436-2/2022(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Pelecanus	2022-12-09
-OR265549.1	Influenza A virus (A/Pelican/Antofagasta/228246-3/2022(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Pelecanus	2022-12-15
-OR265569.1	Influenza A virus (A/Pelican/Valparaiso/233418-1/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Pelecanus	2023-01-20
-OR265573.1	Influenza A virus (A/Black-crowned night-heron/Antofagasta/228705-2/2022(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Nycticorax nycticorax	2022-12-20
-OR265587.1	Influenza A virus (A/Great egret/Araucania/240518/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Ardea alba	2023-03-07
-OR265608.1	Influenza A virus (A/Pelican/Coquimbo/230310-1/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Pelecanus	2023-01-02
-OR265639.1	Influenza A virus (A/Humboldt penguin/Coquimbo/239590/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Spheniscus humboldti	2023-02-28
-OR125135.1	Influenza A virus (A/Whimbrel/Coquimbo/239964/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Numenius phaeopus	2023-03-05
-OR125141.1	Influenza A virus (A/chicken/Nuble/240684/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Gallus gallus	2023-03-08
-OR125155.1	Influenza A virus (A/South American tern/Maule/238507/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Sterna hirundinacea	2023-02-23
-OR125162.1	Influenza A virus (A/Pelican/Valparaiso/234040/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Pelecanus	2023-01-25
-OR125175.1	Influenza A virus (A/chicken/Nuble/239136/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Gallus gallus	2023-02-27
-OR125180.1	Influenza A virus (A/Kelp gull/Maule/239349/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Larus dominicanus	2023-03-01
-OR125188.1	Influenza A virus (A/Sanderling/Arica y Parinacota/240265/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Calidris alba	2023-03-03
-OR125201.1	Influenza A virus (A/chicken/Nuble/240155/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Gallus gallus	2023-03-06
-OR125209.1	Influenza A virus (A/Black Skimmer/Maule/240379/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Rynchops niger	2023-03-06
-OR125214.1	Influenza A virus (A/chicken/Araucania/241914-1/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Gallus gallus	2023-03-14
-OR125219.1	Influenza A virus (A/Domestic duck/Araucania/241914-2/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Anas platyrhynchos	2023-03-14
-OR125233.1	Influenza A virus (A/Pelican/Antofagasta/228246-2/2022(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Pelecanus	2022-12-15
-OR125238.1	Influenza A virus (A/Gray gull/Tarapaca/232825-1/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Leucophaeus modestus	2023-01-18
-OR125244.1	Influenza A virus (A/chicken/OHiggins/241252-3/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Gallus gallus	2023-03-12
-OR125250.1	Influenza A virus (A/Sanderling/Arica y Parinacota/230758-1/2022(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Calidris alba	2022-12-30
-OR125255.1	Influenza A virus (A/Elegant tern/Tarapaca/229133-1/2022(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Thalasseus elegans	2022-12-23
-OR125262.1	Influenza A virus (A/South American sea lion/Arica y Parinacota/240270-1/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Otaria byronia	2023-03-01
-OR125269.1	Influenza A virus (A/Pelican/Valparaiso/233091-2/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Pelecanus	2023-01-20
-OR125279.1	Influenza A virus (A/Pelican/Atacama/230158-1/2022(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Pelecanus	2022-12-30
-OR125285.1	Influenza A virus (A/Pelican/Antofagasta/228318-1/2022(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Pelecanus	2022-12-16
-OR125292.1	Influenza A virus (A/Pelican/Valparaiso/233450-1/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Pelecanus	2023-01-23
-OR125296.1	Influenza A virus (A/Pelican/Coquimbo/231946-1/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Pelecanus	2023-01-14
-OR125301.1	Influenza A virus (A/chicken/Araucania/239569-2/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Gallus gallus	2023-03-02
-OR125307.1	Influenza A virus (A/Pelican/Maule/231155-2/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Pelecanus	2023-01-09
-OR125312.1	Influenza A virus (A/Pelican/Atacama/229424-2/2022(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Pelecanus	2022-12-22
-OR125319.1	Influenza A virus (A/chicken/OHiggins/241252-6/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Gallus gallus	2023-03-12
-OR125322.1	Influenza A virus (A/Pelican/Valparaiso/233447-2/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Pelecanus	2023-01-21
-OR125328.1	Influenza A virus (A/chicken/OHiggins/241252-1/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Gallus gallus	2023-03-12
-OR125334.1	Influenza A virus (A/goose/Araucania/239189-1/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Anser sp.	2023-02-28
-OR125340.1	Influenza A virus (A/Pelican/Atacama/229450-2/2022(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Pelecanus	2022-12-26
-OR125345.1	Influenza A virus (A/Turkey vulture/Valparaiso/230187-1/2022(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Cathartes aura	2022-12-31
-OR125351.1	Influenza A virus (A/Turkey/Araucania/241892-3/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Meleagris gallopavo	2023-03-14
-OR125356.1	Influenza A virus (A/Black-crowned night-heron/Antofagasta/228705-3/2022(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Nycticorax nycticorax	2022-12-20
-OR125361.1	Influenza A virus (A/Chiloe wigeon/OHiggins/240893-2/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Mareca sibilatrix	2023-03-09
-OR125370.1	Influenza A virus (A/South American sea lion/Tarapaca/240524-2/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Otaria byronia	2023-03-07
-OR125384.1	Influenza A virus (A/chicken/Nuble/241681-1/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Gallus gallus	2023-03-10
-OR125390.1	Influenza A virus (A/Elegant tern/Arica y Parinacota/229476-1/2022(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Thalasseus elegans	2022-12-24
-OR125399.1	Influenza A virus (A/Pelican/Antofagasta/228272-1/2022(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Pelecanus	2022-12-18
-OR125407.1	Influenza A virus (A/Pelican/Antofagasta/228244-2/2022(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Pelecanus	2022-12-16
-OR125415.1	Influenza A virus (A/chicken/Nuble/241557-1/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Gallus gallus	2023-03-10
-OR125420.1	Influenza A virus (A/chicken/Araucania/239189-2/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Gallus gallus	2023-02-28
-OR125426.1	Influenza A virus (A/Pelican/Nuble/233947-2/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Pelecanus	2023-01-26
-OR125433.1	Influenza A virus (A/Turkey/Nuble/241568-1/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Meleagris gallopavo	2023-03-10
-OR125440.1	Influenza A virus (A/Domestic duck/Maule/240466-1/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Anas platyrhynchos	2023-03-07
-OR125446.1	Influenza A virus (A/chicken/Araucania/241892-2/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Gallus gallus	2023-03-14
-OR125452.1	Influenza A virus (A/Pelican/OHiggins/233663-1/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Pelecanus	2023-01-24
-OR125458.1	Influenza A virus (A/chicken/Araucania/239569-1/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Gallus gallus	2023-03-02
-OR125463.1	Influenza A virus (A/Turkey/Nuble/240489-1/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Meleagris gallopavo	2023-03-07
-OR125471.1	Influenza A virus (A/Pelican/Atacama/230158-2/2022(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Pelecanus	2022-12-30
-OR125482.1	Influenza A virus (A/Pelican/Valparaiso/233091-1/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Pelecanus	2023-01-20
-OR125489.1	Influenza A virus (A/chicken/Araucania/240481-1/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Gallus gallus	2023-03-07
-OR125495.1	Influenza A virus (A/Domestic duck/Araucania/239189-3/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Anas platyrhynchos	2023-02-28
-OR125499.1	Influenza A virus (A/Domestic duck/Araucania/240481-2/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Anas platyrhynchos	2023-03-07
-OR125503.1	Influenza A virus (A/Pelican/OHiggins/233721-1/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Pelecanus	2023-01-24
-OQ547312.1	Influenza A virus (A/Gallus gallus/Peru/AIS0545/2022(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Peru	Gallus gallus	2022-12-03
-OQ547319.1	Influenza A virus (A/Gallus gallus/Peru/AIS0547/2022(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Peru	Gallus gallus	2022-12-28
-OQ547327.1	Influenza A virus (A/Nannopterum brasilianus/Peru/AISA0451/2022(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Peru	Phalacrocorax brasilianus	2022-11-22
-OQ547335.1	Influenza A virus (A/Pelecanus thagus/Peru/AIS0541/2022(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Peru	Pelecanus thagus	2022-11-16
-OQ547343.1	Influenza A virus (A/Gallus gallus/Peru/AIS0539/2022(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Peru	Gallus gallus	2022-11-18
-OQ547351.1	Influenza A virus (A/Gallus gallus/Peru/AIS0540/2022(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Peru	Gallus gallus	2022-11-28
-OQ547359.1	Influenza A virus (A/Gallus gallus/Peru/AIS0542/2022(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Peru	Gallus gallus	2022-12-01
-OQ547367.1	Influenza A virus (A/Gallus gallus/Peru/AIS0543/2022(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Peru	Gallus gallus	2022-12-01
-OQ547375.1	Influenza A virus (A/Gallus gallus/Peru/AIS0544/2022(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Peru	Gallus gallus	2022-12-03
-OQ547383.1	Influenza A virus (A/Gallus gallus/Peru/AIS0546/2022(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Peru	Gallus gallus	2022-12-18
-OQ547391.1	Influenza A virus (A/Gallus gallus/Peru/AIS0548/2022(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Peru	Gallus gallus	2022-12-22
-OQ547399.1	Influenza A virus (A/Gallus gallus/Peru/AIS0549/2022(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Peru	Gallus gallus	2022-12-22
-OQ547407.1	Influenza A virus (A/Gallus gallus/Peru/AIS0550/2022(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Peru	Gallus gallus	2022-12-12
-OQ547415.1	Influenza A virus (A/Gallus gallus/Peru/AIS0551/2022(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Peru	Gallus gallus	2022-12-12
-OQ547423.1	Influenza A virus (A/Nannopterum brasilianus/Peru/AISA0446/2022(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Peru	Phalacrocorax brasilianus	2022-11-22
-OQ547431.1	Influenza A virus (A/Panthera leo/Peru/AIS0554/2023(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Peru	Panthera leo	2023-02-08
-OQ547439.1	Influenza A virus (A/Pelecanus thagus/Peru/AIS0538/2022(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Peru	Pelecanus thagus	2022-11-10
-OQ547447.1	Influenza A virus (A/Pelecanus thagus/Peru/AISA0464/2022(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Peru	Pelecanus thagus	2022-11-22
-OR048385.1	Influenza A virus (A/environment/Japan/KU-6e/2020(H5N8)) segment 4 hemagglutinin (HA) gene, complete cds	Japan		2020-12-21
-OQ747758.1	Influenza A virus (A/Peruvian_pelican/Peru/A074/2022(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Peru		2022-11-XX
-OQ747759.1	Influenza A virus (A/Belcher's_gull/Peru/A102/2022(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Peru		2022-11-XX
-OQ747760.1	Influenza A virus (A/Peruvian_pelican/Peru/A106/2022(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Peru		2022-11-XX
-OQ747761.1	Influenza A virus (A/Belcher's_gull/Peru/A267/2022(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Peru		2022-12-XX
-OQ747762.1	Influenza A virus (A/American kestrel/Peru/A273/2022(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Peru	Falco sparverius	2022-12-XX
-OQ747763.1	Influenza A virus (A/Western barn owl/Peru/A293/2022(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Peru		2022-12-XX
-OQ832505.2	Influenza A virus (A/Andean Guayata/Argentina/A Argentina AndeanGuayata 140223(H5N1)/2023(H5N1)) segment 4 hemagglutinin (HA) gene, partial cds	Argentina		2023-02-11
-OQ683458.1	Influenza A virus (A/chicken/Colombia/Bolivar/3500/2022(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Colombia	Gallus gallus	2022-11-08
-OQ683466.1	Influenza A virus (A/chicken/Colombia/Choco/3502/2022(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Colombia	Gallus gallus	2022-11-13
-OQ683474.1	Influenza A virus (A/chicken/Colombia/Choco/3504/2022(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Colombia	Gallus gallus	2022-11-01
-OQ683482.1	Influenza A virus (A/chicken/Colombia/Cordoba/3499/2022(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Colombia	Gallus gallus	2022-11-26
-OQ683490.1	Influenza A virus (A/chicken/Colombia/Magdalena/3503/2022(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Colombia	Gallus gallus	2022-11-18
-OQ683498.1	Influenza A virus (A/wild duck/Colombia/Choco/3501/2022(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Colombia	Anas platyrhynchos	2022-10-09
-OQ565628.1	Influenza A virus (A/Pelecanus/Peru/VFAR-140/2022(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Peru	Pelecanus	2022-12-XX
-LC625436.1	Influenza A virus (A/environment/Hiroshima/T17-6/2020(H5N8)) viral cRNA, segment 4, complete sequence	Japan		2020-12-07
-LC627330.1	Influenza A virus (A/water/Niigata/HY1116/2020) viral cRNA, segment 4, complete sequence	Japan		2020-11-16
-LC627362.1	Influenza A virus (A/mallard/Miyazaki/4501C605/2021) viral cRNA, segment 4, complete sequence	Japan	Anas platyrhynchos	2021-01-24
-OQ458189.1	Influenza A virus (A/Pelican/CHL/227023-1/2022(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Pelecanus thagus	2022-12-07
-OQ455396.1	Influenza A virus (A/Pelican/CHL/226955-1/2022(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Pelecanus thagus	2022-12-06
-OQ455401.1	Influenza A virus (A/Pelican/CHL/226955-3/2022(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Pelecanus thagus	2022-12-06
-OQ455410.1	Influenza A virus (A/Pelican/CHL/226618-2/2022(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Pelecanus thagus	2022-12-05
-OQ455416.1	Influenza A virus (A/Pelican/CHL/226618-1/2022(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Pelecanus thagus	2022-12-05
-OQ455422.1	Influenza A virus (A/Pelican/CHL/226958-1/2022(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Pelecanus thagus	2022-12-06
-OQ455437.1	Influenza A virus (A/Gull/CHL/227023-2/2022(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Larus	2022-12-07
-OQ455442.1	Influenza A virus (A/Gull/CHL/227023-3/2022(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Larus	2022-12-07
-OQ455458.1	Influenza A virus (A/Pelican/CHL/227087-1/2022(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Pelecanus thagus	2022-12-07
-OQ455466.1	Influenza A virus (A/Pelican/CHL/226924-1/2022(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Pelecanus thagus	2022-12-06
-OQ352548.1	Influenza A virus (A/black skimmer/Chile/C61962/2022(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Rynchops niger	2022-12-02
-OQ352556.1	Influenza A virus (A/gray gull/Chile/C61947/2022(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Leucophaeus modestus	2022-12-02
-OQ202267.1	Influenza A virus (A/Duck/Bangladesh/200O-DUC-S3-15/2018(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Bangladesh	Anatidae	2018-01-16
-OP950297.1	Influenza A virus (A/Pelecanus occidentalis/Venezuela/Pel3S4/2022(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Venezuela	Pelecanus occidentalis	2022-11-25
-OP950305.1	Influenza A virus (A/Pelecanus occidentalis/Venezuela/Pel4S4/2022(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Venezuela	Pelecanus occidentalis	2022-11-25
-OP597554.1	Influenza A virus (A/dalmatian pelican/Astrakhan/417-1/2021(H5N5)) segment 4 hemagglutinin (HA) gene, complete cds	Russia	Pelecanus crispus	2021-04-06
-OP888702.1	Influenza A virus (A/kelp gull/Chile/C21939/2017(H5N6)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Larus dominicanus	2017-02-02
-OP776660.1	Influenza A virus (A/mallard duck/New Zealand/20.002.63/2020(H5N2)) segment 4 hemagglutinin (HA) gene, complete cds	New Zealand	Anas platyrhynchos	2020-01-13
-ON716432.1	Influenza A virus (A/chicken/Cambodia/c9T241C17T/2019(H5N6)) segment 4 hemagglutinin (HA) gene, complete cds	Cambodia	Gallus gallus	2019-01-29
-ON716439.1	Influenza A virus (A/Duck/Cambodia/e5PPOreu241D8/2020(H5N6)) segment 4 hemagglutinin (HA) gene, complete cds	Cambodia	Anatidae	2020-06-13
-ON024712.1	Influenza A virus (A/turkey/Egypt/FAOSG22/2019(H5N8)) segment 4 hemagglutinin (HA) gene, partial cds	Egypt	Meleagris gallopavo	2019-07-XX
-OP023753.1	Influenza A virus (A/duck/Bangladesh/50044/2021(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Bangladesh	Anas sp.	2021-12-20
-MZ564732.1	Influenza A virus (A/chicken/Aguascallientes/CPA-08331-19/2019(H5N2)) segment 4 hemagglutinin (HA) gene, complete cds	Mexico	Gallus gallus	2019-05-15
-MZ564940.1	Influenza A virus (A/chicken/Jalisco/CPA-03072-17/2017(H5N2)) segment 4 hemagglutinin (HA) gene, complete cds	Mexico	Gallus gallus	2017-02-02
-MZ564948.1	Influenza A virus (A/chicken/Jalisco/CPA-03198-17/2017(H5N2)) segment 4 hemagglutinin (HA) gene, complete cds	Mexico	Gallus gallus	2017-02-03
-MZ564972.1	Influenza A virus (A/chicken/Jalisco/CPA-03604-19/2020(H5N2)) segment 4 hemagglutinin (HA) gene, complete cds	Mexico	Gallus gallus	2020-03-05
-ON870441.1	Influenza A virus (A/poultry/Benin/21-A-09-031-O/2021(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Benin		2021-09-01
-MT510051.1	Influenza A virus (A/goose/China/0701/2018(H5N6)) segment 4 hemagglutinin (HA) gene, complete cds	China	Anatidae	2018-07-01
-OM938329.1	Influenza A virus (A/duck/Bangladesh/46246/2020(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Bangladesh	Anas sp.	2020-12-21
-OL354842.1	Influenza A virus (A/chicken/Egypt/N15175B/2018(H5N8)) segment 4 hemagglutinin (HA) gene, complete cds	Egypt	Gallus gallus	2018-02-05
-MT781570.2	Influenza A virus (A/white-tailed eagle/Denmark/4241-1/2018(H5N6)) segment 4 hemagglutinin (HA) gene, complete cds	Denmark	Haliaeetus albicilla	2018-03-14
-MZ235342.1	Influenza A virus (A/peregrine falcon/Hokkaido/4801Z001/2021(H5N8)) segment 4 hemagglutinin (HA) gene, complete cds	Japan	Falco peregrinus	2021-01-28
-MW314795.1	Influenza A virus (A/chicken/China/1101/2019(H5N6)) segment 4 hemagglutinin (HA) gene, complete cds	China	Gallus gallus	2019-11-XX
-MW333318.1	Influenza A virus (A/chicken/Kaohsiung/16MB0889/2016(H5N8)) segment 4 hemagglutinin (HA) gene, complete cds	Taiwan	Gallus gallus	2016-04-20
-MW333382.1	Influenza A virus (A/chicken/Miaoli/18040011-1/2018(H5N2)) segment 4 hemagglutinin (HA) gene, complete cds	Taiwan	Gallus gallus	2018-04-10
-MW333894.1	Influenza A virus (A/chicken/Yunlin/17040003-1/2017(H5N2)) segment 4 hemagglutinin (HA) gene, complete cds	Taiwan	Gallus gallus	2017-03-31
-MW333926.1	Influenza A virus (A/chicken/Yunlin/17040011-1/2017(H5N2)) segment 4 hemagglutinin (HA) gene, complete cds	Taiwan	Gallus gallus	2017-04-05
-MW334134.1	Influenza A virus (A/duck/Pingtung/15010145/2015(H5N2)) segment 4 hemagglutinin (HA) gene, complete cds	Taiwan	Anatidae	2015-01-13
-MW334254.1	Influenza A virus (A/duck/Tainan/16010024-1/2016(H5N2)) segment 4 hemagglutinin (HA) gene, complete cds	Taiwan	Anatidae	2016-01-11
-MW334382.1	Influenza A virus (A/duck/Yunlin/17A0086/2017(H5N2)) segment 4 hemagglutinin (HA) gene, complete cds	Taiwan	Anatidae	2017-02-23
-MW334510.1	Influenza A virus (A/goose/Chiayi/17020027-1/2017(H5N2)) segment 4 hemagglutinin (HA) gene, complete cds	Taiwan	Anatidae	2017-02-15
-MW961492.1	Influenza A virus (A/chicken/Nigeria/VRD21-98_21VIR2288-6/2021(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Nigeria	Gallus gallus	2021-02-12
-MW965518.1	Influenza A virus (A/chicken/Egypt/rg-F192-VV/2020(H5N8)) segment 4 hemagglutinin (HA) gene, complete cds	Egypt	Gallus gallus	2020-06-10
-MW676312.1	Influenza A virus (A/DUCK/Hunan/76/2011(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	China	Anatidae	2011-01-01
-MN874973.1	Influenza A virus (A/duck/France/170036/2017(H5N8)) segment 4 hemagglutinin (HA) gene, partial cds	France	Anatidae	2017-01-02
-MW466215.1	Influenza A virus (A/duck/Bangladesh/43521/2020(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Bangladesh	Anas sp.	2020-02-18
-MW097765.1	Influenza A virus (A/chicken/Shandong/12.26_TAWL007-O/2018(H5N6)) segment 4 hemagglutinin (HA) gene, complete cds	China	Gallus gallus	2018-12-26
-MW097768.1	Influenza A virus (A/chicken/Shandong/12.26_TAWL023-O/2018(H5N6)) segment 4 hemagglutinin (HA) gene, complete cds	China	Gallus gallus	2018-12-26
-MW098433.1	Influenza A virus (A/chicken/Anhui/2.22_YHZGS004-O/2019(H5N6)) segment 4 hemagglutinin (HA) gene, complete cds	China	Gallus gallus	2019-02-22
-MW098445.1	Influenza A virus (A/environment/Henan/2.27_XXHM003-E/2019(H5N6)) segment 4 hemagglutinin (HA) gene, complete cds	China		2019-02-27
-MW098448.1	Influenza A virus (A/chicken/Shanxi/2.22_TGRL001-O/2019(H5N6)) segment 4 hemagglutinin (HA) gene, complete cds	China	Gallus gallus	2019-02-22
-MW098450.1	Influenza A virus (A/environment/Shanxi/2.22_TGRL004-E/2019(H5N6)) segment 4 hemagglutinin (HA) gene, complete cds	China		2019-02-22
-MW110032.1	Influenza A virus (A/goose/Fujian/3.15_FZHX0008-C/2018(H5N6)) segment 4 hemagglutinin (HA) gene, complete cds	China	Anatidae	2018-03-15
-MT547685.1	Influenza A virus (A/Duck/Viet Nam/HU12-1309/2019(H5N6)) segment 4 hemagglutinin (HA) gene, complete cds	Viet Nam	Anatidae	2019-08-XX
-MK849815.1	Influenza A virus (A/mink/Eastern China/149/2018(H5N6)) segment 4 hemagglutinin (HA) gene, complete cds	China	Mustela lutreola	2018-02-22
-MT295787.1	Influenza A virus (A/duck/Ha Tinh/HT12/2014(H5N6)) segment 4 hemagglutinin (HA) gene, complete cds	Viet Nam	Anatidae	2014-05-14
-MT020150.1	Influenza A virus (A/duck/Mongolia/926/2019(H5N3)) segment 4 hemagglutinin (HA) gene, complete cds	Mongolia	Anas platyrhynchos	2019-09-20
-MN658688.1	Influenza A virus (A/chicken/Egypt/CA137/2017(H5N8)) segment 4 hemagglutinin (HA) gene, partial cds	Egypt	Gallus gallus	2017-05-10
-MN658693.1	Influenza A virus (A/chicken/Egypt/V1410/2018(H5N8)) segment 4 hemagglutinin (HA) gene, partial cds	Egypt	Gallus gallus	2018-03-15
-MN577323.1	Influenza A virus (A/wild duck/South Korea/1915/2019(H5N6)) segment 4 hemagglutinin (HA) gene, complete cds	South Korea	Anas platyrhynchos	2019-08-XX
-MN128651.1	Influenza A virus (A/goose/Guangdong/A-Goose-Guangdong-GS114-2015(H5N6)-HA/2015(H5N6)) segment 4 hemagglutinin (HA) gene, complete cds	China	Anatidae	2015-12-16
-MH347216.1	Influenza A virus (A/environment/Chiloe/P07/2017(H5N9)) segment 4 hemagglutinin (HA) gene, complete cds	Chile		2017-05-01
-MH165604.1	Influenza A virus (A/Speckled pigeon/South Africa/08-004B/2017(H5N8)) segment 4 hemagglutinin (HA) gene, complete cds	South Africa	Columba guinea	2017-08-14
-MK345909.1	Influenza A virus (A/laughing gull/Delaware Bay/486/2018(H5N8)) segment 4 hemagglutinin (HA) gene, complete cds	USA	Leucophaeus atricilla	2018-05-23
-LC417187.1	Influenza A virus (A/cackling goose/Aichi/2312T017/2016(H5N6)) viral cRNA, segment 4, complete sequence	Japan	Branta hutchinsii	2016-12-13
-MK163970.1	Influenza A virus (A/mallard duck/Chile/C23961/2017(H5N3)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Anas platyrhynchos	2017-03-28
-MK163984.1	Influenza A virus (A/yellow-billed teal/Chile/C24042/2017(H5N3)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Anas flavirostris	2017-03-28
-MK164009.1	Influenza A virus (A/kelp gull/Chile/C35523/2017(H5N3)) segment 4 hemagglutinin (HA) gene, partial cds	Chile	Larus dominicanus	2017-12-18
-MK167355.1	Influenza A virus (A/white-backed stilt/Chile/C24619/2017(H5N9)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Himantopus melanurus	2017-04-18
-MK071388.1	Influenza A virus (A/silver teal/Argentina/CIP051-1737/2009(H5N3)) segment 4 hemagglutinin (HA) gene, complete cds	Argentina	Anas versicolor	2009-05-XX
-MH558952.1	Influenza A virus (A/chicken/Egypt/ME1010/2016(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Egypt	Gallus gallus	2016-XX-XX
-MH546187.1	Influenza A virus (A/American green-winged teal/Idaho/16-028809-8/2016(H5N9)) segment 4 hemagglutinin (HA) gene, complete cds	USA	Anas carolinensis	2016-08-23
-MH546283.1	Influenza A virus (A/Muscovy duck/New Jersey/16-021457-2/2016(H5N2)) segment 4 hemagglutinin (HA) gene, complete cds	USA	Cairina moschata	2016-07-01
-MH546363.1	Influenza A virus (A/duck/New Jersey/11-064045-002/2011(H5N2)) segment 4 hemagglutinin (HA) gene, complete cds	USA	Anatidae	2011-12-20
-MF112558.1	Influenza A virus (A/chicken/Nigeria/16VIR5840-17/2015(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Nigeria	Gallus gallus	2015-01-30
-MH068239.1	Influenza A virus (A/environment/South Carolina/UGAI17-2243/2017(H5N2)) segment 4 hemagglutinin (HA) gene, complete cds	USA		2017-05-10
-MG965072.1	Influenza A virus (A/turkey/Minnesota/15-010856-1/2015(H5N2)) segment 4 hemagglutinin (HA) gene, complete cds	USA	Meleagris gallopavo	2015-04-03
-LC342523.1	Influenza A virus (A/mute swan/Hyogo/2801ITM003/2017(H5N6)) viral cRNA, segment 4, complete sequence	Japan	Cygnus olor	2017-01-14
-LC274989.1	Influenza A virus (A/tufted duck/Hyogo/2812A009/2016(H5N6)) viral cRNA, segment 4, complete sequence	Japan	Aythya fuligula	2016-12-28
-KX960170.1	Influenza A virus (A/wild bird/Jiangxi/P31/2015(H5N6)) segment 4 hemagglutinin (HA) gene, complete cds	China	Aves	2015-01-07
-MF960003.1	Influenza A virus (A/chicken/Guangdong/GD1602/2016(H5N6)) segment 4 hemagglutinin (HA) gene, complete cds	China	Gallus gallus	2016-03-22
-LC318655.1	Influenza A virus (A/grey-faced buzzard/Aomori/10/2016(H5N6)) viral cRNA, segment 4, complete sequence	Japan	Butastur indicus	2016-12-28
-MF046544.2	Influenza A virus (A/Canada goose/Delaware Bay/601/2016(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	USA	Branta canadensis	2016-05-25
-KY635638.1	Influenza A virus (A/duck/Bangladesh/26042/2015(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Bangladesh	Anas sp.	2015-08-25
-KY558847.1	Influenza A virus (A/chicken/Egypt/F12505B/2016(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Egypt	Gallus gallus	2016-01-23
-KY415620.1	Influenza A virus (A/duck/Hubei/ZYSYF24/2015(H5N6)) segment 4 hemagglutinin (HA) gene, complete cds	China	Anatidae	2015-11-15
-KY171528.1	Influenza A virus (A/duck/Vietnam/NCVD-2848/2013(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Viet Nam	Anatidae	2013-03-01
-KY171536.1	Influenza A virus (A/duck/Vietnam/NCVD-0004/2013(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Viet Nam	Anatidae	2013-01-03
-KY171576.1	Influenza A virus (A/duck/Vietnam/NCVD-0027/2012(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Viet Nam	Anatidae	2012-12-17
-KX513178.1	Influenza A virus (A/Muscovy duck/Vietnam/BG80-1/2013(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Viet Nam	Anas platyrhynchos	2013-05-02
-LC167766.1	Influenza A virus (A/Muscovy duck/Vietnam/HU3-1411/2015(H5N1)) viral cRNA, segment 4, complete sequence	Viet Nam	Cairina moschata	2015-08-15
-KX458007.1	Influenza A virus (A/chinstrap penguin/Antarctica/B04/2015(H5N5)) segment 4 hemagglutinin (HA) gene, complete cds	Antarctica	Pygoscelis antarcticus	2015-01-16
-KX297877.1	Influenza A virus (A/environment/Korea/W475/2014(H5N8)) segment 4 hemagglutinin (HA) gene, complete cds	South Korea		2014-12-21
-KX254928.1	Influenza A virus (A/Chiloe wigeon/Chile/17/2014(H5N2)) segment 4 hemagglutinin, HA2 region, (HA) gene, partial cds	Chile	Mareca sibilatrix	2014-04-30
-CY207181.1	Influenza A virus (A/white-faced whistling duck/Colombia/1/2011(H5N2)) hemagglutinin (HA) gene, complete cds	Colombia	Dendrocygna viduata	2011-04-11
-CY207189.1	Influenza A virus (A/black-bellied whistling duck/Colombia/1/2011(H5N2)) hemagglutinin (HA) gene, complete cds	Colombia	Dendrocygna autumnalis	2011-04-13
-KT936692.1	Influenza A virus (A/Eurasian curlew/Shanghai/DT1231-3/2014(H5N8)) segment 4 hemagglutinin (HA) gene, partial cds	China	Numenius arquata	2014-12-31
-KT936712.1	Influenza A virus (A/common teal/Shanghai/PD1108-20/2013(H5N8)) segment 4 hemagglutinin (HA) gene, partial cds	China	Anas crecca	2013-11-08
-KX101134.1	Influenza A virus (A/yellow-billed teal/Chile/19/2014(H5Nx)) segment 4 hemagglutinin, HA2 region, (HA) gene, partial cds	Chile	Anas flavirostris	2014-04-30
-KX101141.1	Influenza A virus (A/yellow-billed teal/Chile/15/2014(H5Nx)) segment 4 hemagglutinin, HA2 region, (HA) gene, partial cds	Chile	Anas flavirostris	2014-04-24
-KX101207.1	Influenza A virus (A/yellow-billed teal/Chile/22/2014(H5Nx)) segment 4 hemagglutinin, HA2 region, (HA) gene, partial cds	Chile	Anas flavirostris	2014-04-30
-KX185908.1	Influenza A virus (A/yellow-billed pintail/Chile/C1267/2015(H5N3)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Anas georgica	2015-09-24
-KU851866.1	Influenza A virus (A/chicken/China/G2/2012(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	China	Gallus gallus	2012-01-16
-KP662584.1	Influenza A virus (A/crow/India/03CA06/2012(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	India	Corvus	2012-03-05
-KT361947.1	Influenza A virus (A/duck/Bangladesh/21908/2014(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Bangladesh	Anatidae	2014-02-23
-KT280932.1	Influenza A virus (A/chicken/Iowa/21981/2015(H5N2)) segment 4 hemagglutinin (HA) gene, complete cds	USA	Gallus gallus	2015-04-27
-KM110975.1	Influenza A virus (A/chicken/India/04MO03/2012(H5N1)) segment 4 hemagglutinin (HA) gene, partial cds	India	Gallus gallus	2012-04-XX
-KP762509.1	Influenza A virus (A/chicken/Jiangsu/2477/2014(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	China	Gallus gallus	2014-06-17
-KR137670.1	Influenza A virus (A/chicken/TC/a504/2015(H5N2)) segment 4 hemagglutinin (HA) gene, complete cds	Taiwan	Gallus gallus	2015-01-23
-KR233982.1	Influenza A virus (A/turkey/Minnesota/9892-2/2015(H5N2)) segment 4 hemagglutinin (HA) gene, complete cds	USA	Meleagris gallopavo	2015-03-26
-KJ683880.1	Influenza A virus (A/chicken/Qingdao/1/2014(H5N2)) segment 4 hemagglutinin (HA) gene, complete cds	China	Gallus gallus	2014-01-16
-KP742852.1	Influenza A virus (A/chicken/Melak/BPPVRV-32-1/2011(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Indonesia	Gallus gallus	2011-01-XX
-KP742883.1	Influenza A virus (A/chicken/Karangasem/BBVD-0209-4/2011(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Indonesia	Gallus gallus	2011-04-XX
-LC028315.1	Influenza A virus (A/muscovy duck/Vietnam/LBM756/2014(H5N6)) viral cRNA, segment: 4, complete sequence	Viet Nam	Cairina moschata	2014-10-13
-KP307984.1	Influenza A virus (A/gyrfalcon/Washington/41088-6/2014(H5N8)) segment 4 hemagglutinin (HA) gene, complete cds	USA	Falco rusticolus	2014-12-08
-KP097915.1	Influenza A virus (A/chicken/Vietnam/NCVD-KA423/2013(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Viet Nam	Gallus gallus	2013-01-09
-LC010736.1	Influenza A virus (A/muscovy duck/Vietnam/LBM670/2014(H5N1)) viral cRNA, segment 4, complete sequence	Viet Nam	Cairina moschata	2014-06-04
-KM821621.1	Influenza A virus (A/duck/Khanhhoa/CVVI-16/2013(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Viet Nam	Anatidae	2013-03-04
-KM821629.1	Influenza A virus (A/duck/Khanhhoa/CVVI-24/2013(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Viet Nam	Anatidae	2013-04-01
-KM821638.1	Influenza A virus (A/duck/Khanhhoa/CVVI-33/2014(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Viet Nam	Anatidae	2014-02-10
-KJ509132.1	Influenza A virus (A/mallard/Korea/H297/2014(H5N8)) segment 4 hemagglutinin (HA) gene, complete cds	South Korea	Anas platyrhynchos	2014-01-29
-KF369257.1	Influenza A virus (A/Cambodia/X0502302/2013(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Cambodia	Homo sapiens	2013-01-30
-KF918456.1	Influenza A virus (A/Cambodia/X0628313/2013(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Cambodia	Homo sapiens	2013-06-28
-KF918478.1	Influenza A virus (A/chicken/Cambodia/X0815301/2013(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Cambodia	Gallus gallus	2013-08-13
-KJ682248.1	Influenza A virus (A/chicken/Bhutan/345/2012(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Bhutan	Gallus gallus	2012-01-29
-CY177345.1	Influenza A virus (A/mallard/California/1480/2013(H5N5)) hemagglutinin (HA) gene, complete cds	USA	Anas platyrhynchos	2013-07-30
-KJ522717.1	Influenza A virus (A/duck/Egypt/12133S/2012(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Egypt	Anas platyrhynchos	2012-11-08
-KJ522718.1	Influenza A virus (A/duck/Egypt/12143S/2012(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Egypt	Anas platyrhynchos	2012-11-20
-CY167046.1	Influenza A virus (A/northern pintail/Illinois/11OS4796/2011(H5N3)) hemagglutinin (HA) gene, complete cds	USA	Anas acuta	2011-10-22
-KJ162588.1	Influenza A virus (A/chicken/Taiwan/683/2012(H5N2)) segment 4 hemagglutinin (HA) gene, complete cds	Taiwan	Gallus gallus	2012-12-06
-KF772948.1	Influenza A virus (A/wild bird/Chile/1805/2008(H5N9)) segment 4 hemagglutinin (HA) gene, complete cds	Chile	Larus dominicanus	2008-01-21
-AB818505.1	Influenza A virus (A/chicken/Soc Trang/5/2012(H5N1)) viral cRNA, segment 4, complete genome	Viet Nam	Gallus gallus	2012-06-17
-KC616475.1	Influenza A virus (A/chicken/Bangladesh/12VIR-7140-14/2012(H5N1)) segment 4 hemagglutinin (HA) gene, partial cds	Bangladesh	Gallus gallus	2012-04-03
-KC703334.1	Influenza A virus (A/black bellied whistling duck/Colombia/1/2011(H5N2)) segment 4 hemagglutinin (HA) gene, complete cds	Colombia	Dendrocygna autumnalis	2011-04-13
-KC703342.1	Influenza A virus (A/white faced whistling duck/Colombia/1/2011(H5N2)) segment 4 hemagglutinin (HA) gene, complete cds	Colombia	Anas platyrhynchos	2011-04-11
-JX912991.1	Influenza A virus (A/chicken/Egypt/S3806D/2011(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Egypt	Gallus gallus	2011-09-04
-JX912995.1	Influenza A virus (A/chicken/Egypt/S3806B/2011(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Egypt	Gallus gallus	2011-09-04
-JQ858479.2	Influenza A virus (A/chicken/Egypt/1188/2011(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Egypt	Gallus gallus	2011-10-25
-JQ714246.1	Influenza A virus (A/Cambodia/W0112303/2012(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Cambodia	Homo sapiens	2012-01-10
-CY089470.1	Influenza A virus (A/chicken/India/CL03485/2011(H5N1)) hemagglutinin (HA) gene, complete cds	India	Gallus gallus	2011-03-06
-JN588816.1	Influenza A virus (A/chicken/Cambodia/TKCMB8F/2010(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Cambodia	Gallus gallus	2010-01-28
-JN588821.1	Influenza A virus (A/duck/Cambodia/PV027D1/2010(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Cambodia	Anatidae	2010-04-30
-JN588823.1	Influenza A virus (A/chicken/Cambodia/PV025LC4/2010(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Cambodia	Gallus gallus	2010-04-23
-JN807824.1	Influenza A virus (A/chicken/Egypt/114AF/2011(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Egypt	Gallus gallus	2011-01-20
-JN807859.1	Influenza A virus (A/duck/Egypt/11312S/2011(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Egypt	Anatidae	2011-03-31
-JN795912.1	Influenza A virus (A/chicken/Bangladesh/11rs1984-6/2010(H5N1)) segment 4 hemagglutinin (HA) gene, partial cds	Bangladesh	Gallus gallus	2010-XX-XX
-JN613381.1	Influenza A virus (A/duck/Nepal/PTS58/2010(H5N1)) segment 4 hemagglutinin (HA) gene, partial cds	Nepal	Anatidae	2010-02-XX
-JN613388.1	Influenza A virus (A/chicken/Nepal/105/2010(H5N1)) segment 4 hemagglutinin (HA) gene, partial cds	Nepal	Gallus gallus	2010-03-XX
-CY098325.1	Influenza A virus (A/duck/Lao/9/2010(H5N1)) hemagglutinin (HA) gene, complete cds	Laos	Anatidae	2010-03-XX
-CY098460.1	Influenza A virus (A/duck/Lao/987/2010(H5N1)) hemagglutinin (HA) gene, complete cds	Laos	Anatidae	2010-03-XX
-HQ198275.2	Influenza A virus (A/chicken/Egypt/1012sf/2010(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Egypt	Gallus gallus	2010-02-XX
-HQ198290.2	Influenza A virus (A/chicken/Egypt/1020d/2010(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Egypt	Gallus gallus	2010-03-XX
-CY062609.1	Influenza A virus (A/chicken/Egypt/6-A/2010(H5N1)) segment 4 sequence	Egypt	Gallus gallus	2010-03-20
+OR048433.1	Influenza A virus (A/environment/Japan/KU-C5/2020(H5N8)) segment 4 hemagglutinin (HA) gene, complete cds	Japan		2020-11-30
+OR048689.1	Influenza A virus (A/hooded crane/Japan/KU-106/2021(H5N8)) segment 4 hemagglutinin (HA) gene, complete cds	Japan	Grus monacha	2021-02-05
+OQ632823.1	Influenza A virus (A/Mule-duck/France/21351/2021(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	France		2021-12-26
+OP590533.1	Influenza A virus (A/pintail/Egypt/RA19853OP/2021(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Egypt	Anas acuta	2021-12-15
+OQ546777.1	Influenza A virus (A/Muscovy duck/Vietnam/HN3656/2017(H5N1)) clone 5 segment 4 hemagglutinin (HA) gene, complete cds	Viet Nam	Cairina moschata	2017-03-10
+LC619136.1	Influenza A virus (A/Eastern buzzard/Kagawa/3712A007/2020) viral cRNA, segment 4, complete sequence	Japan	Buteo japonicus	2020-12-08
+OP597612.1	Influenza A virus (A/common teal/Chelyabinsk/1379-1/2021(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Russia	Anas crecca	2021-09-14
+LC656668.1	Influenza A virus (A/mallard/Miyazaki/4501C607-c8/2021) viral cRNA, segment 4, complete sequence	Japan	Anas platyrhynchos	2021-01-24
+MW873718.1	Influenza A virus (A/mallard/Alaska/AK20-526/2020(H5N2)) segment 4 hemagglutinin (HA) gene, complete cds	USA	Anas platyrhynchos	2020-10-22
+MN759491.1	Influenza A virus (A/chicken/Nigeria/VRD-18-NS10_18RS1971-29/2018(H5N8)) segment 4 hemagglutinin (HA) gene, complete cds	Nigeria	Gallus gallus	2018-01-XX
+OK205539.1	Influenza A virus (A/chicken/El Salvador/102711-2/2001(H5N2)) segment 4 hemagglutinin (HA) gene, complete cds	El Salvador	Gallus gallus	2001-XX-XX
+OK205563.1	Influenza A virus (A/chicken/Guatemala/22066/1998(H5N2)) segment 4 hemagglutinin (HA) gene, complete cds	Guatemala	Gallus gallus	1998-XX-XX
+OK205587.1	Influenza A virus (A/chicken/Guatemala/45511-1/2000(H5N2)) segment 4 hemagglutinin (HA) gene, complete cds	Guatemala	Gallus gallus	2000-XX-XX
+OK205595.1	Influenza A virus (A/chicken/Guatemala/45511-2/2000(H5N2)) segment 4 hemagglutinin (HA) gene, complete cds	Guatemala	Gallus gallus	2000-XX-XX
+OK205611.1	Influenza A virus (A/chicken/Guatemala/45511-4/2000(H5N2)) segment 4 hemagglutinin (HA) gene, complete cds	Guatemala	Gallus gallus	2000-XX-XX
+OK205643.1	Influenza A virus (A/chicken/Jalisco/229-4592/1998(H5N2)) segment 4 hemagglutinin (HA) gene, complete cds	Mexico	Gallus gallus	1998-XX-XX
+OK205795.1	Influenza A virus (A/chicken/Puebla/28159-474/1995(H5N2)) segment 4 hemagglutinin (HA) gene, complete cds	Mexico	Gallus gallus	1995-XX-XX
+OK205827.1	Influenza A virus (A/chicken/Queretaro/22019-853/1996(H5N2)) segment 4 hemagglutinin (HA) gene, complete cds	Mexico	Gallus gallus	1996-XX-XX
+OK205843.1	Influenza A virus (A/chicken/Queretaro/7653-20/1995(H5N2)) segment 4 hemagglutinin (HA) gene, complete cds	Mexico	Gallus gallus	1995-XX-XX
+OK205851.1	Influenza A virus (A/chicken/San Luis Potosi/7651/1996(H5N2)) segment 4 hemagglutinin (HA) gene, complete cds	Mexico	Gallus gallus	1996-XX-XX
+OK205859.1	Influenza A virus (A/chicken/Tabasco/234-8289/1998(H5N2)) segment 4 hemagglutinin (HA) gene, complete cds	Mexico	Gallus gallus	1998-XX-XX
+MW936304.1	Influenza A virus (A/Muscovy duck/Vietnam/HN4716/2018(H5N6)) segment 4 hemagglutinin (HA) gene, complete cds	Viet Nam	Cairina moschata	2018-06-09
+MZ801736.1	Influenza A virus (A/chicken/HeBei/CK05/2019(H5N6)) segment 4 hemagglutinin (HA) gene, complete cds	China	Gallus gallus	2019-03-XX
+MW333414.1	Influenza A virus (A/chicken/New Taipei City/17040002-2/2017(H5N2)) segment 4 hemagglutinin (HA) gene, complete cds	Taiwan	Gallus gallus	2017-04-01
+MW333494.1	Influenza A virus (A/chicken/Pingtung/18010019-2/2018(H5N2)) segment 4 hemagglutinin (HA) gene, complete cds	Taiwan	Gallus gallus	2018-01-19
+MW334182.1	Influenza A virus (A/duck/Pingtung/15A03399-1-10T/2015(H5N2)) segment 4 hemagglutinin (HA) gene, complete cds	Taiwan	Anatidae	2015-02-06
+MW676321.1	Influenza A virus (A/DUCK/Hunan/36/2011(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	China	Anatidae	2011-01-01
+MW493131.1	Influenza A virus (A/mallard/South Korea/JB22-3/2019(H5N3)) segment 4 hemagglutinin (HA) gene, complete cds	South Korea	Anas platyrhynchos	2019-09-29
+MW137889.1	Influenza A virus (A/chicken/Egypt/F17230C/2019(H5N8)) segment 4 hemagglutinin (HA) gene, complete cds	Egypt	Gallus gallus	2019-06-25
+MW466223.1	Influenza A virus (A/duck/Bangladesh/43128/2020(H5N6)) segment 4 hemagglutinin (HA) gene, complete cds	Bangladesh	Anas sp.	2020-01-27
+MN038194.1	Influenza A virus (A/chicken/Egypt/F15099/2018(H5N8)) segment 4 hemagglutinin (HA) gene, complete cds	Egypt	Gallus gallus	2018-01-14
+MT256070.1	Influenza A virus (A/Teal/Dakahlia/VRLCU/2019(H5N8)) segment 4 hemagglutinin (HA) gene, complete cds	Egypt	Anas	2019-06-18
+MT090325.1	Influenza A virus (A/duck/Bangladesh/38287/2019(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Bangladesh	Anas sp.	2019-02-18
+MT027086.1	Influenza A virus (A/layer hen/Slovakia/A-chicken-Slovakia-Pah_14-2020_H5N8_HA/2020(H5N8)) segment 4 hemagglutinin (HA) gene, complete cds	Slovakia	Gallus gallus	2020-01-03
+MN453559.1	Influenza A virus (A/chicken/Luang Prabang Province/NL-1621317/2016(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Laos	Gallus gallus	2016-10-08
+MN994217.1	Influenza A virus (A/crow/Bangladesh/NRL-AI-689/2016(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Bangladesh	Corvus	2016-02-09
+MN209678.1	Influenza A virus (A/duck/Bangladesh/35435/2018(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Bangladesh	Anas sp.	2018-06-05
+MH546507.1	Influenza A virus (A/guinea fowl/New York/08-000170-003/2008(H5N2)) segment 4 hemagglutinin (HA) gene, complete cds	USA	Numididae	2008-01-17
+MG650618.1	Influenza A virus (A/Indian peafowl/Cameroon/17RS1661-6/2017(H5N8)) segment 4 hemagglutinin (HA) gene, complete cds	Cameroon	Pavo cristatus	2017-01-XX
+MG964448.1	Influenza A virus (A/chicken/Iowa/15-014294-1/2015(H5N2)) segment 4 hemagglutinin (HA) gene, complete cds	USA	Gallus gallus	2015-05-03
+MG964952.1	Influenza A virus (A/turkey/Iowa/15-015071-3/2015(H5N2)) segment 4 hemagglutinin (HA) gene, complete cds	USA	Meleagris gallopavo	2015-05-10
+MG192004.1	Influenza A virus (A/chicken/Egypt/173CAL/2017(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Egypt	Gallus gallus	2017-04-XX
+LC318888.1	Influenza A virus (A/whooper swan/Fukushima/3/2016(H5N6)) viral cRNA, segment 4, complete sequence	Japan	Cygnus cygnus	2016-12-14
+KY558852.1	Influenza A virus (A/chicken/Egypt/N12642E/2016(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Egypt	Gallus gallus	2016-05-08
+KX960156.1	Influenza A virus (A/wild bird/Jiangsu/H184/2015(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	China	Aves	2015-04-05
+KY171509.1	Influenza A virus (A/chicken/Vietnam/NCVD-1104/2013(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Viet Nam	Gallus gallus	2013-02-05
+KY171568.1	Influenza A virus (A/duck/Vietnam/NCVD-0193/2012(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Viet Nam	Anatidae	2012-12-17
+KP861974.1	Influenza A virus (A/chicken/Nepal/08TI78/2013(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Nepal	Gallus gallus	2013-08-25
+KU201688.1	Influenza A virus (A/mallard/Idaho/AH0008597/2015(H5N8)) segment 4 hemagglutinin (HA) gene, complete cds	USA	Anas platyrhynchos	2015-01-07
+KU042743.1	Influenza A virus (A/goose/Zhejiang/112071/2014(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	China	Anatidae	2014-11-20
+KR987707.1	Influenza A virus (A/chicken/Denpasar/02/2004(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Indonesia	Gallus gallus	2004-06-30
+LC041308.1	Influenza A virus (A/duck/Vietnam/HU1-1152/2014(H5N6)) viral cRNA, segment 4, complete sequence	Viet Nam	Anas platyrhynchos	2014-11-18
+KP864427.1	Influenza A virus (A/Egypt/N5561/2014(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Egypt	Homo sapiens	2014-12-14
+KP735809.1	Influenza A virus (A/chicken/Dongtai/1011/2010(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	China	Gallus gallus	2010-11-10
+KP742887.1	Influenza A virus (A/duck/Berau/BPPV5-0513022-B/2013(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Indonesia	Anatidae	2013-01-XX
+KP090447.1	Influenza A virus (A/chicken/Jiangxi/NCDZT1126/2014(H5N6)) segment 4 hemagglutinin (HA) gene, complete cds	China	Gallus gallus	2014-06-29
+CY099970.1	Influenza A virus (A/duck/Viet Nam/TMU018/2009(H5N1)) hemagglutinin (HA) gene, complete cds	Viet Nam	Anatidae	2009-10-06
+CY099973.1	Influenza A virus (A/duck/Viet Nam/TMU023/2009(H5N1)) hemagglutinin (HA) gene, complete cds	Viet Nam	Anatidae	2009-10-26
+KF001466.1	Influenza A virus (A/environment/Cambodia/E290W9M1/2013(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Cambodia		2013-02-25
+KF001468.1	Influenza A virus (A/environment/Cambodia/E328W9M4/2013(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Cambodia		2013-02-26
+AB979503.1	Influenza A virus (A/duck/Vietnam/LBM638/2014(H5N1)) HA gene for haemagglutinin, complete cds, segment 4	Viet Nam	Anas platyrhynchos	2014-04-15
+KF501076.1	Influenza A virus (A/common shelduck/Mongolia/2187/2011(H5N3)) segment 4 hemagglutinin (HA) gene, complete cds	Mongolia	Tadorna tadorna	2011-10-09
+KJ682292.1	Influenza A virus (A/chicken/Bhutan/349/2012(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Bhutan	Gallus gallus	2012-01-29
+KJ522713.1	Influenza A virus (A/chicken/Egypt/1213CAL/2012(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Egypt	Gallus gallus	2012-04-24
+KF888546.1	Influenza A virus (A/chicken/Bangladesh/15078/2012(H5N1)) hemagglutinin (HA) gene, complete cds	Bangladesh	Gallus gallus	2012-01-18
+JX420150.1	Influenza A virus (A/duck/Son La/34/2007(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Viet Nam	Anatidae	2007-XX-XX
+CY126176.1	Influenza A virus (A/chicken/Giza/CAI17/2009(H5N1)) hemagglutinin (HA) gene, complete cds	Egypt	Gallus gallus	2009-07-01
+JX570819.1	Influenza A virus (A/turkey/MB/FAV11/2010(H5N2)) segment 4 hemagglutinin (HA) gene, complete cds	Canada	Meleagris gallopavo	2010-11-25
+AB747114.1	Influenza A virus (A/common pochard/Tottori/3102S012/2011(H5N1)) viral cRNA, segment 4, complete sequence	Japan		2011-02-03
+JN543376.1	UNVERIFIED: Influenza A virus (A/environment/Chang Sha/4/2009(H5N1)) segment 4 hemagglutinin-like (HA) gene, complete sequence	China		2009-08-19
+CY090108.1	Influenza A virus (A/chicken/India/100071/2008(H5N1)) hemagglutinin (HA) gene, complete cds	India	Gallus gallus	2008-03-15
+JQ858487.1	Influenza A virus (A/chicken/Egypt/12186F-9/2012(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Egypt	Gallus gallus	2012-02-XX
+JQ794454.1	Influenza A virus (A/chicken/Thailand/TS02/2006(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Thailand	Gallus gallus	2006-XX-XX
+HM006759.1	Influenza A virus (A/Viet Nam/1203/2004(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Viet Nam	Homo sapiens	2004-XX-XX
+JQ673604.1	Influenza A virus (A/environment/Cambodia/C429D/2011(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Cambodia		2011-04-26
+CY107842.1	Influenza A virus (A/buzzard/Berlin/01/2006(H5N1)) hemagglutinin (HA) gene, partial cds	Germany	Buteo	2006-XX-XX
+JN986882.1	Influenza A virus (A/duck/Vietnam/QT802/2011(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Viet Nam	Anas platyrhynchos	2011-07-07
+JN807780.1	Influenza A virus (A/duck/Egypt/10185SS/2010(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Egypt	Anatidae	2010-06-10
+JN807785.1	Influenza A virus (A/chicken/Egypt/1098/2010(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Egypt	Gallus gallus	2010-07-19
+JN613380.1	Influenza A virus (A/duck/Nepal/DTS24/2010(H5N1)) segment 4 hemagglutinin (HA) gene, partial cds	Nepal	Anatidae	2010-02-XX
+CY095260.1	Influenza A virus (A/mallard/British Columbia/07594/2005(H5N2))	Canada	Anas platyrhynchos	2005-08-19
+CY094847.1	Influenza A virus (A/quail/Vietnam/7B/2004(H5N1)) hemagglutinin (HA) gene, complete cds	Viet Nam	Galliformes	2004-XX-XX
+CY091865.1	Influenza A virus (A/duck/Sleman/BBVW-598-32237/2007(H5N1)) hemagglutinin (HA) gene, complete cds	Indonesia	Anatidae	2007-05-15
+CY091781.1	Influenza A virus (A/peaceful dove/Denpasar/BBVD-480/2007(H5N1)) hemagglutinin (HA) gene, complete cds	Indonesia	Geopelia placida	2007-08-23
+CY091783.1	Influenza A virus (A/chicken/Denpasar/BBVD-509/2007(H5N1)) hemagglutinin (HA) gene, complete cds	Indonesia	Gallus gallus	2007-08-28
+AB558474.1	Influenza A virus (A/chicken/Queretaro/14588-19/1995(H5N2)) HA gene for hemagglutinin, complete cds		Gallus gallus	1995-XX-XX
+GQ923325.1	Influenza A virus (A/Canada goose/Wyoming/473197-12/2006(H5N2)) segment 4 hemagglutinin (HA) gene, complete cds	USA	Branta canadensis	2006-XX-XX
+HM114449.1	Influenza A virus (A/Vietnam/UT3028/2003(H5N1)) segment 4 hemagglutinin (HA) gene, partial cds	Viet Nam	Homo sapiens	2003-12-28
+FJ789840.1	Influenza A virus (A/wild bird feces/Cheonsuman2/2002(H5N3)) segment 4 hemagglutinin (HA) gene, complete cds	South Korea		2002-11-XX
+CY046102.1	Influenza A virus (A/duck/India/TR-NIV4396/2008(H5N1)) segment 4 sequence	India	Anatidae	2008-04-03
+CY046112.1	Influenza A virus (A/chicken/India/WB-NIV529/2008(H5N1)) segment 4 sequence	India	Gallus gallus	2008-01-13
+GU051872.1	Influenza A virus (A/environment/New York/200269-18/2002(H5N4)) segment 4 hemagglutinin (HA) gene, complete cds	USA		2002-XX-XX
+GU052019.1	Influenza A virus (A/goose/Hong Kong/437-6/1999(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Hong Kong	Anatidae	1999-XX-XX
+GU052027.1	Influenza A virus (A/goose/Hong Kong/437-8/1999(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Hong Kong	Anatidae	1999-XX-XX
+GU052035.1	Influenza A virus (A/environment/Hong Kong/486/1997(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Hong Kong		1997-XX-XX
+GU052057.1	Influenza A virus (A/goose/Hong Kong/1032.9/2000(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Hong Kong	Anatidae	2000-XX-XX
+GU052089.1	Influenza A virus (A/Hong Kong/378.1/2001(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Hong Kong	Homo sapiens	2001-XX-XX
+GU052142.1	Influenza A virus (A/Hong Kong/485/1997(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Hong Kong	Homo sapiens	1997-XX-XX
+GU052473.1	Influenza A virus (A/avian/Italy/1485/1997(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Italy	Aves	1997-XX-XX
+GU052588.1	Influenza A virus (A/chicken/Mexico/37821-771/1996(H5N2)) segment 4 hemagglutinin (HA) gene, complete cds	Mexico	Gallus gallus	1996-XX-XX
+GU052675.1	Influenza A virus (A/chicken/Puebla/28159-474/1995(H5N2)) segment 4 hemagglutinin (HA) gene, complete cds	Mexico	Gallus gallus	1995-XX-XX
+GU052690.1	Influenza A virus (A/chicken/Mexico/28159-541/1995(H5N2)) segment 4 hemagglutinin (HA) gene, complete cds	Mexico	Gallus gallus	1995-XX-XX
+GU053489.1	Influenza A virus (A/mallard/Maryland/786/2002(H5N2)) segment 4 hemagglutinin (HA) gene, partial cds	USA	Anas platyrhynchos	2002-XX-XX
+GU186446.1	Influenza A virus (A/ruddy turnstone/DE/85/2003(H5N2)) segment 4 hemagglutinin (HA) gene, complete cds	USA	Arenaria interpres	2003-XX-XX
+GU186648.1	Influenza A virus (A/duck/Ang Thong/71(2)/2004(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Thailand	Anatidae	2004-XX-XX
+GU186716.1	Influenza A virus (A/chicken/Lang Son/200/2005(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Viet Nam	Gallus gallus	2005-XX-XX
+GU002675.1	Influenza A virus (A/duck/Egypt/0923-NLQP/2009(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Egypt	Anatidae	2009-02-XX
+CY041038.1	Influenza A virus (A/duck/Laos/25/2006(H5N1)) segment 4 sequence	Laos	Anatidae	2006-XX-XX
+CY041048.1	Influenza A virus (A/chicken/Laos/OX005/2008(H5N1)) segment 4 sequence	Laos	Gallus gallus	2008-XX-XX
+FJ784853.1	Influenza A virus (A/chicken/Hubei/3002/2007(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	China	Gallus gallus	2007-01-29
+CY036365.1	Influenza A virus (A/avian/New York/Sg-00372/2001(H5N2)) segment 4 sequence	USA	Aves	2001-XX-XX
+FJ390028.1	Influenza A virus (A/chicken/Astana/6/2005(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Kazakhstan	Gallus gallus	2005-06-XX
+FJ265577.1	Influenza A virus (A/chicken/Thailand/Sukhothai/NIAH6-3-0013/2005(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Thailand	Gallus gallus	2005-XX-XX
+FJ357069.1	Influenza A virus (A/mallard/MN/1/2000(H5N2)) segment 4 hemagglutinin (HA) gene, complete cds	USA	Anas platyrhynchos	2000-XX-XX
+EU980494.1	Influenza A virus (A/mallard/MD/898/2002(H5N2)) segment 4 hemagglutinin (HA) gene, complete cds	USA	Anas platyrhynchos	2002-XX-XX
+CY028931.1	Influenza A virus (A/duck/Shantou/4407/2001(H5N1)) segment 4 sequence	China	Anatidae	2001-XX-XX
+CY028959.1	Influenza A virus (A/chicken/Shantou/3744/2003(H5N1)) segment 4 sequence	China	Gallus gallus	2003-XX-XX
+CY028977.1	Influenza A virus (A/duck/Yunnan/662/2003(H5N1)) segment 4 sequence	China	Anatidae	2003-XX-XX
+EU124168.1	Influenza A virus (A/Chicken/Vietnam/Long An 636/2005(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Viet Nam	Gallus gallus	2005-11-21
+EU118132.1	Influenza A virus (A/chicken/Vietnam/G04/2004(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Viet Nam	Gallus gallus	2004-XX-XX
+CY022621.1	Influenza A virus (A/chicken/Italy/22A/1998(H5N9)) segment 4, complete sequence	Italy	Gallus gallus	1998-XX-XX
+EF541405.1	Influenza A virus (A/duck/Viet Nam/Ncvd1/2003(H5N1)) segment 4 hemagglutinin (HA) gene, complete cds	Viet Nam	Anatidae	2003-XX-XX
+CY020229.1	Influenza A virus (A/poultry/Italy/373/1997(H5N2)) segment 4, complete sequence	Italy	Aves	1997-XX-XX
+CY017662.1	Influenza A virus (A/Indonesia/CDC835/2006(H5N1)) segment 4 sequence	Indonesia	Homo sapiens	2006-09-22
+CY016611.1	Influenza A virus (A/mallard/Maryland/789/2002(H5N2)) segment 4, complete sequence	USA	Anas platyrhynchos	2002-08-27
+CY015115.1	Influenza A virus (A/chicken/Italy/312/1997(H5N2)) segment 4, complete sequence	Italy	Aves	1997-10-XX
+AY296064.2	Influenza A virus (A/chukar/MN/14591-7/1998(H5N2)) segment 4 hemagglutinin (HA) gene, complete cds	USA	Alectoris chukar	1998-XX-XX
+AY296078.2	Influenza A virus (A/unknown/NY/118547-11/2001(H5N2)) segment 4 hemagglutinin (HA) gene, complete cds	USA		2001-XX-XX

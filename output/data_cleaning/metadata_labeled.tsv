@@ -150,19 +150,17 @@ CY015115.1	"Influenza A virus (A/chicken/Italy/312/1997(H5N2)) segment 4, comple
 AY296064.2	"Influenza A virus (A/chukar/MN/14591-7/1998(H5N2)) segment 4 hemagglutinin (HA) gene, complete cds"	USA	"Alectoris chukar"	1998-XX-XX	1	0	Other	Other
 AY296078.2	"Influenza A virus (A/unknown/NY/118547-11/2001(H5N2)) segment 4 hemagglutinin (HA) gene, complete cds"	USA		2001-XX-XX	1	0	Other	Other
 cov4496		Peru		2023-05-11	0	1	2.3.4.4b	Novel
-cov3904		Peru		XXXX-XX-XX	0	1	2.3.4.4b	Novel
 cov4479		Peru		2023-03-10	0	1	2.3.4.4b	Novel
 cov4404		Peru		2023-02-20	0	1	2.3.4.4b	Novel
 cov4495		Peru		2023-04-14	0	1	2.3.4.4b	Novel
-cov3903		Peru		XXXX-XX-XX	0	1	2.3.4.4b	Novel
 cov4486		Peru		2023-03-02	0	1	2.3.4.4b	Novel
-cov4445		Peru		2022-02-23	0	1	2.3.4.4b	Novel
+cov4445		Peru		2023-02-23	0	1	2.3.4.4b	Novel
 cov4425		Peru		2023-02-20	0	1	2.3.4.4b	Novel
 cov4411		Peru		2023-02-20	0	1	2.3.4.4b	Novel
 cov4418		Peru		2023-02-20	0	1	2.3.4.4b	Novel
 cov4488		Peru		2023-03-03	0	1	2.3.4.4b	Novel
 cov4448		Peru		2023-02-20	0	1	2.3.4.4b	Novel
-cov4489		Peru		2023-03-03	0	1		
+cov4489		Peru		2023-03-03	0	1	2.3.4.4b	Novel
 cov4422		Peru		2023-02-20	0	1	2.3.4.4b	Novel
 cov4410		Peru		2023-02-20	0	1	2.3.4.4b	Novel
 cov4464		Peru		2022-12-10	0	1	2.3.4.4b	Novel
@@ -204,4 +202,6 @@ cov4494		Peru		2023-04-14	0	1	2.3.4.4b	Novel
 cov4490		Peru		2023-03-11	0	1	2.3.4.4b	Novel
 cov4492		Peru		2023-03-02	0	1	2.3.4.4b	Novel
 cov4385		Peru		2022-12-10	0	1	2.3.4.4b	Novel
+cov3904							2.3.4.4b	Novel
+cov3903							2.3.4.4b	Novel
 covXXXX							2.3.4.4b	Novel

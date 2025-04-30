@@ -1297,32 +1297,35 @@
     "NODE_0000001": {
       "aa_muts": {
         "HA": [
-          "R3K",
           "I6L",
-          "A7L",
-          "I11V",
           "I13L",
-          "G16S",
-          "K61N",
-          "K69R",
-          "M121L",
-          "T179S",
-          "V185Q",
-          "I190V",
-          "N211T",
-          "I226V",
-          "S256N",
-          "D291N",
-          "V310I",
-          "T341I",
-          "R499K",
-          "S512A"
+          "F166L",
+          "N211T"
         ]
       }
     },
     "NODE_0000002": {
       "aa_muts": {
-        "HA": []
+        "HA": [
+          "K3R",
+          "L7A",
+          "V11I",
+          "S16G",
+          "N61K",
+          "R69K",
+          "L121M",
+          "F166L",
+          "S179T",
+          "Q185V",
+          "V190I",
+          "V226I",
+          "N256S",
+          "N291D",
+          "I310V",
+          "I341T",
+          "K499R",
+          "A512S"
+        ]
       }
     },
     "NODE_0000003": {
@@ -1609,38 +1612,25 @@
     "NODE_0000023": {
       "aa_muts": {
         "HA": [
-          "K3R",
           "L6I",
-          "L7A",
-          "V11I",
           "L13I",
-          "S16G",
           "T52E",
           "D59S",
-          "N61K",
-          "R69K",
           "I87L",
           "A99D",
           "S100N",
           "D104G",
-          "L121M",
           "R123S",
           "K135R",
           "H154N",
+          "L166F",
           "S171N",
-          "S179T",
-          "Q185V",
-          "V190I",
           "T211N",
           "I214V",
           "L225S",
-          "V226I",
           "K250R",
-          "N256S",
-          "N291D",
-          "I310V",
           "T336V",
-          "R341T",
+          "R341I",
           "R342-",
           "R343-",
           "K344-",
@@ -1648,13 +1638,11 @@
           "V394I",
           "R414K",
           "Q429K",
-          "K499R",
-          "A512S",
           "L554F"
         ]
       },
       "aa_sequences": {
-        "HA": "MERIVIALAIISIVKGDQICIGYHANNSTEQVDTIMEKNVTVTHAQDILEKEHNGKLCSLKGVKPLILKDCSVAGWLLGNPMCDEFLNVPEWSYIVEKDNPANGLCYPGDFNDYEELKHLMSSTNHFEKIQIIPRSSWSNHDASSGVSSACPYNGRSSFFRNVVWLIKKNNAYPTIKRTYNNTNVEDLLILWGIHHPNDAAEQTKLYQNPNTYVSVGTSTLNQRSIPEIATRPKVNGQSGRMEFFWTILRPNDAISFESNGNFIAPEYAYKIVKKGDSAIMKSELEYGNCDTKCQTPMGAINSSMPFHNVHPLTIGECPKYVKSNRLVLATGLRNVPQRET----RGLFGAIAGFIEGGWQGMVDGWYGYHHSNEQGSGYAADKESTQKAIDGITNKVNSIIDKMNTQFEAVGKEFNNLERRIENLNKKMEDGFLDVWTYNAELLVLMENERTLDFHDSNVKNLYDKVRLQLRDNAKELGNGCFEFYHKCDNECMESVRNGTYDYPQYSEESRLNREEISGVKLESMGTYQILSIYSTVASSLALAIMVAGLSFWMCSNGSLQCRICI*"
+        "HA": "MEKIVILLAIVSIVKSDQICIGYHANNSTEQVDTIMEKNVTVTHAQDILEKEHNGKLCSLNGVKPLILRDCSVAGWLLGNPMCDEFLNVPEWSYIVEKDNPANGLCYPGDFNDYEELKHLLSSTNHFEKIQIIPRSSWSNHDASSGVSSACPYNGRSSFFRNVVWFIKKNNAYPTIKRSYNNTNQEDLLVLWGIHHPNDAAEQTKLYQNPNTYVSVGTSTLNQRSVPEIATRPKVNGQSGRMEFFWTILRPNDAINFESNGNFIAPEYAYKIVKKGDSAIMKSELEYGNCNTKCQTPMGAINSSMPFHNIHPLTIGECPKYVKSNRLVLATGLRNVPQREI----RGLFGAIAGFIEGGWQGMVDGWYGYHHSNEQGSGYAADKESTQKAIDGITNKVNSIIDKMNTQFEAVGKEFNNLERRIENLNKKMEDGFLDVWTYNAELLVLMENERTLDFHDSNVKNLYDKVRLQLRDNAKELGNGCFEFYHKCDNECMESVKNGTYDYPQYSEEARLNREEISGVKLESMGTYQILSIYSTVASSLALAIMVAGLSFWMCSNGSLQCRICI*"
       }
     },
     "NODE_0000024": {
@@ -2795,11 +2783,6 @@
         ]
       }
     },
-    "NODE_0000163": {
-      "aa_muts": {
-        "HA": []
-      }
-    },
     "NODE_0000164": {
       "aa_muts": {
         "HA": []
@@ -2807,19 +2790,19 @@
     },
     "NODE_0000167": {
       "aa_muts": {
+        "HA": [
+          "V285L"
+        ]
+      }
+    },
+    "NODE_0000169": {
+      "aa_muts": {
         "HA": []
       }
     },
     "NODE_0000170": {
       "aa_muts": {
         "HA": []
-      }
-    },
-    "NODE_0000171": {
-      "aa_muts": {
-        "HA": [
-          "V285L"
-        ]
       }
     },
     "NODE_0000172": {
@@ -2894,12 +2877,12 @@
         "HA": []
       }
     },
-    "NODE_0000190": {
+    "NODE_0000191": {
       "aa_muts": {
         "HA": []
       }
     },
-    "NODE_0000191": {
+    "NODE_0000192": {
       "aa_muts": {
         "HA": [
           "L131Q"
@@ -2918,16 +2901,11 @@
         ]
       }
     },
-    "NODE_0000196": {
+    "NODE_0000197": {
       "aa_muts": {
         "HA": [
           "T211I"
         ]
-      }
-    },
-    "NODE_0000198": {
-      "aa_muts": {
-        "HA": []
       }
     },
     "NODE_0000199": {
@@ -2940,11 +2918,14 @@
         "HA": []
       }
     },
+    "NODE_0000201": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
     "NODE_0000202": {
       "aa_muts": {
-        "HA": [
-          "T143A"
-        ]
+        "HA": []
       }
     },
     "NODE_0000203": {
@@ -2958,10 +2939,12 @@
     },
     "NODE_0000206": {
       "aa_muts": {
-        "HA": []
+        "HA": [
+          "T143A"
+        ]
       }
     },
-    "NODE_0000208": {
+    "NODE_0000207": {
       "aa_muts": {
         "HA": []
       }
@@ -2971,53 +2954,27 @@
         "HA": []
       }
     },
-    "NODE_0000210": {
+    "NODE_0000217": {
       "aa_muts": {
         "HA": []
       }
     },
-    "NODE_0000211": {
-      "aa_muts": {
-        "HA": [
-          "K69Q"
-        ]
-      }
-    },
-    "NODE_0000213": {
-      "aa_muts": {
-        "HA": []
-      }
-    },
-    "NODE_0000214": {
-      "aa_muts": {
-        "HA": []
-      }
-    },
-    "NODE_0000215": {
-      "aa_muts": {
-        "HA": [
-          "G284E"
-        ]
-      }
-    },
-    "NODE_0000216": {
-      "aa_muts": {
-        "HA": []
-      }
-    },
-    "NODE_0000218": {
+    "NODE_0000220": {
       "aa_muts": {
         "HA": []
       }
     },
     "NODE_0000221": {
       "aa_muts": {
-        "HA": [
-          "P157S"
-        ]
+        "HA": []
       }
     },
-    "NODE_0000224": {
+    "NODE_0000222": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000223": {
       "aa_muts": {
         "HA": []
       }
@@ -3054,23 +3011,24 @@
     },
     "NODE_0000232": {
       "aa_muts": {
-        "HA": [
-          "L7F"
-        ]
+        "HA": []
       }
     },
-    "NODE_0000233": {
+    "NODE_0000234": {
       "aa_muts": {
-        "HA": [
-          "V5A"
-        ]
+        "HA": []
       }
     },
     "NODE_0000235": {
       "aa_muts": {
         "HA": [
-          "K477R"
+          "V468I"
         ]
+      }
+    },
+    "NODE_0000236": {
+      "aa_muts": {
+        "HA": []
       }
     },
     "NODE_0000237": {
@@ -3078,11 +3036,14 @@
         "HA": []
       }
     },
+    "NODE_0000238": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
     "NODE_0000239": {
       "aa_muts": {
-        "HA": [
-          "V11L"
-        ]
+        "HA": []
       }
     },
     "NODE_0000240": {
@@ -3092,17 +3053,12 @@
     },
     "NODE_0000241": {
       "aa_muts": {
-        "HA": [
-          "R224K",
-          "S336N"
-        ]
+        "HA": []
       }
     },
     "NODE_0000242": {
       "aa_muts": {
-        "HA": [
-          "T52A"
-        ]
+        "HA": []
       }
     },
     "NODE_0000243": {
@@ -3120,6 +3076,11 @@
         "HA": []
       }
     },
+    "NODE_0000246": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
     "NODE_0000247": {
       "aa_muts": {
         "HA": []
@@ -3127,9 +3088,7 @@
     },
     "NODE_0000248": {
       "aa_muts": {
-        "HA": [
-          "A99S"
-        ]
+        "HA": []
       }
     },
     "NODE_0000249": {
@@ -3142,11 +3101,21 @@
         "HA": []
       }
     },
-    "NODE_0000253": {
+    "NODE_0000251": {
       "aa_muts": {
         "HA": [
-          "Y153H"
+          "K177Q"
         ]
+      }
+    },
+    "NODE_0000252": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000253": {
+      "aa_muts": {
+        "HA": []
       }
     },
     "NODE_0000254": {
@@ -3166,7 +3135,9 @@
     },
     "NODE_0000257": {
       "aa_muts": {
-        "HA": []
+        "HA": [
+          "Q507R"
+        ]
       }
     },
     "NODE_0000258": {
@@ -3176,16 +3147,19 @@
     },
     "NODE_0000259": {
       "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000260": {
+      "aa_muts": {
         "HA": [
-          "D104G"
+          "R421K"
         ]
       }
     },
     "NODE_0000261": {
       "aa_muts": {
-        "HA": [
-          "I310V"
-        ]
+        "HA": []
       }
     },
     "NODE_0000262": {
@@ -3200,9 +3174,7 @@
     },
     "NODE_0000264": {
       "aa_muts": {
-        "HA": [
-          "H289R"
-        ]
+        "HA": []
       }
     },
     "NODE_0000265": {
@@ -3217,7 +3189,10 @@
     },
     "NODE_0000267": {
       "aa_muts": {
-        "HA": []
+        "HA": [
+          "V14A",
+          "Q234K"
+        ]
       }
     },
     "NODE_0000268": {
@@ -3227,51 +3202,48 @@
     },
     "NODE_0000269": {
       "aa_muts": {
-        "HA": [
-          "I352K"
-        ]
+        "HA": []
       }
     },
     "NODE_0000270": {
       "aa_muts": {
-        "HA": [
-          "D104G"
-        ]
+        "HA": []
+      }
+    },
+    "NODE_0000271": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000272": {
+      "aa_muts": {
+        "HA": []
       }
     },
     "NODE_0000273": {
       "aa_muts": {
-        "HA": [
-          "H153Y"
-        ]
+        "HA": []
       }
     },
     "NODE_0000274": {
       "aa_muts": {
-        "HA": [
-          "N205K",
-          "K293R"
-        ]
+        "HA": []
       }
     },
     "NODE_0000275": {
       "aa_muts": {
-        "HA": [
-          "V5A"
-        ]
+        "HA": []
       }
     },
     "NODE_0000276": {
       "aa_muts": {
-        "HA": [
-          "V5A"
-        ]
+        "HA": []
       }
     },
     "NODE_0000277": {
       "aa_muts": {
         "HA": [
-          "K515R"
+          "K69Q"
         ]
       }
     },
@@ -3285,32 +3257,14 @@
         "HA": []
       }
     },
-    "NODE_0000280": {
-      "aa_muts": {
-        "HA": []
-      }
-    },
     "NODE_0000282": {
-      "aa_muts": {
-        "HA": []
-      }
-    },
-    "NODE_0000283": {
-      "aa_muts": {
-        "HA": []
-      }
-    },
-    "NODE_0000284": {
       "aa_muts": {
         "HA": []
       }
     },
     "NODE_0000285": {
       "aa_muts": {
-        "HA": [
-          "M242I",
-          "R343K"
-        ]
+        "HA": []
       }
     },
     "NODE_0000286": {
@@ -3320,23 +3274,12 @@
     },
     "NODE_0000287": {
       "aa_muts": {
-        "HA": [
-          "D504Y"
-        ]
+        "HA": []
       }
     },
     "NODE_0000288": {
       "aa_muts": {
-        "HA": [
-          "S304N"
-        ]
-      }
-    },
-    "NODE_0000289": {
-      "aa_muts": {
-        "HA": [
-          "S16G"
-        ]
+        "HA": []
       }
     },
     "NODE_0000290": {
@@ -3381,17 +3324,16 @@
     },
     "NODE_0000298": {
       "aa_muts": {
-        "HA": []
+        "HA": [
+          "P157A"
+        ]
       }
     },
     "NODE_0000299": {
       "aa_muts": {
-        "HA": []
-      }
-    },
-    "NODE_0000300": {
-      "aa_muts": {
-        "HA": []
+        "HA": [
+          "H289N"
+        ]
       }
     },
     "NODE_0000301": {
@@ -3409,7 +3351,24 @@
         "HA": []
       }
     },
+    "NODE_0000304": {
+      "aa_muts": {
+        "HA": [
+          "P157S"
+        ]
+      }
+    },
+    "NODE_0000305": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
     "NODE_0000306": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000307": {
       "aa_muts": {
         "HA": []
       }
@@ -3421,7 +3380,9 @@
     },
     "NODE_0000309": {
       "aa_muts": {
-        "HA": []
+        "HA": [
+          "G284E"
+        ]
       }
     },
     "NODE_0000310": {
@@ -3459,6 +3420,11 @@
         "HA": []
       }
     },
+    "NODE_0000317": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
     "NODE_0000318": {
       "aa_muts": {
         "HA": []
@@ -3469,12 +3435,7 @@
         "HA": []
       }
     },
-    "NODE_0000321": {
-      "aa_muts": {
-        "HA": []
-      }
-    },
-    "NODE_0000322": {
+    "NODE_0000320": {
       "aa_muts": {
         "HA": []
       }
@@ -3486,10 +3447,17 @@
     },
     "NODE_0000324": {
       "aa_muts": {
-        "HA": []
+        "HA": [
+          "Y153H"
+        ]
       }
     },
     "NODE_0000326": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000328": {
       "aa_muts": {
         "HA": []
       }
@@ -3504,33 +3472,18 @@
         "HA": []
       }
     },
-    "NODE_0000331": {
-      "aa_muts": {
-        "HA": []
-      }
-    },
     "NODE_0000332": {
       "aa_muts": {
         "HA": [
-          "P157A"
+          "I310V"
         ]
-      }
-    },
-    "NODE_0000333": {
-      "aa_muts": {
-        "HA": [
-          "H289N"
-        ]
-      }
-    },
-    "NODE_0000334": {
-      "aa_muts": {
-        "HA": []
       }
     },
     "NODE_0000335": {
       "aa_muts": {
-        "HA": []
+        "HA": [
+          "H289R"
+        ]
       }
     },
     "NODE_0000336": {
@@ -3540,9 +3493,7 @@
     },
     "NODE_0000337": {
       "aa_muts": {
-        "HA": [
-          "K177Q"
-        ]
+        "HA": []
       }
     },
     "NODE_0000338": {
@@ -3557,7 +3508,9 @@
     },
     "NODE_0000340": {
       "aa_muts": {
-        "HA": []
+        "HA": [
+          "I352K"
+        ]
       }
     },
     "NODE_0000341": {
@@ -3570,6 +3523,14 @@
         "HA": []
       }
     },
+    "NODE_0000343": {
+      "aa_muts": {
+        "HA": [
+          "V5A",
+          "K515R"
+        ]
+      }
+    },
     "NODE_0000344": {
       "aa_muts": {
         "HA": []
@@ -3580,14 +3541,31 @@
         "HA": []
       }
     },
-    "NODE_0000348": {
+    "NODE_0000346": {
       "aa_muts": {
         "HA": []
       }
     },
+    "NODE_0000347": {
+      "aa_muts": {
+        "HA": [
+          "K293R"
+        ]
+      }
+    },
+    "NODE_0000348": {
+      "aa_muts": {
+        "HA": [
+          "N205K",
+          "R515K"
+        ]
+      }
+    },
     "NODE_0000349": {
       "aa_muts": {
-        "HA": []
+        "HA": [
+          "H153Y"
+        ]
       }
     },
     "NODE_0000350": {
@@ -3595,9 +3573,11 @@
         "HA": []
       }
     },
-    "NODE_0000351": {
+    "NODE_0000352": {
       "aa_muts": {
-        "HA": []
+        "HA": [
+          "A99S"
+        ]
       }
     },
     "NODE_0000353": {
@@ -3607,9 +3587,7 @@
     },
     "NODE_0000354": {
       "aa_muts": {
-        "HA": [
-          "E201K"
-        ]
+        "HA": []
       }
     },
     "NODE_0000355": {
@@ -3617,37 +3595,42 @@
         "HA": []
       }
     },
-    "NODE_0000356": {
-      "aa_muts": {
-        "HA": []
-      }
-    },
     "NODE_0000357": {
       "aa_muts": {
-        "HA": []
+        "HA": [
+          "L7F"
+        ]
       }
     },
     "NODE_0000358": {
       "aa_muts": {
-        "HA": []
+        "HA": [
+          "V5A"
+        ]
       }
     },
     "NODE_0000359": {
       "aa_muts": {
-        "HA": [
-          "V14A",
-          "Q234K"
-        ]
+        "HA": []
       }
     },
     "NODE_0000360": {
       "aa_muts": {
-        "HA": []
+        "HA": [
+          "K477R"
+        ]
       }
     },
     "NODE_0000361": {
       "aa_muts": {
         "HA": []
+      }
+    },
+    "NODE_0000362": {
+      "aa_muts": {
+        "HA": [
+          "V11L"
+        ]
       }
     },
     "NODE_0000363": {
@@ -3657,9 +3640,7 @@
     },
     "NODE_0000364": {
       "aa_muts": {
-        "HA": [
-          "Q507R"
-        ]
+        "HA": []
       }
     },
     "NODE_0000365": {
@@ -3669,20 +3650,25 @@
     },
     "NODE_0000366": {
       "aa_muts": {
-        "HA": []
+        "HA": [
+          "R224K",
+          "S336N"
+        ]
       }
     },
-    "NODE_0000369": {
+    "NODE_0000367": {
+      "aa_muts": {
+        "HA": [
+          "T52A"
+        ]
+      }
+    },
+    "NODE_0000368": {
       "aa_muts": {
         "HA": []
       }
     },
-    "NODE_0000370": {
-      "aa_muts": {
-        "HA": []
-      }
-    },
-    "NODE_0000371": {
+    "NODE_0000372": {
       "aa_muts": {
         "HA": []
       }
@@ -3694,25 +3680,20 @@
     },
     "NODE_0000374": {
       "aa_muts": {
-        "HA": []
+        "HA": [
+          "M242I",
+          "R343K"
+        ]
       }
     },
     "NODE_0000375": {
       "aa_muts": {
-        "HA": []
+        "HA": [
+          "D504Y"
+        ]
       }
     },
     "NODE_0000376": {
-      "aa_muts": {
-        "HA": []
-      }
-    },
-    "NODE_0000377": {
-      "aa_muts": {
-        "HA": []
-      }
-    },
-    "NODE_0000379": {
       "aa_muts": {
         "HA": []
       }
@@ -3727,19 +3708,11 @@
         "HA": []
       }
     },
-    "NODE_0000382": {
-      "aa_muts": {
-        "HA": []
-      }
-    },
-    "NODE_0000383": {
-      "aa_muts": {
-        "HA": []
-      }
-    },
     "NODE_0000384": {
       "aa_muts": {
-        "HA": []
+        "HA": [
+          "D104G"
+        ]
       }
     },
     "NODE_0000385": {
@@ -3757,16 +3730,23 @@
         "HA": []
       }
     },
+    "NODE_0000388": {
+      "aa_muts": {
+        "HA": [
+          "S304N"
+        ]
+      }
+    },
     "NODE_0000389": {
       "aa_muts": {
-        "HA": []
+        "HA": [
+          "S16G"
+        ]
       }
     },
     "NODE_0000390": {
       "aa_muts": {
-        "HA": [
-          "R421K"
-        ]
+        "HA": []
       }
     },
     "NODE_0000391": {
@@ -3779,21 +3759,9 @@
         "HA": []
       }
     },
-    "NODE_0000393": {
-      "aa_muts": {
-        "HA": []
-      }
-    },
-    "NODE_0000394": {
-      "aa_muts": {
-        "HA": []
-      }
-    },
     "NODE_0000395": {
       "aa_muts": {
-        "HA": [
-          "V468I"
-        ]
+        "HA": []
       }
     },
     "NODE_0000396": {
@@ -3801,39 +3769,11 @@
         "HA": []
       }
     },
-    "NODE_0000397": {
-      "aa_muts": {
-        "HA": []
-      }
-    },
-    "NODE_0000398": {
+    "NODE_0000402": {
       "aa_muts": {
         "HA": [
           "E201K"
         ]
-      }
-    },
-    "NODE_0000399": {
-      "aa_muts": {
-        "HA": [
-          "A230T",
-          "D252N"
-        ]
-      }
-    },
-    "NODE_0000400": {
-      "aa_muts": {
-        "HA": []
-      }
-    },
-    "NODE_0000401": {
-      "aa_muts": {
-        "HA": []
-      }
-    },
-    "NODE_0000402": {
-      "aa_muts": {
-        "HA": []
       }
     },
     "NODE_0000403": {
@@ -3843,15 +3783,12 @@
     },
     "NODE_0000404": {
       "aa_muts": {
-        "HA": []
+        "HA": [
+          "M549V"
+        ]
       }
     },
     "NODE_0000405": {
-      "aa_muts": {
-        "HA": []
-      }
-    },
-    "NODE_0000406": {
       "aa_muts": {
         "HA": []
       }
@@ -3864,7 +3801,7 @@
     "NODE_0000408": {
       "aa_muts": {
         "HA": [
-          "M549L"
+          "H371R"
         ]
       }
     },
@@ -3873,86 +3810,14 @@
         "HA": []
       }
     },
-    "NODE_0000410": {
-      "aa_muts": {
-        "HA": []
-      }
-    },
-    "NODE_0000411": {
-      "aa_muts": {
-        "HA": []
-      }
-    },
     "NODE_0000412": {
       "aa_muts": {
-        "HA": [
-          "S304N"
-        ]
-      }
-    },
-    "NODE_0000413": {
-      "aa_muts": {
         "HA": []
-      }
-    },
-    "NODE_0000414": {
-      "aa_muts": {
-        "HA": []
-      }
-    },
-    "NODE_0000415": {
-      "aa_muts": {
-        "HA": []
-      }
-    },
-    "NODE_0000416": {
-      "aa_muts": {
-        "HA": []
-      }
-    },
-    "NODE_0000417": {
-      "aa_muts": {
-        "HA": []
-      }
-    },
-    "NODE_0000420": {
-      "aa_muts": {
-        "HA": [
-          "V298I"
-        ]
-      }
-    },
-    "NODE_0000422": {
-      "aa_muts": {
-        "HA": [
-          "N205K"
-        ]
-      }
-    },
-    "NODE_0000423": {
-      "aa_muts": {
-        "HA": [
-          "E30K"
-        ]
-      }
-    },
-    "NODE_0000425": {
-      "aa_muts": {
-        "HA": []
-      }
-    },
-    "NODE_0000426": {
-      "aa_muts": {
-        "HA": [
-          "S304N"
-        ]
       }
     },
     "NODE_0000428": {
       "aa_muts": {
-        "HA": [
-          "D171N"
-        ]
+        "HA": []
       }
     },
     "NODE_0000429": {
@@ -3962,9 +3827,17 @@
     },
     "NODE_0000430": {
       "aa_muts": {
-        "HA": [
-          "M549I"
-        ]
+        "HA": []
+      }
+    },
+    "NODE_0000431": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000432": {
+      "aa_muts": {
+        "HA": []
       }
     },
     "NODE_0000433": {
@@ -3972,36 +3845,35 @@
         "HA": []
       }
     },
-    "NODE_0000436": {
+    "NODE_0000434": {
       "aa_muts": {
-        "HA": [
-          "T529I"
-        ]
+        "HA": []
       }
     },
-    "NODE_0000439": {
+    "NODE_0000435": {
       "aa_muts": {
-        "HA": [
-          "I423L"
-        ]
+        "HA": []
       }
     },
-    "NODE_0000440": {
+    "NODE_0000437": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000438": {
       "aa_muts": {
         "HA": []
       }
     },
     "NODE_0000441": {
       "aa_muts": {
-        "HA": [
-          "V328I"
-        ]
+        "HA": []
       }
     },
     "NODE_0000442": {
       "aa_muts": {
         "HA": [
-          "P139Q"
+          "V298I"
         ]
       }
     },
@@ -4010,9 +3882,18 @@
         "HA": []
       }
     },
+    "NODE_0000444": {
+      "aa_muts": {
+        "HA": [
+          "N205K"
+        ]
+      }
+    },
     "NODE_0000445": {
       "aa_muts": {
-        "HA": []
+        "HA": [
+          "E30K"
+        ]
       }
     },
     "NODE_0000446": {
@@ -4025,7 +3906,12 @@
         "HA": []
       }
     },
-    "NODE_0000451": {
+    "NODE_0000449": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000450": {
       "aa_muts": {
         "HA": []
       }
@@ -4046,11 +3932,6 @@
       }
     },
     "NODE_0000455": {
-      "aa_muts": {
-        "HA": []
-      }
-    },
-    "NODE_0000456": {
       "aa_muts": {
         "HA": []
       }
@@ -4077,9 +3958,7 @@
     },
     "NODE_0000461": {
       "aa_muts": {
-        "HA": [
-          "N205K"
-        ]
+        "HA": []
       }
     },
     "NODE_0000462": {
@@ -4097,23 +3976,33 @@
         "HA": []
       }
     },
-    "NODE_0000466": {
+    "NODE_0000465": {
       "aa_muts": {
         "HA": [
           "Q18H"
         ]
       }
     },
-    "NODE_0000468": {
+    "NODE_0000466": {
       "aa_muts": {
         "HA": []
       }
     },
-    "NODE_0000469": {
+    "NODE_0000467": {
+      "aa_muts": {
+        "HA": []
+      }
+    },
+    "NODE_0000468": {
       "aa_muts": {
         "HA": [
           "V5I"
         ]
+      }
+    },
+    "NODE_0000469": {
+      "aa_muts": {
+        "HA": []
       }
     },
     "NODE_0000470": {
@@ -4123,15 +4012,26 @@
     },
     "NODE_0000471": {
       "aa_muts": {
-        "HA": []
+        "HA": [
+          "A9T"
+        ]
       }
     },
     "NODE_0000472": {
       "aa_muts": {
-        "HA": []
+        "HA": [
+          "N140K"
+        ]
       }
     },
     "NODE_0000473": {
+      "aa_muts": {
+        "HA": [
+          "P152S"
+        ]
+      }
+    },
+    "NODE_0000474": {
       "aa_muts": {
         "HA": []
       }
@@ -4156,9 +4056,16 @@
         "HA": []
       }
     },
-    "NODE_0000480": {
+    "NODE_0000479": {
       "aa_muts": {
         "HA": []
+      }
+    },
+    "NODE_0000480": {
+      "aa_muts": {
+        "HA": [
+          "A99T"
+        ]
       }
     },
     "NODE_0000481": {
@@ -4166,16 +4073,23 @@
         "HA": []
       }
     },
-    "NODE_0000483": {
+    "NODE_0000482": {
       "aa_muts": {
         "HA": [
-          "D171N"
+          "E201K"
         ]
+      }
+    },
+    "NODE_0000483": {
+      "aa_muts": {
+        "HA": []
       }
     },
     "NODE_0000484": {
       "aa_muts": {
-        "HA": []
+        "HA": [
+          "M549L"
+        ]
       }
     },
     "NODE_0000485": {
@@ -4205,13 +4119,21 @@
     },
     "NODE_0000490": {
       "aa_muts": {
+        "HA": [
+          "E201K"
+        ]
+      }
+    },
+    "NODE_0000491": {
+      "aa_muts": {
         "HA": []
       }
     },
     "NODE_0000492": {
       "aa_muts": {
         "HA": [
-          "H371R"
+          "A230T",
+          "D252N"
         ]
       }
     },
@@ -4282,7 +4204,9 @@
     },
     "NODE_0000506": {
       "aa_muts": {
-        "HA": []
+        "HA": [
+          "N205K"
+        ]
       }
     },
     "NODE_0000507": {
@@ -4302,12 +4226,16 @@
     },
     "NODE_0000510": {
       "aa_muts": {
-        "HA": []
+        "HA": [
+          "I423L"
+        ]
       }
     },
     "NODE_0000511": {
       "aa_muts": {
-        "HA": []
+        "HA": [
+          "D171N"
+        ]
       }
     },
     "NODE_0000512": {
@@ -4322,20 +4250,20 @@
     },
     "NODE_0000514": {
       "aa_muts": {
-        "HA": []
+        "HA": [
+          "S304N"
+        ]
       }
     },
     "NODE_0000515": {
       "aa_muts": {
-        "HA": [
-          "I352V"
-        ]
+        "HA": []
       }
     },
     "NODE_0000516": {
       "aa_muts": {
         "HA": [
-          "P152S"
+          "M549I"
         ]
       }
     },
@@ -4349,28 +4277,21 @@
         "HA": []
       }
     },
-    "NODE_0000519": {
-      "aa_muts": {
-        "HA": []
-      }
-    },
     "NODE_0000520": {
       "aa_muts": {
-        "HA": []
+        "HA": [
+          "I352V"
+        ]
       }
     },
     "NODE_0000521": {
       "aa_muts": {
-        "HA": [
-          "A9T"
-        ]
+        "HA": []
       }
     },
     "NODE_0000522": {
       "aa_muts": {
-        "HA": [
-          "N140K"
-        ]
+        "HA": []
       }
     },
     "NODE_0000523": {
@@ -4385,15 +4306,12 @@
     },
     "NODE_0000525": {
       "aa_muts": {
-        "HA": []
+        "HA": [
+          "S304N"
+        ]
       }
     },
     "NODE_0000526": {
-      "aa_muts": {
-        "HA": []
-      }
-    },
-    "NODE_0000527": {
       "aa_muts": {
         "HA": []
       }
@@ -4405,7 +4323,9 @@
     },
     "NODE_0000529": {
       "aa_muts": {
-        "HA": []
+        "HA": [
+          "E201K"
+        ]
       }
     },
     "NODE_0000530": {
@@ -4414,11 +4334,6 @@
       }
     },
     "NODE_0000531": {
-      "aa_muts": {
-        "HA": []
-      }
-    },
-    "NODE_0000532": {
       "aa_muts": {
         "HA": []
       }
@@ -4450,7 +4365,9 @@
     },
     "NODE_0000538": {
       "aa_muts": {
-        "HA": []
+        "HA": [
+          "T529I"
+        ]
       }
     },
     "NODE_0000539": {
@@ -4463,11 +4380,23 @@
         "HA": []
       }
     },
-    "NODE_0000544": {
+    "NODE_0000541": {
       "aa_muts": {
         "HA": [
-          "A99T"
+          "V328I"
         ]
+      }
+    },
+    "NODE_0000542": {
+      "aa_muts": {
+        "HA": [
+          "P139Q"
+        ]
+      }
+    },
+    "NODE_0000543": {
+      "aa_muts": {
+        "HA": []
       }
     },
     "NODE_0000546": {
@@ -4475,36 +4404,14 @@
         "HA": []
       }
     },
-    "NODE_0000547": {
-      "aa_muts": {
-        "HA": []
-      }
-    },
-    "NODE_0000548": {
-      "aa_muts": {
-        "HA": []
-      }
-    },
-    "NODE_0000549": {
-      "aa_muts": {
-        "HA": []
-      }
-    },
-    "NODE_0000550": {
-      "aa_muts": {
-        "HA": []
-      }
-    },
-    "NODE_0000552": {
+    "NODE_0000553": {
       "aa_muts": {
         "HA": []
       }
     },
     "NODE_0000554": {
       "aa_muts": {
-        "HA": [
-          "K477R"
-        ]
+        "HA": []
       }
     },
     "NODE_0000555": {
@@ -4534,15 +4441,15 @@
     },
     "NODE_0000560": {
       "aa_muts": {
-        "HA": [
-          "K64R",
-          "G284E"
-        ]
+        "HA": []
       }
     },
     "NODE_0000561": {
       "aa_muts": {
-        "HA": []
+        "HA": [
+          "K64R",
+          "G284E"
+        ]
       }
     },
     "NODE_0000562": {
@@ -4567,7 +4474,9 @@
     },
     "NODE_0000566": {
       "aa_muts": {
-        "HA": []
+        "HA": [
+          "K477R"
+        ]
       }
     },
     "NODE_0000567": {
@@ -4585,83 +4494,33 @@
         "HA": []
       }
     },
-    "NODE_0000572": {
-      "aa_muts": {
-        "HA": []
-      }
-    },
-    "NODE_0000575": {
-      "aa_muts": {
-        "HA": []
-      }
-    },
-    "NODE_0000576": {
-      "aa_muts": {
-        "HA": []
-      }
-    },
-    "NODE_0000578": {
+    "NODE_0000577": {
       "aa_muts": {
         "HA": []
       }
     },
     "NODE_0000579": {
       "aa_muts": {
-        "HA": [
-          "I352K"
-        ]
-      }
-    },
-    "NODE_0000580": {
-      "aa_muts": {
         "HA": []
       }
     },
     "NODE_0000581": {
       "aa_muts": {
-        "HA": []
-      }
-    },
-    "NODE_0000582": {
-      "aa_muts": {
         "HA": [
-          "A149S"
+          "I352K"
         ]
       }
     },
-    "NODE_0000583": {
+    "NODE_0000582": {
       "aa_muts": {
         "HA": []
       }
     },
     "NODE_0000584": {
       "aa_muts": {
-        "HA": []
-      }
-    },
-    "NODE_0000585": {
-      "aa_muts": {
-        "HA": []
-      }
-    },
-    "NODE_0000586": {
-      "aa_muts": {
-        "HA": []
-      }
-    },
-    "NODE_0000587": {
-      "aa_muts": {
-        "HA": []
-      }
-    },
-    "NODE_0000588": {
-      "aa_muts": {
-        "HA": []
-      }
-    },
-    "NODE_0000589": {
-      "aa_muts": {
-        "HA": []
+        "HA": [
+          "A149S"
+        ]
       }
     },
     "NODE_0000590": {
@@ -4669,24 +4528,7 @@
         "HA": []
       }
     },
-    "NODE_0000591": {
-      "aa_muts": {
-        "HA": [
-          "M549V"
-        ]
-      }
-    },
-    "NODE_0000594": {
-      "aa_muts": {
-        "HA": []
-      }
-    },
-    "NODE_0000595": {
-      "aa_muts": {
-        "HA": []
-      }
-    },
-    "NODE_0000596": {
+    "NODE_0000592": {
       "aa_muts": {
         "HA": []
       }
@@ -4701,47 +4543,7 @@
         "HA": []
       }
     },
-    "NODE_0000599": {
-      "aa_muts": {
-        "HA": []
-      }
-    },
-    "NODE_0000600": {
-      "aa_muts": {
-        "HA": []
-      }
-    },
-    "NODE_0000601": {
-      "aa_muts": {
-        "HA": []
-      }
-    },
-    "NODE_0000602": {
-      "aa_muts": {
-        "HA": []
-      }
-    },
-    "NODE_0000603": {
-      "aa_muts": {
-        "HA": []
-      }
-    },
-    "NODE_0000604": {
-      "aa_muts": {
-        "HA": []
-      }
-    },
-    "NODE_0000605": {
-      "aa_muts": {
-        "HA": []
-      }
-    },
-    "NODE_0000606": {
-      "aa_muts": {
-        "HA": []
-      }
-    },
-    "NODE_0000607": {
+    "NODE_0000615": {
       "aa_muts": {
         "HA": []
       }
@@ -5215,7 +5017,8 @@
     "OQ925717.1": {
       "aa_muts": {
         "HA": [
-          "N222K"
+          "N222K",
+          "H371R"
         ]
       }
     },
@@ -5769,7 +5572,9 @@
     },
     "OR857851.1": {
       "aa_muts": {
-        "HA": []
+        "HA": [
+          "D104G"
+        ]
       }
     },
     "OR860361.1": {
@@ -5853,7 +5658,9 @@
     },
     "OR910199.1": {
       "aa_muts": {
-        "HA": []
+        "HA": [
+          "E201K"
+        ]
       }
     },
     "OR910205.1": {
@@ -6093,7 +5900,7 @@
     "OR910495.1": {
       "aa_muts": {
         "HA": [
-          "S304N"
+          "M549L"
         ]
       }
     },
@@ -6506,7 +6313,7 @@
     "PP768660.1": {
       "aa_muts": {
         "HA": [
-          "S304N"
+          "Y504D"
         ]
       }
     },
@@ -6754,7 +6561,9 @@
     },
     "PQ113953.1": {
       "aa_muts": {
-        "HA": []
+        "HA": [
+          "R515K"
+        ]
       }
     },
     "PQ113961.1": {
@@ -6794,9 +6603,7 @@
     },
     "PQ114009.1": {
       "aa_muts": {
-        "HA": [
-          "K293R"
-        ]
+        "HA": []
       }
     },
     "PQ114017.1": {
@@ -6811,7 +6618,9 @@
     },
     "PQ114033.1": {
       "aa_muts": {
-        "HA": []
+        "HA": [
+          "A5V"
+        ]
       }
     },
     "PQ114041.1": {
@@ -6834,13 +6643,14 @@
     },
     "PQ114065.1": {
       "aa_muts": {
-        "HA": []
+        "HA": [
+          "I352K"
+        ]
       }
     },
     "PQ114073.1": {
       "aa_muts": {
         "HA": [
-          "Y153H",
           "E510V"
         ]
       }
@@ -7271,16 +7081,6 @@
         ]
       }
     },
-    "cov3903": {
-      "aa_muts": {
-        "HA": []
-      }
-    },
-    "cov3904": {
-      "aa_muts": {
-        "HA": []
-      }
-    },
     "cov4373": {
       "aa_muts": {
         "HA": []
@@ -7546,7 +7346,9 @@
     },
     "cov4493": {
       "aa_muts": {
-        "HA": []
+        "HA": [
+          "E201K"
+        ]
       }
     },
     "cov4494": {
