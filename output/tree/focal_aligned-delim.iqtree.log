@@ -4,17 +4,17 @@ Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
 
 Host:    eba5c66f80f8 (SSE4.2, 71 GB RAM)
 Command: iqtree --threads-max 12 -s output/tree/focal_aligned-delim.fasta -m GTR --ninit 2 -n 2 --epsilon 0.05 -T AUTO --redo
-Seed:    848934 (Using SPRNG - Scalable Parallel Random Number Generator)
-Time:    Wed Apr 30 15:40:51 2025
+Seed:    462344 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed Apr 30 15:57:51 2025
 Kernel:  SSE2 - auto-detect threads (14 CPU cores detected)
 
 Reading alignment file output/tree/focal_aligned-delim.fasta ... Fasta format detected
-Reading fasta file: done in 0.0198528 secs using 87.75% CPU
+Reading fasta file: done in 0.0354837 secs using 55.06% CPU
 Alignment most likely contains DNA/RNA sequences
 Alignment has 621 sequences with 1760 columns, 1211 distinct patterns
 868 parsimony-informative, 157 singleton sites, 735 constant sites
             Gap/Ambiguity  Composition  p-value
-Analyzing sequences: done in 0.00104258 secs using 98.89% CPU
+Analyzing sequences: done in 0.00126392 secs using 87.19% CPU
    1  AF144305.1    0.00%    passed     99.59%
    2  CY098325.1    3.18%    passed     97.28%
    3  CY098460.1    3.18%    passed     94.85%
@@ -781,58 +781,58 @@ NOTE: 21 MB RAM (0 GB) is required!
 Measuring multi-threading efficiency up to 12 CPU cores
 Increase to 10 rounds for branch lengths
 27 trees examined
-Threads: 1 / Time: 12.342 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -144966
-Threads: 2 / Time: 8.460 sec / Speedup: 1.459 / Efficiency: 73% / LogL: -144966
-Threads: 3 / Time: 6.294 sec / Speedup: 1.961 / Efficiency: 65% / LogL: -144966
-Threads: 4 / Time: 5.434 sec / Speedup: 2.271 / Efficiency: 57% / LogL: -144966
-Threads: 5 / Time: 5.379 sec / Speedup: 2.295 / Efficiency: 46% / LogL: -144966
-BEST NUMBER OF THREADS: 4
+Threads: 1 / Time: 12.224 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -147377
+Threads: 2 / Time: 8.539 sec / Speedup: 1.431 / Efficiency: 72% / LogL: -147377
+Threads: 3 / Time: 8.622 sec / Speedup: 1.418 / Efficiency: 47% / LogL: -147377
+BEST NUMBER OF THREADS: 2
 
 Estimate model parameters (epsilon = 0.500)
-1. Initial log-likelihood: -35135.616
-2. Current log-likelihood: -32426.846
-3. Current log-likelihood: -32424.201
-Optimal log-likelihood: -32424.200
-Rate parameters:  A-C: 1.68463  A-G: 7.48993  A-T: 0.75326  C-G: 0.30515  C-T: 10.99231  G-T: 1.00000
+1. Initial log-likelihood: -35176.838
+2. Current log-likelihood: -32444.682
+3. Current log-likelihood: -32442.044
+Optimal log-likelihood: -32442.044
+Rate parameters:  A-C: 1.68985  A-G: 7.49631  A-T: 0.73582  C-G: 0.30492  C-T: 10.98635  G-T: 1.00000
 Base frequencies:  A: 0.347  C: 0.186  G: 0.230  T: 0.238
-Parameters optimization took 3 rounds (1.258 sec)
+Parameters optimization took 3 rounds (2.202 sec)
 Wrote distance file to... 
 Computing ML distances based on estimated model parameters...
-Calculating distance matrix: done in 0.177754 secs using 386.9% CPU
-Computing ML distances took 0.179502 sec (of wall-clock time) 0.690472 sec (of CPU time)
-Setting up auxiliary I and S matrices: done in 0.00625038 secs using 130.5% CPU
-Computing RapidNJ tree took 0.023480 sec (of wall-clock time) 0.032099 sec (of CPU time)
-Log-likelihood of RapidNJ tree: -32907.381
+Calculating distance matrix: done in 0.349574 secs using 198.4% CPU
+Computing ML distances took 0.351639 sec (of wall-clock time) 0.695893 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.00654325 secs using 157.6% CPU
+Computing RapidNJ tree took 0.022050 sec (of wall-clock time) 0.036970 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -32907.384
 --------------------------------------------------------------------
 |             INITIALIZING CANDIDATE TREE SET                      |
 --------------------------------------------------------------------
 
 Do NNI search on 2 best initial trees
 Estimate model parameters (epsilon = 0.500)
-BETTER TREE FOUND at iteration 1: -32403.557
+BETTER TREE FOUND at iteration 1: -32428.710
+Estimate model parameters (epsilon = 0.500)
+BETTER TREE FOUND at iteration 2: -32409.109
 Finish initializing candidate tree set (4)
-Current best tree score: -32403.557 / CPU time: 1.270
+Current best tree score: -32409.109 / CPU time: 2.434
 Number of iterations: 2
-TREE SEARCH COMPLETED AFTER 2 ITERATIONS / Time: 0h:0m:41s
+TREE SEARCH COMPLETED AFTER 2 ITERATIONS / Time: 0h:0m:35s
 
 --------------------------------------------------------------------
 |                    FINALIZING TREE SEARCH                        |
 --------------------------------------------------------------------
 Performs final model parameters optimization
 Estimate model parameters (epsilon = 0.050)
-1. Initial log-likelihood: -32403.557
-Optimal log-likelihood: -32403.555
-Rate parameters:  A-C: 1.68933  A-G: 7.50718  A-T: 0.74757  C-G: 0.30695  C-T: 10.98499  G-T: 1.00000
+1. Initial log-likelihood: -32409.109
+Optimal log-likelihood: -32409.109
+Rate parameters:  A-C: 1.69529  A-G: 7.53858  A-T: 0.73966  C-G: 0.30503  C-T: 10.97368  G-T: 1.00000
 Base frequencies:  A: 0.347  C: 0.186  G: 0.230  T: 0.238
-Parameters optimization took 1 rounds (0.113 sec)
-BEST SCORE FOUND : -32403.555
-Total tree length: 3.112
+Parameters optimization took 1 rounds (0.171 sec)
+BEST SCORE FOUND : -32409.109
+Total tree length: 3.117
 
 Total number of iterations: 2
-CPU time used for tree search: 4.839 sec (0h:0m:4s)
-Wall-clock time used for tree search: 1.273 sec (0h:0m:1s)
-Total CPU time used: 107.039 sec (0h:1m:47s)
-Total wall-clock time used: 41.476 sec (0h:0m:41s)
+CPU time used for tree search: 4.728 sec (0h:0m:4s)
+Wall-clock time used for tree search: 2.438 sec (0h:0m:2s)
+Total CPU time used: 64.960 sec (0h:1m:4s)
+Total wall-clock time used: 35.354 sec (0h:0m:35s)
 
 Analysis results written to: 
   IQ-TREE report:                output/tree/focal_aligned-delim.fasta.iqtree
@@ -840,4 +840,4 @@ Analysis results written to:
   Likelihood distances:          output/tree/focal_aligned-delim.fasta.mldist
   Screen log file:               output/tree/focal_aligned-delim.fasta.log
 
-Date and Time: Wed Apr 30 15:41:33 2025
+Date and Time: Wed Apr 30 15:58:27 2025
